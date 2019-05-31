@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PPNavigationBarView">
+            <rect key="frame" x="0.0" y="0.0" width="490" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz7-ci-sik">
+                    <rect key="frame" x="10" y="26.5" width="42" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="EZY-PW-pC7"/>
+                        <constraint firstAttribute="width" constant="42" id="iVa-U9-uzp"/>
+                    </constraints>
+                    <state key="normal" image="图标-返回"/>
+                    <connections>
+                        <action selector="backAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hoP-eT-V3r"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I0d-Dk-LFg">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="K58-dw-vy7"/>
+                    </constraints>
+                    <connections>
+                        <action selector="backAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ByS-hy-eNM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="巡检任务工单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKC-Jl-jIO">
+                    <rect key="frame" x="190" y="28" width="110.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="N1s-42-GHl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Png-wp-Wmh">
+                    <rect key="frame" x="440" y="23.5" width="35" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TCN-YF-E4Y"/>
+                        <constraint firstAttribute="width" constant="35" id="thk-gc-iAC"/>
+                    </constraints>
+                    <state key="normal" image="图标-周期"/>
+                    <connections>
+                        <action selector="cycleBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Em3-QS-e2a"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEm-bu-KTu">
+                    <rect key="frame" x="398" y="23.5" width="40" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="c48-tL-a0E"/>
+                        <constraint firstAttribute="height" constant="30" id="jbG-4r-HZn"/>
+                    </constraints>
+                    <state key="normal" image="图标-二维码"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6sN-U7-kJ5">
+                    <rect key="frame" x="145" y="23.5" width="200" height="30"/>
+                    <subviews>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYc-ZV-Rmf">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="设备组" backgroundImage="Rectangle_left_selected">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="segmentBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="3tO-js-rrC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enP-8q-x0c">
+                            <rect key="frame" x="100" y="0.0" width="100" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="所有设备" backgroundImage="Rectangle_right_unselected">
+                                <color key="titleColor" red="0.10196078431372549" green="0.792156862745098" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="segmentBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ItL-G3-9EA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="KYc-ZV-Rmf" firstAttribute="leading" secondItem="6sN-U7-kJ5" secondAttribute="leading" id="7pT-PZ-wWM"/>
+                        <constraint firstAttribute="height" constant="30" id="AHl-PQ-CwJ"/>
+                        <constraint firstAttribute="width" constant="200" id="Eo9-QC-aSa"/>
+                        <constraint firstItem="enP-8q-x0c" firstAttribute="width" secondItem="KYc-ZV-Rmf" secondAttribute="width" id="Rgp-j3-Uzz"/>
+                        <constraint firstItem="KYc-ZV-Rmf" firstAttribute="top" secondItem="6sN-U7-kJ5" secondAttribute="top" id="dt5-0a-s0r"/>
+                        <constraint firstAttribute="bottom" secondItem="KYc-ZV-Rmf" secondAttribute="bottom" id="gGn-l2-T02"/>
+                        <constraint firstItem="enP-8q-x0c" firstAttribute="leading" secondItem="KYc-ZV-Rmf" secondAttribute="trailing" id="n5t-By-GpC"/>
+                        <constraint firstAttribute="trailing" secondItem="enP-8q-x0c" secondAttribute="trailing" id="pfA-Qd-cBI"/>
+                        <constraint firstItem="enP-8q-x0c" firstAttribute="top" secondItem="6sN-U7-kJ5" secondAttribute="top" id="qYq-aL-hGd"/>
+                        <constraint firstAttribute="bottom" secondItem="enP-8q-x0c" secondAttribute="bottom" id="tn2-8o-jdm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Png-wp-Wmh" secondAttribute="trailing" constant="15" id="12Q-eT-kzr"/>
+                <constraint firstItem="I0d-Dk-LFg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6Hn-gJ-dJL"/>
+                <constraint firstItem="I0d-Dk-LFg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KrM-qA-RXV"/>
+                <constraint firstItem="6sN-U7-kJ5" firstAttribute="centerY" secondItem="Lz7-ci-sik" secondAttribute="centerY" id="YN4-RQ-LCo"/>
+                <constraint firstItem="eKC-Jl-jIO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zrv-6V-e0w"/>
+                <constraint firstItem="Png-wp-Wmh" firstAttribute="leading" secondItem="HEm-bu-KTu" secondAttribute="trailing" constant="2" id="aZI-z5-iqc"/>
+                <constraint firstItem="6sN-U7-kJ5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="g2r-Ed-uAR"/>
+                <constraint firstAttribute="bottom" secondItem="I0d-Dk-LFg" secondAttribute="bottom" id="jpl-Jz-Bts"/>
+                <constraint firstAttribute="bottom" secondItem="eKC-Jl-jIO" secondAttribute="bottom" constant="15" id="rjT-Tq-xX5"/>
+                <constraint firstItem="Lz7-ci-sik" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="uST-zR-zVk"/>
+                <constraint firstItem="Lz7-ci-sik" firstAttribute="centerY" secondItem="eKC-Jl-jIO" secondAttribute="centerY" id="uuM-Jw-ywh"/>
+                <constraint firstItem="Png-wp-Wmh" firstAttribute="centerY" secondItem="eKC-Jl-jIO" secondAttribute="centerY" id="xXh-N7-ek9"/>
+                <constraint firstItem="HEm-bu-KTu" firstAttribute="centerY" secondItem="Png-wp-Wmh" secondAttribute="centerY" id="xm2-Wq-9Os"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backBtn" destination="Lz7-ci-sik" id="ehF-yh-mkC"/>
+                <outlet property="rightBtn" destination="Png-wp-Wmh" id="dhk-4p-WSu"/>
+                <outlet property="scanBtn" destination="HEm-bu-KTu" id="PYm-yh-DYE"/>
+                <outlet property="segmentLeftBtn" destination="KYc-ZV-Rmf" id="LCb-nx-gpI"/>
+                <outlet property="segmentRightBtn" destination="enP-8q-x0c" id="A8u-SD-sMx"/>
+                <outlet property="segmentView" destination="6sN-U7-kJ5" id="4yi-Wp-Wyw"/>
+                <outlet property="titleLb" destination="eKC-Jl-jIO" id="FFu-I4-NFs"/>
+            </connections>
+            <point key="canvasLocation" x="89.599999999999994" y="-97.151424287856074"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectangle_left_selected" width="88" height="26"/>
+        <image name="Rectangle_right_unselected" width="88" height="26"/>
+        <image name="图标-二维码" width="24" height="24"/>
+        <image name="图标-周期" width="24" height="24"/>
+        <image name="图标-返回" width="24" height="24"/>
+    </resources>
+</document>
