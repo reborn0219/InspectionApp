@@ -7,14 +7,9 @@
 //
 
 #import "GJAppDelegate.h"
-#import "GJViewController.h"
 
 #import "XSDLocationTools.h"
-#import "GJLoginViewController.h"
-#import "GJNavigationController.h"
-#import "GJSliderViewController.h"
 #import "GJQHMainGestureRecognizerViewController.h"
-#import "GJLoginViewController.h"
 #import "JPUSHService.h"
 //#import "FZPJPushHelper.h"
 #import <AMapLocationKit/AMapLocationKit.h>
@@ -23,7 +18,6 @@
 #import <UserNotifications/UserNotifications.h>
 #import "GJWebViewController.h"
 #import "PSHomePageViewController.h"
-#import "GJHomePageViewController.h"
 #import "WHZLLoginViewController.h"
 #import "PSMyViewController.h"
 @interface GJAppDelegate ()<UIAlertViewDelegate,JPUSHRegisterDelegate>
@@ -94,26 +88,7 @@ static int const showtime = 7;
     return YES;
     
 }
-#pragma mark - 跳转页面
-- (void)handleSingleTap:(UIGestureRecognizer *)sender
-{
-    
-    [self yincang];
-    NSString *str=arr[sender.view.tag][@"ad_url"];
-    [[NSUserDefaults standardUserDefaults] setObject:str forKey:@"adv_url"];
-    
-    GJViewController *tabbar = (GJViewController *)self.window.rootViewController;
-    GJWebViewController *web=[[GJWebViewController alloc]init];
-    
-    
-    
-    UINavigationController *nn= tabbar.viewControllers[0];
-    [nn pushViewController:web animated:YES];
-    
-    //    [[NSNotificationCenter defaultCenter] postNotificationName:@"pushtoad" object:nil userInfo:nil];
-    
-    NSLog(@"%@",arr[sender.view.tag]);
-}
+
 - (void)countDown
 {
     _count --;

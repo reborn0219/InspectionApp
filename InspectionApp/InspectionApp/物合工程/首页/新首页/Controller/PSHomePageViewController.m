@@ -10,7 +10,6 @@
 #import "HomePageCollectionCell.h"
 //#import "GJMyViewController.h"
 #import "PSMyViewController.h"
-#import "GJAllWageViewController.h"
 #import "PatrolUrgentTasksVC.h"
 #import "PatrolMatterSubmitVC.h"
 #import "PatrolTaskListVC.h"
@@ -142,8 +141,6 @@
     if (indexPath.row == 0) {
         //安保工单
         SecurityWorkOrderVC *workOrderVC = [[SecurityWorkOrderVC alloc]init];
-//        GJAllWageViewController *messageVC = [[GJAllWageViewController alloc] init];
-//        messageVC.isAnBao = YES;
            workOrderVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:workOrderVC animated:YES];
     }else if (indexPath.row == 1){

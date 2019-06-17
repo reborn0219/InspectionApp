@@ -18,7 +18,6 @@
 #import "PSWODetailsDescriptionCell.h"
 #import "SecurityRequest.h"
 #import "BottomBarView.h"
-#import "GJQMViewController.h"
 #import "OwnerSignatureVC.h"
 #import "PSWOMarkFinishedWorkVC.h"
 #import "PSWODetailsDistributeVC.h"

@@ -76,9 +76,7 @@
 		22A129A622AF80AE0043359A /* PSWOHeaderVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A129A422AF80AE0043359A /* PSWOHeaderVideoCell.xib */; };
 		22B0D76322A8C1B0003261EB /* PSDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0D76122A8C1B0003261EB /* PSDatePickerVC.m */; };
 		22B0D76422A8C1B0003261EB /* PSDatePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B0D76222A8C1B0003261EB /* PSDatePickerVC.xib */; };
-		22BB2D35229B8E840033D303 /* GJHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BB2D2B229B8E840033D303 /* GJHomePageViewController.xib */; };
 		22BB2D36229B8E840033D303 /* PSHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BB2D2D229B8E840033D303 /* PSHomePageViewController.xib */; };
-		22BB2D37229B8E840033D303 /* GJHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB2D2E229B8E840033D303 /* GJHomePageViewController.m */; };
 		22BB2D38229B8E840033D303 /* PSHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB2D2F229B8E840033D303 /* PSHomePageViewController.m */; };
 		22BB2D39229B8E840033D303 /* HomePageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BB2D33229B8E840033D303 /* HomePageCollectionCell.m */; };
 		22BB2D3A229B8E840033D303 /* HomePageCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BB2D34229B8E840033D303 /* HomePageCollectionCell.xib */; };
@@ -268,7 +266,6 @@
 		2F9F510422967E2600D2AD35 /* kr-video-player-play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F9F50DA22967E2600D2AD35 /* kr-video-player-play@2x.png */; };
 		2F9F510522967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50DB22967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m */; };
 		2F9F510622967E2600D2AD35 /* GJVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50DC22967E2600D2AD35 /* GJVideoPlayViewController.m */; };
-		2F9F510722967E2600D2AD35 /* GJBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50DE22967E2600D2AD35 /* GJBaseTabBarController.m */; };
 		2F9F510822967E2600D2AD35 /* GJZXVideoPlayerVolumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50DF22967E2600D2AD35 /* GJZXVideoPlayerVolumeView.m */; };
 		2F9F510922967E2600D2AD35 /* GJZXVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50E122967E2600D2AD35 /* GJZXVideo.m */; };
 		2F9F510A22967E2600D2AD35 /* GJZXVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F50E322967E2600D2AD35 /* GJZXVideoPlayerControlView.m */; };
@@ -376,102 +373,8 @@
 		2F9F523A2296880700D2AD35 /* GJMHPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52312296880700D2AD35 /* GJMHPhotoModel.m */; };
 		2F9F523B2296880700D2AD35 /* GJMHPhotosBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52342296880700D2AD35 /* GJMHPhotosBrowserView.m */; };
 		2F9F523C2296880700D2AD35 /* GJMHPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52352296880700D2AD35 /* GJMHPhotoBrowserController.m */; };
-		2F9F534F22968A4800D2AD35 /* GJhomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F524022968A4700D2AD35 /* GJhomeViewController.m */; };
-		2F9F535022968A4800D2AD35 /* GJGraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F524122968A4700D2AD35 /* GJGraViewController.m */; };
-		2F9F535122968A4800D2AD35 /* GJSMS_Scroll_ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F524222968A4700D2AD35 /* GJSMS_Scroll_ImageView.m */; };
-		2F9F535222968A4800D2AD35 /* GJRunLablenewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F524322968A4700D2AD35 /* GJRunLablenewsViewController.m */; };
-		2F9F535322968A4800D2AD35 /* GJHomeCommuntyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F524422968A4700D2AD35 /* GJHomeCommuntyViewController.m */; };
-		2F9F539022968A4800D2AD35 /* GJOwnChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52DB22968A4700D2AD35 /* GJOwnChildView.m */; };
-		2F9F539122968A4800D2AD35 /* GJOwnerHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52DD22968A4700D2AD35 /* GJOwnerHeadView.m */; };
-		2F9F539522968A4800D2AD35 /* GJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52E722968A4700D2AD35 /* GJTableView.m */; };
-		2F9F539622968A4800D2AD35 /* GJTableSweepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52E922968A4700D2AD35 /* GJTableSweepView.m */; };
-		2F9F539722968A4800D2AD35 /* GJQueryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52EB22968A4700D2AD35 /* GJQueryView.m */; };
-		2F9F539822968A4800D2AD35 /* GJChargeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52EE22968A4700D2AD35 /* GJChargeTableViewCell.m */; };
-		2F9F539922968A4800D2AD35 /* GJContractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52F222968A4700D2AD35 /* GJContractTableViewCell.m */; };
-		2F9F539A22968A4800D2AD35 /* GJServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52F522968A4700D2AD35 /* GJServiceTableViewCell.m */; };
-		2F9F539B22968A4800D2AD35 /* GJCusInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52F622968A4700D2AD35 /* GJCusInTableViewCell.m */; };
-		2F9F539C22968A4800D2AD35 /* GJVehicleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52F722968A4700D2AD35 /* GJVehicleTableViewCell.m */; };
-		2F9F539D22968A4800D2AD35 /* GJRealestateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52F822968A4700D2AD35 /* GJRealestateTableViewCell.m */; };
-		2F9F539E22968A4800D2AD35 /* GJChargeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52FB22968A4700D2AD35 /* GJChargeView.m */; };
-		2F9F539F22968A4800D2AD35 /* GJCusInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F52FF22968A4700D2AD35 /* GJCusInView.m */; };
-		2F9F53A022968A4800D2AD35 /* GJRealestateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530022968A4700D2AD35 /* GJRealestateView.m */; };
-		2F9F53A122968A4800D2AD35 /* GJServiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530222968A4700D2AD35 /* GJServiceView.m */; };
-		2F9F53A222968A4800D2AD35 /* GJContractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530322968A4700D2AD35 /* GJContractView.m */; };
-		2F9F53A322968A4800D2AD35 /* GJVehicleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530622968A4700D2AD35 /* GJVehicleView.m */; };
-		2F9F53A422968A4800D2AD35 /* GJDispatchnewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530A22968A4700D2AD35 /* GJDispatchnewsView.m */; };
-		2F9F53A522968A4800D2AD35 /* GJDispatchview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530B22968A4700D2AD35 /* GJDispatchview.m */; };
-		2F9F53A622968A4800D2AD35 /* GJVisitorHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530E22968A4700D2AD35 /* GJVisitorHistoryView.m */; };
-		2F9F53A722968A4800D2AD35 /* GJVisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F530F22968A4700D2AD35 /* GJVisitorView.m */; };
-		2F9F53A822968A4800D2AD35 /* GJHomeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531122968A4700D2AD35 /* GJHomeButton.m */; };
-		2F9F53A922968A4800D2AD35 /* GJhomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531222968A4700D2AD35 /* GJhomeView.m */; };
-		2F9F53AA22968A4800D2AD35 /* GJToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531322968A4700D2AD35 /* GJToolBarView.m */; };
-		2F9F53AB22968A4800D2AD35 /* GJConsultationChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531822968A4700D2AD35 /* GJConsultationChildViewCell.m */; };
-		2F9F53AC22968A4800D2AD35 /* GJPhonenumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531922968A4700D2AD35 /* GJPhonenumberTableViewCell.m */; };
-		2F9F53AD22968A4800D2AD35 /* GJAttendanceOwnTopHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531B22968A4700D2AD35 /* GJAttendanceOwnTopHeadView.m */; };
-		2F9F53AE22968A4800D2AD35 /* GJOwnerauditViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531D22968A4700D2AD35 /* GJOwnerauditViewCell.m */; };
-		2F9F53AF22968A4800D2AD35 /* GJOwnChildRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F531F22968A4700D2AD35 /* GJOwnChildRightTableViewCell.m */; };
-		2F9F53B022968A4800D2AD35 /* GJParkingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532522968A4700D2AD35 /* GJParkingViewCell.m */; };
-		2F9F53B122968A4800D2AD35 /* GJMatterTableViewCellThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532722968A4700D2AD35 /* GJMatterTableViewCellThree.m */; };
-		2F9F53B222968A4800D2AD35 /* GJRepairChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532822968A4700D2AD35 /* GJRepairChildViewCell.m */; };
-		2F9F53B322968A4800D2AD35 /* GJComplaintTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532922968A4700D2AD35 /* GJComplaintTableViewCell.m */; };
-		2F9F53B422968A4800D2AD35 /* GJPositioningTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532B22968A4700D2AD35 /* GJPositioningTableViewCell.m */; };
-		2F9F53B522968A4800D2AD35 /* GJVisHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532C22968A4700D2AD35 /* GJVisHistoryCell.m */; };
-		2F9F53B622968A4800D2AD35 /* GJHouseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532D22968A4700D2AD35 /* GJHouseTableViewCell.m */; };
-		2F9F53B722968A4800D2AD35 /* GJMatterTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F532F22968A4700D2AD35 /* GJMatterTypeTableViewCell.m */; };
-		2F9F53B822968A4800D2AD35 /* GJMatterTableViewCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533222968A4700D2AD35 /* GJMatterTableViewCellTwo.m */; };
-		2F9F53B922968A4800D2AD35 /* GJComplaintChildQuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533522968A4700D2AD35 /* GJComplaintChildQuestTableViewCell.m */; };
-		2F9F53BA22968A4800D2AD35 /* GJAttendanceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533622968A4700D2AD35 /* GJAttendanceCell.m */; };
-		2F9F53BB22968A4800D2AD35 /* GJDispatchnewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533722968A4700D2AD35 /* GJDispatchnewsCell.m */; };
-		2F9F53BC22968A4800D2AD35 /* GJOwnChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533822968A4700D2AD35 /* GJOwnChildTableViewCell.m */; };
-		2F9F53BD22968A4800D2AD35 /* GJDispatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533922968A4700D2AD35 /* GJDispatchCell.m */; };
-		2F9F53BE22968A4800D2AD35 /* GJPositioningChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533A22968A4700D2AD35 /* GJPositioningChildTableViewCell.m */; };
-		2F9F53BF22968A4800D2AD35 /* GJMatterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533B22968A4700D2AD35 /* GJMatterTableViewCell.m */; };
-		2F9F53C022968A4800D2AD35 /* GJComplaintChildViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533D22968A4700D2AD35 /* GJComplaintChildViewCell.m */; };
-		2F9F53C122968A4800D2AD35 /* GJExpressViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F533F22968A4700D2AD35 /* GJExpressViewCell.m */; };
-		2F9F53C222968A4800D2AD35 /* GJConsultationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F534322968A4700D2AD35 /* GJConsultationViewCell.m */; };
-		2F9F53C322968A4800D2AD35 /* GJDeliverwaterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F534522968A4700D2AD35 /* GJDeliverwaterTableViewCell.m */; };
-		2F9F53C422968A4800D2AD35 /* GJMatterTableViewCellFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F534822968A4700D2AD35 /* GJMatterTableViewCellFour.m */; };
-		2F9F53C522968A4800D2AD35 /* GJVonsultationChildQuestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F534B22968A4800D2AD35 /* GJVonsultationChildQuestTableViewCell.m */; };
-		2F9F53C622968A4800D2AD35 /* GJCommunityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F534D22968A4800D2AD35 /* GJCommunityModel.m */; };
-		2F9F562E22968A5F00D2AD35 /* GJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53CA22968A5C00D2AD35 /* GJLoginViewController.m */; };
-		2F9F562F22968A5F00D2AD35 /* GJSearchPassWordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53CB22968A5C00D2AD35 /* GJSearchPassWordController.m */; };
-		2F9F563022968A5F00D2AD35 /* GJmyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53CF22968A5D00D2AD35 /* GJmyViewController.m */; };
-		2F9F563122968A5F00D2AD35 /* GJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53D122968A5D00D2AD35 /* GJMessageViewController.m */; };
-		2F9F563222968A5F00D2AD35 /* GJNewsChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53D222968A5D00D2AD35 /* GJNewsChildViewController.m */; };
-		2F9F563322968A5F00D2AD35 /* GJSetUpController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53D422968A5D00D2AD35 /* GJSetUpController.m */; };
-		2F9F563422968A5F00D2AD35 /* GJnewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53D622968A5D00D2AD35 /* GJnewsViewController.m */; };
-		2F9F563522968A5F00D2AD35 /* GJMessageNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53D722968A5D00D2AD35 /* GJMessageNewsViewController.m */; };
-		2F9F563622968A5F00D2AD35 /* GJAboutUsViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53DC22968A5D00D2AD35 /* GJAboutUsViewcontroller.m */; };
-		2F9F563722968A5F00D2AD35 /* GJDisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53DD22968A5D00D2AD35 /* GJDisclaimerViewController.m */; };
-		2F9F563822968A5F00D2AD35 /* GJProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53DE22968A5D00D2AD35 /* GJProblemViewController.m */; };
-		2F9F563922968A5F00D2AD35 /* GJChangePassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53E322968A5D00D2AD35 /* GJChangePassViewController.m */; };
-		2F9F563A22968A5F00D2AD35 /* GJFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53E522968A5D00D2AD35 /* GJFeedbackViewController.m */; };
-		2F9F563B22968A5F00D2AD35 /* GJSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53E822968A5D00D2AD35 /* GJSliderViewController.m */; };
-		2F9F563C22968A5F00D2AD35 /* GJNewsTableViewSexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53EA22968A5D00D2AD35 /* GJNewsTableViewSexCell.m */; };
-		2F9F563D22968A5F00D2AD35 /* GJNewsTableViewTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53EB22968A5D00D2AD35 /* GJNewsTableViewTopCell.m */; };
-		2F9F563E22968A5F00D2AD35 /* GJNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53ED22968A5D00D2AD35 /* GJNewsTableViewCell.m */; };
-		2F9F563F22968A5F00D2AD35 /* GJMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53EE22968A5D00D2AD35 /* GJMessageTableViewCell.m */; };
-		2F9F564022968A5F00D2AD35 /* GJMyUnderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53EF22968A5D00D2AD35 /* GJMyUnderCell.m */; };
-		2F9F564122968A5F00D2AD35 /* GJMyCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53F122968A5D00D2AD35 /* GJMyCenterCell.m */; };
-		2F9F564222968A5F00D2AD35 /* GJMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53F322968A5D00D2AD35 /* GJMyCell.m */; };
-		2F9F564322968A5F00D2AD35 /* GJMyUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F53F822968A5D00D2AD35 /* GJMyUpCell.m */; };
-		2F9F564522968A5F00D2AD35 /* GJAboutusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F540222968A5D00D2AD35 /* GJAboutusView.m */; };
-		2F9F564622968A5F00D2AD35 /* GJSetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F540322968A5D00D2AD35 /* GJSetupView.m */; };
-		2F9F564722968A5F00D2AD35 /* GJNewsChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F540422968A5D00D2AD35 /* GJNewsChildView.m */; };
-		2F9F564822968A5F00D2AD35 /* GJMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F540622968A5D00D2AD35 /* GJMyView.m */; };
 		2F9F574C22968B4700D2AD35 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F574A22968B4700D2AD35 /* UIView+Common.m */; };
 		2F9F574F22968BAA00D2AD35 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F574D22968BAA00D2AD35 /* UIView+Frame.m */; };
-		2F9F57672296921300D2AD35 /* GJQMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57512296921300D2AD35 /* GJQMViewController.m */; };
-		2F9F57682296921300D2AD35 /* GJPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57522296921300D2AD35 /* GJPlaceHolderView.m */; };
-		2F9F57692296921300D2AD35 /* GJKZVideoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57542296921300D2AD35 /* GJKZVideoSupport.m */; };
-		2F9F576A2296921300D2AD35 /* GJYTKKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57582296921300D2AD35 /* GJYTKKeyValueStore.m */; };
-		2F9F576B2296921300D2AD35 /* GJKZVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57592296921300D2AD35 /* GJKZVideoConfig.m */; };
-		2F9F576C2296921300D2AD35 /* GJKZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F575A2296921300D2AD35 /* GJKZVideoViewController.m */; };
-		2F9F576D2296921300D2AD35 /* GJQueRenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F575B2296921300D2AD35 /* GJQueRenViewController.m */; };
-		2F9F576E2296921300D2AD35 /* GJsignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F575C2296921300D2AD35 /* GJsignatureView.m */; };
-		2F9F576F2296921300D2AD35 /* GJUIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F575F2296921300D2AD35 /* GJUIScrollView+APParallaxHeader.m */; };
-		2F9F57702296921300D2AD35 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57612296921300D2AD35 /* pinyin.c */; };
-		2F9F57712296921300D2AD35 /* GJJZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57622296921300D2AD35 /* GJJZLocationConverter.m */; };
 		2F9F57962296930500D2AD35 /* GJIQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57732296930400D2AD35 /* GJIQKeyboardReturnKeyHandler.m */; };
 		2F9F57972296930500D2AD35 /* GJIQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57752296930400D2AD35 /* GJIQTextView.m */; };
 		2F9F57982296930500D2AD35 /* GJIQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57772296930400D2AD35 /* GJIQKeyboardManager.m */; };
@@ -487,63 +390,9 @@
 		2F9F57A22296930500D2AD35 /* GJIQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57912296930400D2AD35 /* GJIQNSArray+Sort.m */; };
 		2F9F57A32296930500D2AD35 /* GJIQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57952296930400D2AD35 /* GJIQUIWindow+Hierarchy.m */; };
 		2F9F57AB229694CA00D2AD35 /* TBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57A5229694CA00D2AD35 /* TBTabBar.m */; };
-		2F9F57AC229694CA00D2AD35 /* GJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57A6229694CA00D2AD35 /* GJNavigationController.m */; };
-		2F9F57AD229694CA00D2AD35 /* GJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57AA229694CA00D2AD35 /* GJViewController.m */; };
 		2F9F57B12296951D00D2AD35 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57AF2296951D00D2AD35 /* UILabel+Extension.m */; };
 		2F9F57B72296959000D2AD35 /* GJKSDatePickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57B52296958F00D2AD35 /* GJKSDatePickerAppearance.m */; };
 		2F9F57B82296959000D2AD35 /* GJKSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57B62296958F00D2AD35 /* GJKSDatePicker.m */; };
-		2F9F58002296971A00D2AD35 /* GJUnexecutedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57BC2296971900D2AD35 /* GJUnexecutedViewController.m */; };
-		2F9F58012296971A00D2AD35 /* GJFZPSlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57C02296971900D2AD35 /* GJFZPSlidingController.m */; };
-		2F9F58022296971A00D2AD35 /* GJSegmentTapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57C12296971900D2AD35 /* GJSegmentTapView.m */; };
-		2F9F58032296971A00D2AD35 /* GJFJSlidingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57C22296971900D2AD35 /* GJFJSlidingController.m */; };
-		2F9F58042296971A00D2AD35 /* GJExecutedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57C72296971900D2AD35 /* GJExecutedViewController.m */; };
-		2F9F58052296971A00D2AD35 /* GJCancelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57C82296971900D2AD35 /* GJCancelViewController.m */; };
-		2F9F58062296971A00D2AD35 /* GJAllWageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57CA2296971900D2AD35 /* GJAllWageViewController.m */; };
-		2F9F58072296971A00D2AD35 /* GJwageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57CD2296971900D2AD35 /* GJwageViewController.m */; };
-		2F9F58082296971A00D2AD35 /* GJVoiceWageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D02296971900D2AD35 /* GJVoiceWageViewController.m */; };
-		2F9F58092296971A00D2AD35 /* GJFishedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D12296971900D2AD35 /* GJFishedViewController.m */; };
-		2F9F580A2296971A00D2AD35 /* GJExecutedFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D32296971900D2AD35 /* GJExecutedFishViewController.m */; };
-		2F9F580B2296971A00D2AD35 /* GJCancelChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D42296971900D2AD35 /* GJCancelChildViewController.m */; };
-		2F9F580C2296971A00D2AD35 /* GJFishChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D62296971900D2AD35 /* GJFishChildViewController.m */; };
-		2F9F580D2296971A00D2AD35 /* GJWholeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D82296971900D2AD35 /* GJWholeViewController.m */; };
-		2F9F580E2296971A00D2AD35 /* GJUnexeChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57D92296971900D2AD35 /* GJUnexeChildViewController.m */; };
-		2F9F580F2296971A00D2AD35 /* GJOverChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57DC2296971900D2AD35 /* GJOverChildViewController.m */; };
-		2F9F58102296971A00D2AD35 /* GJExecutedChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57E02296971900D2AD35 /* GJExecutedChildViewController.m */; };
-		2F9F58112296971A00D2AD35 /* MLSecurityYCLDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57E92296971A00D2AD35 /* MLSecurityYCLDetailVC.m */; };
-		2F9F58122296971A00D2AD35 /* MLSecurityDCLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57ED2296971A00D2AD35 /* MLSecurityDCLVC.m */; };
-		2F9F58132296971A00D2AD35 /* MLSecurityConfirmSignatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57EF2296971A00D2AD35 /* MLSecurityConfirmSignatureVC.m */; };
-		2F9F58142296971A00D2AD35 /* MLMarkCompletedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F02296971A00D2AD35 /* MLMarkCompletedVC.m */; };
-		2F9F58152296971A00D2AD35 /* MLSecurityYCLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F12296971A00D2AD35 /* MLSecurityYCLVC.m */; };
-		2F9F58162296971A00D2AD35 /* MLSecurityWCLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F22296971A00D2AD35 /* MLSecurityWCLVC.m */; };
-		2F9F58172296971A00D2AD35 /* MLSecurityYWCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F32296971A00D2AD35 /* MLSecurityYWCVC.m */; };
-		2F9F58182296971A00D2AD35 /* MLPoliceWorkOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F62296971A00D2AD35 /* MLPoliceWorkOrderVC.m */; };
-		2F9F58192296971A00D2AD35 /* MLSecurityCLZVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F82296971A00D2AD35 /* MLSecurityCLZVC.m */; };
-		2F9F581A2296971A00D2AD35 /* MLSecurityListenOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57F92296971A00D2AD35 /* MLSecurityListenOrderVC.m */; };
-		2F9F58A02296983700D2AD35 /* GJExecutedFishTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F586B2296983600D2AD35 /* GJExecutedFishTableViewCell.m */; };
-		2F9F58A12296983700D2AD35 /* GJUnexeChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58712296983600D2AD35 /* GJUnexeChildTableViewCell.m */; };
-		2F9F58A22296983700D2AD35 /* GJExecutedFishTableViewCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58752296983600D2AD35 /* GJExecutedFishTableViewCells.m */; };
-		2F9F58A32296983700D2AD35 /* GJExecutedChildTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58762296983600D2AD35 /* GJExecutedChildTwoTableViewCell.m */; };
-		2F9F58A42296983700D2AD35 /* GJOverChildTableViewThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58772296983600D2AD35 /* GJOverChildTableViewThreeCell.m */; };
-		2F9F58A52296983700D2AD35 /* GJOverChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58782296983600D2AD35 /* GJOverChildTableViewCell.m */; };
-		2F9F58A62296983700D2AD35 /* GJExecutedChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F587A2296983600D2AD35 /* GJExecutedChildTableViewCell.m */; };
-		2F9F58A72296983700D2AD35 /* GJOverTableViewFouthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F587B2296983600D2AD35 /* GJOverTableViewFouthCell.m */; };
-		2F9F58A82296983700D2AD35 /* GJOverChildTableViewTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F587C2296983600D2AD35 /* GJOverChildTableViewTwoCell.m */; };
-		2F9F58A92296983700D2AD35 /* GJExecutedTableViewThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F587E2296983700D2AD35 /* GJExecutedTableViewThreeCell.m */; };
-		2F9F58AA2296983700D2AD35 /* GJExecutedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58812296983700D2AD35 /* GJExecutedTableViewCell.m */; };
-		2F9F58AB2296983700D2AD35 /* GJExecutedTableViewTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58822296983700D2AD35 /* GJExecutedTableViewTwoCell.m */; };
-		2F9F58AC2296983700D2AD35 /* GJExecutedTableViewFouthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58842296983700D2AD35 /* GJExecutedTableViewFouthCell.m */; };
-		2F9F58AD2296983700D2AD35 /* GJWageThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F588E2296983700D2AD35 /* GJWageThirdTableViewCell.m */; };
-		2F9F58AE2296983700D2AD35 /* GJWageFouthImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F588F2296983700D2AD35 /* GJWageFouthImageTableViewCell.m */; };
-		2F9F58AF2296983700D2AD35 /* GJWageFouthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58902296983700D2AD35 /* GJWageFouthTableViewCell.m */; };
-		2F9F58B02296983700D2AD35 /* GJWageSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58912296983700D2AD35 /* GJWageSecondTableViewCell.m */; };
-		2F9F58B12296983700D2AD35 /* GJWagethirdImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58922296983700D2AD35 /* GJWagethirdImageTableViewCell.m */; };
-		2F9F58B22296983700D2AD35 /* GJWageSecondImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58932296983700D2AD35 /* GJWageSecondImageTableViewCell.m */; };
-		2F9F58B32296983700D2AD35 /* GJWageFirstImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58942296983700D2AD35 /* GJWageFirstImageTableViewCell.m */; };
-		2F9F58B42296983700D2AD35 /* GJWageFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58962296983700D2AD35 /* GJWageFirstTableViewCell.m */; };
-		2F9F58B52296983700D2AD35 /* GJOverTableViewThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58982296983700D2AD35 /* GJOverTableViewThreeCell.m */; };
-		2F9F58B62296983700D2AD35 /* GJOverTableViewTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58992296983700D2AD35 /* GJOverTableViewTwoCell.m */; };
-		2F9F58B72296983700D2AD35 /* GJOverTableViewFouthCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F589A2296983700D2AD35 /* GJOverTableViewFouthCells.m */; };
-		2F9F58B82296983700D2AD35 /* GJOverTableViewOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F589E2296983700D2AD35 /* GJOverTableViewOneCell.m */; };
 		2F9F58BE2296988100D2AD35 /* GJSDAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58BC2296988100D2AD35 /* GJSDAdScrollView.m */; };
 		2F9F58BF2296988100D2AD35 /* GJNSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58BD2296988100D2AD35 /* GJNSTimer+Addition.m */; };
 		2F9F58D822969BB000D2AD35 /* GJFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58CE22969BAF00D2AD35 /* GJFMDatabaseQueue.m */; };
@@ -592,6 +441,8 @@
 		2FA329D822B1E1BE003547A6 /* BottomBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA329D722B1E1BE003547A6 /* BottomBarView.m */; };
 		2FA329DA22B1E1D1003547A6 /* BottomBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA329D922B1E1D1003547A6 /* BottomBarView.xib */; };
 		2FB0862B22B4CE100040A3BC /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0862A22B4CE100040A3BC /* HomeModel.m */; };
+		2FC6E4B922B7718A00E4FDBD /* GJCommunityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6E4B722B7718900E4FDBD /* GJCommunityModel.m */; };
+		2FC6E4BC22B7732500E4FDBD /* GJsignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6E4BA22B7732500E4FDBD /* GJsignatureView.m */; };
 		2FD3FCB4229F6B2C009FFA98 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3FCB3229F6B2C009FFA98 /* LoginRequest.m */; };
 		2FD3FCB8229F6C15009FFA98 /* UserManagerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3FCB7229F6C15009FFA98 /* UserManagerModel.m */; };
 		2FD3FCBB229F73A1009FFA98 /* AnimtionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3FCB9229F73A1009FFA98 /* AnimtionUtils.m */; };
@@ -730,12 +581,9 @@
 		22B0D76022A8C1B0003261EB /* PSDatePickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSDatePickerVC.h; sourceTree = "<group>"; };
 		22B0D76122A8C1B0003261EB /* PSDatePickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSDatePickerVC.m; sourceTree = "<group>"; };
 		22B0D76222A8C1B0003261EB /* PSDatePickerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSDatePickerVC.xib; sourceTree = "<group>"; };
-		22BB2D2B229B8E840033D303 /* GJHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GJHomePageViewController.xib; sourceTree = "<group>"; };
 		22BB2D2C229B8E840033D303 /* PSHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSHomePageViewController.h; sourceTree = "<group>"; };
 		22BB2D2D229B8E840033D303 /* PSHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSHomePageViewController.xib; sourceTree = "<group>"; };
-		22BB2D2E229B8E840033D303 /* GJHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHomePageViewController.m; sourceTree = "<group>"; };
 		22BB2D2F229B8E840033D303 /* PSHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSHomePageViewController.m; sourceTree = "<group>"; };
-		22BB2D30229B8E840033D303 /* GJHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHomePageViewController.h; sourceTree = "<group>"; };
 		22BB2D32229B8E840033D303 /* HomePageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCollectionCell.h; sourceTree = "<group>"; };
 		22BB2D33229B8E840033D303 /* HomePageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCollectionCell.m; sourceTree = "<group>"; };
 		22BB2D34229B8E840033D303 /* HomePageCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageCollectionCell.xib; sourceTree = "<group>"; };
@@ -1075,13 +923,11 @@
 		2F9F50DB22967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJZXVideoPlayerBatteryView.m; sourceTree = "<group>"; };
 		2F9F50DC22967E2600D2AD35 /* GJVideoPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVideoPlayViewController.m; sourceTree = "<group>"; };
 		2F9F50DD22967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJZXVideoPlayerBrightnessView.h; sourceTree = "<group>"; };
-		2F9F50DE22967E2600D2AD35 /* GJBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJBaseTabBarController.m; sourceTree = "<group>"; };
 		2F9F50DF22967E2600D2AD35 /* GJZXVideoPlayerVolumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJZXVideoPlayerVolumeView.m; sourceTree = "<group>"; };
 		2F9F50E022967E2600D2AD35 /* GJZXVideoPlayerTimeIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJZXVideoPlayerTimeIndicatorView.h; sourceTree = "<group>"; };
 		2F9F50E122967E2600D2AD35 /* GJZXVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJZXVideo.m; sourceTree = "<group>"; };
 		2F9F50E222967E2600D2AD35 /* GJZXVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJZXVideoPlayerController.h; sourceTree = "<group>"; };
 		2F9F50E322967E2600D2AD35 /* GJZXVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJZXVideoPlayerControlView.m; sourceTree = "<group>"; };
-		2F9F50E422967E2600D2AD35 /* GJBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJBaseTabBarController.h; sourceTree = "<group>"; };
 		2F9F50E522967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJZXVideoPlayerBrightnessView.m; sourceTree = "<group>"; };
 		2F9F50E622967E2600D2AD35 /* GJZXVideoPlayerBatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJZXVideoPlayerBatteryView.h; sourceTree = "<group>"; };
 		2F9F50E722967E2600D2AD35 /* GJVideoPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVideoPlayViewController.h; sourceTree = "<group>"; };
@@ -1269,198 +1115,10 @@
 		2F9F52342296880700D2AD35 /* GJMHPhotosBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMHPhotosBrowserView.m; sourceTree = "<group>"; };
 		2F9F52352296880700D2AD35 /* GJMHPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMHPhotoBrowserController.m; sourceTree = "<group>"; };
 		2F9F52362296880700D2AD35 /* GJMHPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMHPhotoModel.h; sourceTree = "<group>"; };
-		2F9F523E22968A4700D2AD35 /* GJRunLablenewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRunLablenewsViewController.h; sourceTree = "<group>"; };
-		2F9F523F22968A4700D2AD35 /* GJHomeCommuntyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHomeCommuntyViewController.h; sourceTree = "<group>"; };
-		2F9F524022968A4700D2AD35 /* GJhomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJhomeViewController.m; sourceTree = "<group>"; };
-		2F9F524122968A4700D2AD35 /* GJGraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJGraViewController.m; sourceTree = "<group>"; };
-		2F9F524222968A4700D2AD35 /* GJSMS_Scroll_ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSMS_Scroll_ImageView.m; sourceTree = "<group>"; };
-		2F9F524322968A4700D2AD35 /* GJRunLablenewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRunLablenewsViewController.m; sourceTree = "<group>"; };
-		2F9F524422968A4700D2AD35 /* GJHomeCommuntyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHomeCommuntyViewController.m; sourceTree = "<group>"; };
-		2F9F524522968A4700D2AD35 /* GJhomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJhomeViewController.h; sourceTree = "<group>"; };
-		2F9F524622968A4700D2AD35 /* GJSMS_Scroll_ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSMS_Scroll_ImageView.h; sourceTree = "<group>"; };
-		2F9F52D322968A4700D2AD35 /* GJGraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJGraViewController.h; sourceTree = "<group>"; };
-		2F9F52D622968A4700D2AD35 /* GJToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJToolBarView.h; sourceTree = "<group>"; };
-		2F9F52D722968A4700D2AD35 /* GJhomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJhomeView.h; sourceTree = "<group>"; };
-		2F9F52DA22968A4700D2AD35 /* GJOwnerHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOwnerHeadView.h; sourceTree = "<group>"; };
-		2F9F52DB22968A4700D2AD35 /* GJOwnChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOwnChildView.m; sourceTree = "<group>"; };
-		2F9F52DC22968A4700D2AD35 /* GJOwnChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOwnChildView.h; sourceTree = "<group>"; };
-		2F9F52DD22968A4700D2AD35 /* GJOwnerHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOwnerHeadView.m; sourceTree = "<group>"; };
-		2F9F52E622968A4700D2AD35 /* GJTableSweepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJTableSweepView.h; sourceTree = "<group>"; };
-		2F9F52E722968A4700D2AD35 /* GJTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJTableView.m; sourceTree = "<group>"; };
-		2F9F52E822968A4700D2AD35 /* GJTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJTableView.h; sourceTree = "<group>"; };
-		2F9F52E922968A4700D2AD35 /* GJTableSweepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJTableSweepView.m; sourceTree = "<group>"; };
-		2F9F52EB22968A4700D2AD35 /* GJQueryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJQueryView.m; sourceTree = "<group>"; };
-		2F9F52EC22968A4700D2AD35 /* GJQueryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJQueryView.h; sourceTree = "<group>"; };
-		2F9F52EE22968A4700D2AD35 /* GJChargeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJChargeTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52EF22968A4700D2AD35 /* GJServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJServiceTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52F022968A4700D2AD35 /* GJVehicleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVehicleTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52F122968A4700D2AD35 /* GJCusInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCusInTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52F222968A4700D2AD35 /* GJContractTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJContractTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52F322968A4700D2AD35 /* GJRealestateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRealestateTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52F422968A4700D2AD35 /* GJChargeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJChargeTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52F522968A4700D2AD35 /* GJServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJServiceTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52F622968A4700D2AD35 /* GJCusInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCusInTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52F722968A4700D2AD35 /* GJVehicleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVehicleTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52F822968A4700D2AD35 /* GJRealestateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRealestateTableViewCell.m; sourceTree = "<group>"; };
-		2F9F52F922968A4700D2AD35 /* GJContractTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJContractTableViewCell.h; sourceTree = "<group>"; };
-		2F9F52FB22968A4700D2AD35 /* GJChargeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJChargeView.m; sourceTree = "<group>"; };
-		2F9F52FC22968A4700D2AD35 /* GJContractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJContractView.h; sourceTree = "<group>"; };
-		2F9F52FD22968A4700D2AD35 /* GJServiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJServiceView.h; sourceTree = "<group>"; };
-		2F9F52FE22968A4700D2AD35 /* GJVehicleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVehicleView.h; sourceTree = "<group>"; };
-		2F9F52FF22968A4700D2AD35 /* GJCusInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCusInView.m; sourceTree = "<group>"; };
-		2F9F530022968A4700D2AD35 /* GJRealestateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRealestateView.m; sourceTree = "<group>"; };
-		2F9F530122968A4700D2AD35 /* GJChargeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJChargeView.h; sourceTree = "<group>"; };
-		2F9F530222968A4700D2AD35 /* GJServiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJServiceView.m; sourceTree = "<group>"; };
-		2F9F530322968A4700D2AD35 /* GJContractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJContractView.m; sourceTree = "<group>"; };
-		2F9F530422968A4700D2AD35 /* GJRealestateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRealestateView.h; sourceTree = "<group>"; };
-		2F9F530522968A4700D2AD35 /* GJCusInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCusInView.h; sourceTree = "<group>"; };
-		2F9F530622968A4700D2AD35 /* GJVehicleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVehicleView.m; sourceTree = "<group>"; };
-		2F9F530822968A4700D2AD35 /* GJDispatchview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDispatchview.h; sourceTree = "<group>"; };
-		2F9F530922968A4700D2AD35 /* GJDispatchnewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDispatchnewsView.h; sourceTree = "<group>"; };
-		2F9F530A22968A4700D2AD35 /* GJDispatchnewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDispatchnewsView.m; sourceTree = "<group>"; };
-		2F9F530B22968A4700D2AD35 /* GJDispatchview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDispatchview.m; sourceTree = "<group>"; };
-		2F9F530D22968A4700D2AD35 /* GJVisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVisitorView.h; sourceTree = "<group>"; };
-		2F9F530E22968A4700D2AD35 /* GJVisitorHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVisitorHistoryView.m; sourceTree = "<group>"; };
-		2F9F530F22968A4700D2AD35 /* GJVisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVisitorView.m; sourceTree = "<group>"; };
-		2F9F531022968A4700D2AD35 /* GJVisitorHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVisitorHistoryView.h; sourceTree = "<group>"; };
-		2F9F531122968A4700D2AD35 /* GJHomeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHomeButton.m; sourceTree = "<group>"; };
-		2F9F531222968A4700D2AD35 /* GJhomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJhomeView.m; sourceTree = "<group>"; };
-		2F9F531322968A4700D2AD35 /* GJToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJToolBarView.m; sourceTree = "<group>"; };
-		2F9F531422968A4700D2AD35 /* GJHomeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHomeButton.h; sourceTree = "<group>"; };
-		2F9F531622968A4700D2AD35 /* GJComplaintChildQuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJComplaintChildQuestTableViewCell.h; sourceTree = "<group>"; };
-		2F9F531722968A4700D2AD35 /* GJAttendanceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAttendanceCell.h; sourceTree = "<group>"; };
-		2F9F531822968A4700D2AD35 /* GJConsultationChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJConsultationChildViewCell.m; sourceTree = "<group>"; };
-		2F9F531922968A4700D2AD35 /* GJPhonenumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJPhonenumberTableViewCell.m; sourceTree = "<group>"; };
-		2F9F531A22968A4700D2AD35 /* GJMatterTableViewCellTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMatterTableViewCellTwo.h; sourceTree = "<group>"; };
-		2F9F531B22968A4700D2AD35 /* GJAttendanceOwnTopHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAttendanceOwnTopHeadView.m; sourceTree = "<group>"; };
-		2F9F531C22968A4700D2AD35 /* GJExpressViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExpressViewCell.h; sourceTree = "<group>"; };
-		2F9F531D22968A4700D2AD35 /* GJOwnerauditViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOwnerauditViewCell.m; sourceTree = "<group>"; };
-		2F9F531E22968A4700D2AD35 /* GJComplaintChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJComplaintChildViewCell.h; sourceTree = "<group>"; };
-		2F9F531F22968A4700D2AD35 /* GJOwnChildRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOwnChildRightTableViewCell.m; sourceTree = "<group>"; };
-		2F9F532022968A4700D2AD35 /* GJMatterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMatterTableViewCell.h; sourceTree = "<group>"; };
-		2F9F532122968A4700D2AD35 /* GJPositioningChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJPositioningChildTableViewCell.h; sourceTree = "<group>"; };
-		2F9F532222968A4700D2AD35 /* GJDispatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDispatchCell.h; sourceTree = "<group>"; };
-		2F9F532322968A4700D2AD35 /* GJOwnChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOwnChildTableViewCell.h; sourceTree = "<group>"; };
-		2F9F532422968A4700D2AD35 /* GJDispatchnewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDispatchnewsCell.h; sourceTree = "<group>"; };
-		2F9F532522968A4700D2AD35 /* GJParkingViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJParkingViewCell.m; sourceTree = "<group>"; };
-		2F9F532622968A4700D2AD35 /* GJConsultationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJConsultationViewCell.h; sourceTree = "<group>"; };
-		2F9F532722968A4700D2AD35 /* GJMatterTableViewCellThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMatterTableViewCellThree.m; sourceTree = "<group>"; };
-		2F9F532822968A4700D2AD35 /* GJRepairChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJRepairChildViewCell.m; sourceTree = "<group>"; };
-		2F9F532922968A4700D2AD35 /* GJComplaintTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJComplaintTableViewCell.m; sourceTree = "<group>"; };
-		2F9F532A22968A4700D2AD35 /* GJVonsultationChildQuestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVonsultationChildQuestTableViewCell.h; sourceTree = "<group>"; };
-		2F9F532B22968A4700D2AD35 /* GJPositioningTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJPositioningTableViewCell.m; sourceTree = "<group>"; };
-		2F9F532C22968A4700D2AD35 /* GJVisHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVisHistoryCell.m; sourceTree = "<group>"; };
-		2F9F532D22968A4700D2AD35 /* GJHouseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJHouseTableViewCell.m; sourceTree = "<group>"; };
-		2F9F532E22968A4700D2AD35 /* GJMatterTableViewCellFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMatterTableViewCellFour.h; sourceTree = "<group>"; };
-		2F9F532F22968A4700D2AD35 /* GJMatterTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMatterTypeTableViewCell.m; sourceTree = "<group>"; };
-		2F9F533022968A4700D2AD35 /* GJDeliverwaterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDeliverwaterTableViewCell.h; sourceTree = "<group>"; };
-		2F9F533122968A4700D2AD35 /* GJAttendanceOwnTopHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAttendanceOwnTopHeadView.h; sourceTree = "<group>"; };
-		2F9F533222968A4700D2AD35 /* GJMatterTableViewCellTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMatterTableViewCellTwo.m; sourceTree = "<group>"; };
-		2F9F533322968A4700D2AD35 /* GJPhonenumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJPhonenumberTableViewCell.h; sourceTree = "<group>"; };
-		2F9F533422968A4700D2AD35 /* GJConsultationChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJConsultationChildViewCell.h; sourceTree = "<group>"; };
-		2F9F533522968A4700D2AD35 /* GJComplaintChildQuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJComplaintChildQuestTableViewCell.m; sourceTree = "<group>"; };
-		2F9F533622968A4700D2AD35 /* GJAttendanceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAttendanceCell.m; sourceTree = "<group>"; };
-		2F9F533722968A4700D2AD35 /* GJDispatchnewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDispatchnewsCell.m; sourceTree = "<group>"; };
-		2F9F533822968A4700D2AD35 /* GJOwnChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOwnChildTableViewCell.m; sourceTree = "<group>"; };
-		2F9F533922968A4700D2AD35 /* GJDispatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDispatchCell.m; sourceTree = "<group>"; };
-		2F9F533A22968A4700D2AD35 /* GJPositioningChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJPositioningChildTableViewCell.m; sourceTree = "<group>"; };
-		2F9F533B22968A4700D2AD35 /* GJMatterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMatterTableViewCell.m; sourceTree = "<group>"; };
-		2F9F533C22968A4700D2AD35 /* GJOwnChildRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOwnChildRightTableViewCell.h; sourceTree = "<group>"; };
-		2F9F533D22968A4700D2AD35 /* GJComplaintChildViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJComplaintChildViewCell.m; sourceTree = "<group>"; };
-		2F9F533E22968A4700D2AD35 /* GJOwnerauditViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOwnerauditViewCell.h; sourceTree = "<group>"; };
-		2F9F533F22968A4700D2AD35 /* GJExpressViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExpressViewCell.m; sourceTree = "<group>"; };
-		2F9F534022968A4700D2AD35 /* GJComplaintTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJComplaintTableViewCell.h; sourceTree = "<group>"; };
-		2F9F534122968A4700D2AD35 /* GJRepairChildViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJRepairChildViewCell.h; sourceTree = "<group>"; };
-		2F9F534222968A4700D2AD35 /* GJMatterTableViewCellThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMatterTableViewCellThree.h; sourceTree = "<group>"; };
-		2F9F534322968A4700D2AD35 /* GJConsultationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJConsultationViewCell.m; sourceTree = "<group>"; };
-		2F9F534422968A4700D2AD35 /* GJParkingViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJParkingViewCell.h; sourceTree = "<group>"; };
-		2F9F534522968A4700D2AD35 /* GJDeliverwaterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDeliverwaterTableViewCell.m; sourceTree = "<group>"; };
-		2F9F534622968A4700D2AD35 /* GJMatterTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMatterTypeTableViewCell.h; sourceTree = "<group>"; };
-		2F9F534722968A4700D2AD35 /* GJHouseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJHouseTableViewCell.h; sourceTree = "<group>"; };
-		2F9F534822968A4700D2AD35 /* GJMatterTableViewCellFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMatterTableViewCellFour.m; sourceTree = "<group>"; };
-		2F9F534922968A4700D2AD35 /* GJVisHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVisHistoryCell.h; sourceTree = "<group>"; };
-		2F9F534A22968A4700D2AD35 /* GJPositioningTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJPositioningTableViewCell.h; sourceTree = "<group>"; };
-		2F9F534B22968A4800D2AD35 /* GJVonsultationChildQuestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVonsultationChildQuestTableViewCell.m; sourceTree = "<group>"; };
-		2F9F534D22968A4800D2AD35 /* GJCommunityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCommunityModel.m; sourceTree = "<group>"; };
-		2F9F534E22968A4800D2AD35 /* GJCommunityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCommunityModel.h; sourceTree = "<group>"; };
-		2F9F53C822968A5C00D2AD35 /* GJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJLoginViewController.h; sourceTree = "<group>"; };
-		2F9F53C922968A5C00D2AD35 /* GJSearchPassWordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSearchPassWordController.h; sourceTree = "<group>"; };
-		2F9F53CA22968A5C00D2AD35 /* GJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJLoginViewController.m; sourceTree = "<group>"; };
-		2F9F53CB22968A5C00D2AD35 /* GJSearchPassWordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSearchPassWordController.m; sourceTree = "<group>"; };
-		2F9F53CE22968A5D00D2AD35 /* GJmyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJmyViewController.h; sourceTree = "<group>"; };
-		2F9F53CF22968A5D00D2AD35 /* GJmyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJmyViewController.m; sourceTree = "<group>"; };
-		2F9F53D122968A5D00D2AD35 /* GJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMessageViewController.m; sourceTree = "<group>"; };
-		2F9F53D222968A5D00D2AD35 /* GJNewsChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNewsChildViewController.m; sourceTree = "<group>"; };
-		2F9F53D322968A5D00D2AD35 /* GJFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFeedbackViewController.h; sourceTree = "<group>"; };
-		2F9F53D422968A5D00D2AD35 /* GJSetUpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSetUpController.m; sourceTree = "<group>"; };
-		2F9F53D522968A5D00D2AD35 /* GJSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSliderViewController.h; sourceTree = "<group>"; };
-		2F9F53D622968A5D00D2AD35 /* GJnewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJnewsViewController.m; sourceTree = "<group>"; };
-		2F9F53D722968A5D00D2AD35 /* GJMessageNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMessageNewsViewController.m; sourceTree = "<group>"; };
-		2F9F53D822968A5D00D2AD35 /* GJNewsChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNewsChildViewController.h; sourceTree = "<group>"; };
-		2F9F53DA22968A5D00D2AD35 /* GJDisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJDisclaimerViewController.h; sourceTree = "<group>"; };
-		2F9F53DB22968A5D00D2AD35 /* GJProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJProblemViewController.h; sourceTree = "<group>"; };
-		2F9F53DC22968A5D00D2AD35 /* GJAboutUsViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAboutUsViewcontroller.m; sourceTree = "<group>"; };
-		2F9F53DD22968A5D00D2AD35 /* GJDisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJDisclaimerViewController.m; sourceTree = "<group>"; };
-		2F9F53DE22968A5D00D2AD35 /* GJProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJProblemViewController.m; sourceTree = "<group>"; };
-		2F9F53DF22968A5D00D2AD35 /* GJAboutUsViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAboutUsViewcontroller.h; sourceTree = "<group>"; };
-		2F9F53E022968A5D00D2AD35 /* GJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMessageViewController.h; sourceTree = "<group>"; };
-		2F9F53E222968A5D00D2AD35 /* GJChangePassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJChangePassViewController.h; sourceTree = "<group>"; };
-		2F9F53E322968A5D00D2AD35 /* GJChangePassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJChangePassViewController.m; sourceTree = "<group>"; };
-		2F9F53E422968A5D00D2AD35 /* GJSetUpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSetUpController.h; sourceTree = "<group>"; };
-		2F9F53E522968A5D00D2AD35 /* GJFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFeedbackViewController.m; sourceTree = "<group>"; };
-		2F9F53E622968A5D00D2AD35 /* GJMessageNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMessageNewsViewController.h; sourceTree = "<group>"; };
-		2F9F53E722968A5D00D2AD35 /* GJnewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJnewsViewController.h; sourceTree = "<group>"; };
-		2F9F53E822968A5D00D2AD35 /* GJSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSliderViewController.m; sourceTree = "<group>"; };
-		2F9F53EA22968A5D00D2AD35 /* GJNewsTableViewSexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNewsTableViewSexCell.m; sourceTree = "<group>"; };
-		2F9F53EB22968A5D00D2AD35 /* GJNewsTableViewTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNewsTableViewTopCell.m; sourceTree = "<group>"; };
-		2F9F53EC22968A5D00D2AD35 /* GJMyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMyCell.h; sourceTree = "<group>"; };
-		2F9F53ED22968A5D00D2AD35 /* GJNewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNewsTableViewCell.m; sourceTree = "<group>"; };
-		2F9F53EE22968A5D00D2AD35 /* GJMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMessageTableViewCell.m; sourceTree = "<group>"; };
-		2F9F53EF22968A5D00D2AD35 /* GJMyUnderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMyUnderCell.m; sourceTree = "<group>"; };
-		2F9F53F022968A5D00D2AD35 /* GJMyUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMyUpCell.h; sourceTree = "<group>"; };
-		2F9F53F122968A5D00D2AD35 /* GJMyCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMyCenterCell.m; sourceTree = "<group>"; };
-		2F9F53F222968A5D00D2AD35 /* GJNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNewsTableViewCell.h; sourceTree = "<group>"; };
-		2F9F53F322968A5D00D2AD35 /* GJMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMyCell.m; sourceTree = "<group>"; };
-		2F9F53F422968A5D00D2AD35 /* GJNewsTableViewTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNewsTableViewTopCell.h; sourceTree = "<group>"; };
-		2F9F53F522968A5D00D2AD35 /* GJNewsTableViewSexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNewsTableViewSexCell.h; sourceTree = "<group>"; };
-		2F9F53F622968A5D00D2AD35 /* GJMyUnderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMyUnderCell.h; sourceTree = "<group>"; };
-		2F9F53F722968A5D00D2AD35 /* GJMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMessageTableViewCell.h; sourceTree = "<group>"; };
-		2F9F53F822968A5D00D2AD35 /* GJMyUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMyUpCell.m; sourceTree = "<group>"; };
-		2F9F53F922968A5D00D2AD35 /* GJMyCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMyCenterCell.h; sourceTree = "<group>"; };
-		2F9F53FE22968A5D00D2AD35 /* GJAboutusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAboutusView.h; sourceTree = "<group>"; };
-		2F9F53FF22968A5D00D2AD35 /* GJNewsChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNewsChildView.h; sourceTree = "<group>"; };
-		2F9F540022968A5D00D2AD35 /* GJSetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSetupView.h; sourceTree = "<group>"; };
-		2F9F540222968A5D00D2AD35 /* GJAboutusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAboutusView.m; sourceTree = "<group>"; };
-		2F9F540322968A5D00D2AD35 /* GJSetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSetupView.m; sourceTree = "<group>"; };
-		2F9F540422968A5D00D2AD35 /* GJNewsChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNewsChildView.m; sourceTree = "<group>"; };
-		2F9F540522968A5D00D2AD35 /* GJMyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJMyView.h; sourceTree = "<group>"; };
-		2F9F540622968A5D00D2AD35 /* GJMyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJMyView.m; sourceTree = "<group>"; };
 		2F9F574A22968B4700D2AD35 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		2F9F574B22968B4700D2AD35 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		2F9F574D22968BAA00D2AD35 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		2F9F574E22968BAA00D2AD35 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		2F9F57512296921300D2AD35 /* GJQMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJQMViewController.m; sourceTree = "<group>"; };
-		2F9F57522296921300D2AD35 /* GJPlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJPlaceHolderView.m; sourceTree = "<group>"; };
-		2F9F57532296921300D2AD35 /* GJsignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJsignatureView.h; sourceTree = "<group>"; };
-		2F9F57542296921300D2AD35 /* GJKZVideoSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKZVideoSupport.m; sourceTree = "<group>"; };
-		2F9F57552296921300D2AD35 /* GJUIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJUIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
-		2F9F57562296921300D2AD35 /* GJJZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJJZLocationConverter.h; sourceTree = "<group>"; };
-		2F9F57572296921300D2AD35 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
-		2F9F57582296921300D2AD35 /* GJYTKKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJYTKKeyValueStore.m; sourceTree = "<group>"; };
-		2F9F57592296921300D2AD35 /* GJKZVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKZVideoConfig.m; sourceTree = "<group>"; };
-		2F9F575A2296921300D2AD35 /* GJKZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKZVideoViewController.m; sourceTree = "<group>"; };
-		2F9F575B2296921300D2AD35 /* GJQueRenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJQueRenViewController.m; sourceTree = "<group>"; };
-		2F9F575C2296921300D2AD35 /* GJsignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJsignatureView.m; sourceTree = "<group>"; };
-		2F9F575D2296921300D2AD35 /* GJPlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJPlaceHolderView.h; sourceTree = "<group>"; };
-		2F9F575E2296921300D2AD35 /* GJQMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJQMViewController.h; sourceTree = "<group>"; };
-		2F9F575F2296921300D2AD35 /* GJUIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GJUIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
-		2F9F57602296921300D2AD35 /* GJKZVideoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKZVideoSupport.h; sourceTree = "<group>"; };
-		2F9F57612296921300D2AD35 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
-		2F9F57622296921300D2AD35 /* GJJZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJJZLocationConverter.m; sourceTree = "<group>"; };
-		2F9F57632296921300D2AD35 /* GJQueRenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJQueRenViewController.h; sourceTree = "<group>"; };
-		2F9F57642296921300D2AD35 /* GJKZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKZVideoViewController.h; sourceTree = "<group>"; };
-		2F9F57652296921300D2AD35 /* GJKZVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKZVideoConfig.h; sourceTree = "<group>"; };
-		2F9F57662296921300D2AD35 /* GJYTKKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJYTKKeyValueStore.h; sourceTree = "<group>"; };
 		2F9F57732296930400D2AD35 /* GJIQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJIQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		2F9F57752296930400D2AD35 /* GJIQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJIQTextView.m; sourceTree = "<group>"; };
 		2F9F57762296930400D2AD35 /* GJIQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJIQTextView.h; sourceTree = "<group>"; };
@@ -1492,122 +1150,13 @@
 		2F9F57942296930400D2AD35 /* GJIQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJIQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		2F9F57952296930400D2AD35 /* GJIQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GJIQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		2F9F57A5229694CA00D2AD35 /* TBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBTabBar.m; sourceTree = "<group>"; };
-		2F9F57A6229694CA00D2AD35 /* GJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJNavigationController.m; sourceTree = "<group>"; };
-		2F9F57A7229694CA00D2AD35 /* GJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJViewController.h; sourceTree = "<group>"; };
 		2F9F57A8229694CA00D2AD35 /* TBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBTabBar.h; sourceTree = "<group>"; };
-		2F9F57A9229694CA00D2AD35 /* GJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJNavigationController.h; sourceTree = "<group>"; };
-		2F9F57AA229694CA00D2AD35 /* GJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJViewController.m; sourceTree = "<group>"; };
 		2F9F57AF2296951D00D2AD35 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		2F9F57B02296951D00D2AD35 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
 		2F9F57B32296958F00D2AD35 /* GJKSDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKSDatePicker.h; sourceTree = "<group>"; };
 		2F9F57B42296958F00D2AD35 /* GJKSDatePickerAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKSDatePickerAppearance.h; sourceTree = "<group>"; };
 		2F9F57B52296958F00D2AD35 /* GJKSDatePickerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKSDatePickerAppearance.m; sourceTree = "<group>"; };
 		2F9F57B62296958F00D2AD35 /* GJKSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKSDatePicker.m; sourceTree = "<group>"; };
-		2F9F57BB2296971900D2AD35 /* GJExecutedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedViewController.h; sourceTree = "<group>"; };
-		2F9F57BC2296971900D2AD35 /* GJUnexecutedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJUnexecutedViewController.m; sourceTree = "<group>"; };
-		2F9F57BD2296971900D2AD35 /* GJCancelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCancelViewController.h; sourceTree = "<group>"; };
-		2F9F57BF2296971900D2AD35 /* GJFJSlidingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFJSlidingController.h; sourceTree = "<group>"; };
-		2F9F57C02296971900D2AD35 /* GJFZPSlidingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFZPSlidingController.m; sourceTree = "<group>"; };
-		2F9F57C12296971900D2AD35 /* GJSegmentTapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSegmentTapView.m; sourceTree = "<group>"; };
-		2F9F57C22296971900D2AD35 /* GJFJSlidingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFJSlidingController.m; sourceTree = "<group>"; };
-		2F9F57C32296971900D2AD35 /* GJFZPSlidingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFZPSlidingController.h; sourceTree = "<group>"; };
-		2F9F57C42296971900D2AD35 /* GJSegmentTapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSegmentTapView.h; sourceTree = "<group>"; };
-		2F9F57C52296971900D2AD35 /* GJFishedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFishedViewController.h; sourceTree = "<group>"; };
-		2F9F57C62296971900D2AD35 /* GJUnexecutedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJUnexecutedViewController.h; sourceTree = "<group>"; };
-		2F9F57C72296971900D2AD35 /* GJExecutedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedViewController.m; sourceTree = "<group>"; };
-		2F9F57C82296971900D2AD35 /* GJCancelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCancelViewController.m; sourceTree = "<group>"; };
-		2F9F57CA2296971900D2AD35 /* GJAllWageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJAllWageViewController.m; sourceTree = "<group>"; };
-		2F9F57CB2296971900D2AD35 /* GJwageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJwageViewController.h; sourceTree = "<group>"; };
-		2F9F57CC2296971900D2AD35 /* GJAllWageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJAllWageViewController.h; sourceTree = "<group>"; };
-		2F9F57CD2296971900D2AD35 /* GJwageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJwageViewController.m; sourceTree = "<group>"; };
-		2F9F57CF2296971900D2AD35 /* GJVoiceWageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJVoiceWageViewController.h; sourceTree = "<group>"; };
-		2F9F57D02296971900D2AD35 /* GJVoiceWageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJVoiceWageViewController.m; sourceTree = "<group>"; };
-		2F9F57D12296971900D2AD35 /* GJFishedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFishedViewController.m; sourceTree = "<group>"; };
-		2F9F57D32296971900D2AD35 /* GJExecutedFishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedFishViewController.m; sourceTree = "<group>"; };
-		2F9F57D42296971900D2AD35 /* GJCancelChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCancelChildViewController.m; sourceTree = "<group>"; };
-		2F9F57D52296971900D2AD35 /* GJOverChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverChildViewController.h; sourceTree = "<group>"; };
-		2F9F57D62296971900D2AD35 /* GJFishChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFishChildViewController.m; sourceTree = "<group>"; };
-		2F9F57D72296971900D2AD35 /* GJExecutedChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedChildViewController.h; sourceTree = "<group>"; };
-		2F9F57D82296971900D2AD35 /* GJWholeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWholeViewController.m; sourceTree = "<group>"; };
-		2F9F57D92296971900D2AD35 /* GJUnexeChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJUnexeChildViewController.m; sourceTree = "<group>"; };
-		2F9F57DA2296971900D2AD35 /* GJCancelChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCancelChildViewController.h; sourceTree = "<group>"; };
-		2F9F57DB2296971900D2AD35 /* GJExecutedFishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedFishViewController.h; sourceTree = "<group>"; };
-		2F9F57DC2296971900D2AD35 /* GJOverChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverChildViewController.m; sourceTree = "<group>"; };
-		2F9F57DD2296971900D2AD35 /* payViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payViewController.h; sourceTree = "<group>"; };
-		2F9F57DE2296971900D2AD35 /* GJUnexeChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJUnexeChildViewController.h; sourceTree = "<group>"; };
-		2F9F57DF2296971900D2AD35 /* GJWholeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWholeViewController.h; sourceTree = "<group>"; };
-		2F9F57E02296971900D2AD35 /* GJExecutedChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedChildViewController.m; sourceTree = "<group>"; };
-		2F9F57E12296971900D2AD35 /* GJFishChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFishChildViewController.h; sourceTree = "<group>"; };
-		2F9F57E82296971A00D2AD35 /* MLSecurityWCLVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityWCLVC.h; sourceTree = "<group>"; };
-		2F9F57E92296971A00D2AD35 /* MLSecurityYCLDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityYCLDetailVC.m; sourceTree = "<group>"; };
-		2F9F57EA2296971A00D2AD35 /* MLSecurityYWCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityYWCVC.h; sourceTree = "<group>"; };
-		2F9F57EB2296971A00D2AD35 /* MLSecurityListenOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityListenOrderVC.h; sourceTree = "<group>"; };
-		2F9F57EC2296971A00D2AD35 /* MLSecurityCLZVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityCLZVC.h; sourceTree = "<group>"; };
-		2F9F57ED2296971A00D2AD35 /* MLSecurityDCLVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityDCLVC.m; sourceTree = "<group>"; };
-		2F9F57EE2296971A00D2AD35 /* MLPoliceWorkOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPoliceWorkOrderVC.h; sourceTree = "<group>"; };
-		2F9F57EF2296971A00D2AD35 /* MLSecurityConfirmSignatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityConfirmSignatureVC.m; sourceTree = "<group>"; };
-		2F9F57F02296971A00D2AD35 /* MLMarkCompletedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMarkCompletedVC.m; sourceTree = "<group>"; };
-		2F9F57F12296971A00D2AD35 /* MLSecurityYCLVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityYCLVC.m; sourceTree = "<group>"; };
-		2F9F57F22296971A00D2AD35 /* MLSecurityWCLVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityWCLVC.m; sourceTree = "<group>"; };
-		2F9F57F32296971A00D2AD35 /* MLSecurityYWCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityYWCVC.m; sourceTree = "<group>"; };
-		2F9F57F42296971A00D2AD35 /* MLSecurityYCLDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityYCLDetailVC.h; sourceTree = "<group>"; };
-		2F9F57F52296971A00D2AD35 /* MLSecurityConfirmSignatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityConfirmSignatureVC.h; sourceTree = "<group>"; };
-		2F9F57F62296971A00D2AD35 /* MLPoliceWorkOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPoliceWorkOrderVC.m; sourceTree = "<group>"; };
-		2F9F57F72296971A00D2AD35 /* MLSecurityDCLVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityDCLVC.h; sourceTree = "<group>"; };
-		2F9F57F82296971A00D2AD35 /* MLSecurityCLZVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityCLZVC.m; sourceTree = "<group>"; };
-		2F9F57F92296971A00D2AD35 /* MLSecurityListenOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSecurityListenOrderVC.m; sourceTree = "<group>"; };
-		2F9F57FA2296971A00D2AD35 /* MLSecurityYCLVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSecurityYCLVC.h; sourceTree = "<group>"; };
-		2F9F57FB2296971A00D2AD35 /* MLMarkCompletedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMarkCompletedVC.h; sourceTree = "<group>"; };
-		2F9F586B2296983600D2AD35 /* GJExecutedFishTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedFishTableViewCell.m; sourceTree = "<group>"; };
-		2F9F586C2296983600D2AD35 /* GJOverChildTableViewThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverChildTableViewThreeCell.h; sourceTree = "<group>"; };
-		2F9F586D2296983600D2AD35 /* GJExecutedChildTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedChildTwoTableViewCell.h; sourceTree = "<group>"; };
-		2F9F586E2296983600D2AD35 /* GJExecutedFishTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedFishTableViewCells.h; sourceTree = "<group>"; };
-		2F9F586F2296983600D2AD35 /* GJOverTableViewFouthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverTableViewFouthCell.h; sourceTree = "<group>"; };
-		2F9F58702296983600D2AD35 /* GJExecutedChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedChildTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58712296983600D2AD35 /* GJUnexeChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJUnexeChildTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58722296983600D2AD35 /* GJOverChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverChildTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58732296983600D2AD35 /* GJOverChildTableViewTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverChildTableViewTwoCell.h; sourceTree = "<group>"; };
-		2F9F58742296983600D2AD35 /* GJExecutedFishTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedFishTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58752296983600D2AD35 /* GJExecutedFishTableViewCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedFishTableViewCells.m; sourceTree = "<group>"; };
-		2F9F58762296983600D2AD35 /* GJExecutedChildTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedChildTwoTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58772296983600D2AD35 /* GJOverChildTableViewThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverChildTableViewThreeCell.m; sourceTree = "<group>"; };
-		2F9F58782296983600D2AD35 /* GJOverChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverChildTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58792296983600D2AD35 /* GJUnexeChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJUnexeChildTableViewCell.h; sourceTree = "<group>"; };
-		2F9F587A2296983600D2AD35 /* GJExecutedChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedChildTableViewCell.m; sourceTree = "<group>"; };
-		2F9F587B2296983600D2AD35 /* GJOverTableViewFouthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverTableViewFouthCell.m; sourceTree = "<group>"; };
-		2F9F587C2296983600D2AD35 /* GJOverChildTableViewTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverChildTableViewTwoCell.m; sourceTree = "<group>"; };
-		2F9F587E2296983700D2AD35 /* GJExecutedTableViewThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedTableViewThreeCell.m; sourceTree = "<group>"; };
-		2F9F587F2296983700D2AD35 /* GJExecutedTableViewTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedTableViewTwoCell.h; sourceTree = "<group>"; };
-		2F9F58802296983700D2AD35 /* GJExecutedTableViewFouthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedTableViewFouthCell.h; sourceTree = "<group>"; };
-		2F9F58812296983700D2AD35 /* GJExecutedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58822296983700D2AD35 /* GJExecutedTableViewTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedTableViewTwoCell.m; sourceTree = "<group>"; };
-		2F9F58832296983700D2AD35 /* GJExecutedTableViewThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedTableViewThreeCell.h; sourceTree = "<group>"; };
-		2F9F58842296983700D2AD35 /* GJExecutedTableViewFouthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJExecutedTableViewFouthCell.m; sourceTree = "<group>"; };
-		2F9F58852296983700D2AD35 /* GJExecutedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJExecutedTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58872296983700D2AD35 /* GJWageFouthImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageFouthImageTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58882296983700D2AD35 /* GJWagethirdImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWagethirdImageTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58892296983700D2AD35 /* GJWageSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageSecondTableViewCell.h; sourceTree = "<group>"; };
-		2F9F588A2296983700D2AD35 /* GJWageFouthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageFouthTableViewCell.h; sourceTree = "<group>"; };
-		2F9F588B2296983700D2AD35 /* GJWageFirstImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageFirstImageTableViewCell.h; sourceTree = "<group>"; };
-		2F9F588C2296983700D2AD35 /* GJWageSecondImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageSecondImageTableViewCell.h; sourceTree = "<group>"; };
-		2F9F588D2296983700D2AD35 /* GJWageFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageFirstTableViewCell.h; sourceTree = "<group>"; };
-		2F9F588E2296983700D2AD35 /* GJWageThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageThirdTableViewCell.m; sourceTree = "<group>"; };
-		2F9F588F2296983700D2AD35 /* GJWageFouthImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageFouthImageTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58902296983700D2AD35 /* GJWageFouthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageFouthTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58912296983700D2AD35 /* GJWageSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageSecondTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58922296983700D2AD35 /* GJWagethirdImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWagethirdImageTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58932296983700D2AD35 /* GJWageSecondImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageSecondImageTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58942296983700D2AD35 /* GJWageFirstImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageFirstImageTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58952296983700D2AD35 /* GJWageThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWageThirdTableViewCell.h; sourceTree = "<group>"; };
-		2F9F58962296983700D2AD35 /* GJWageFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWageFirstTableViewCell.m; sourceTree = "<group>"; };
-		2F9F58982296983700D2AD35 /* GJOverTableViewThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverTableViewThreeCell.m; sourceTree = "<group>"; };
-		2F9F58992296983700D2AD35 /* GJOverTableViewTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverTableViewTwoCell.m; sourceTree = "<group>"; };
-		2F9F589A2296983700D2AD35 /* GJOverTableViewFouthCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverTableViewFouthCells.m; sourceTree = "<group>"; };
-		2F9F589B2296983700D2AD35 /* GJOverTableViewOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverTableViewOneCell.h; sourceTree = "<group>"; };
-		2F9F589C2296983700D2AD35 /* GJOverTableViewTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverTableViewTwoCell.h; sourceTree = "<group>"; };
-		2F9F589D2296983700D2AD35 /* GJOverTableViewThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverTableViewThreeCell.h; sourceTree = "<group>"; };
-		2F9F589E2296983700D2AD35 /* GJOverTableViewOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJOverTableViewOneCell.m; sourceTree = "<group>"; };
-		2F9F589F2296983700D2AD35 /* GJOverTableViewFouthCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJOverTableViewFouthCells.h; sourceTree = "<group>"; };
 		2F9F58BA2296988100D2AD35 /* GJSDAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSDAdScrollView.h; sourceTree = "<group>"; };
 		2F9F58BB2296988100D2AD35 /* GJNSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJNSTimer+Addition.h"; sourceTree = "<group>"; };
 		2F9F58BC2296988100D2AD35 /* GJSDAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSDAdScrollView.m; sourceTree = "<group>"; };
@@ -1709,6 +1258,10 @@
 		2FA329D922B1E1D1003547A6 /* BottomBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomBarView.xib; sourceTree = "<group>"; };
 		2FB0862922B4CE100040A3BC /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		2FB0862A22B4CE100040A3BC /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		2FC6E4B722B7718900E4FDBD /* GJCommunityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCommunityModel.m; sourceTree = "<group>"; };
+		2FC6E4B822B7718A00E4FDBD /* GJCommunityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCommunityModel.h; sourceTree = "<group>"; };
+		2FC6E4BA22B7732500E4FDBD /* GJsignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJsignatureView.m; sourceTree = "<group>"; };
+		2FC6E4BB22B7732500E4FDBD /* GJsignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJsignatureView.h; sourceTree = "<group>"; };
 		2FD3FCB2229F6B2C009FFA98 /* LoginRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
 		2FD3FCB3229F6B2C009FFA98 /* LoginRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
 		2FD3FCB6229F6C15009FFA98 /* UserManagerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManagerModel.h; sourceTree = "<group>"; };
@@ -1975,9 +1528,6 @@
 		22BB2D2A229B8E840033D303 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				22BB2D30229B8E840033D303 /* GJHomePageViewController.h */,
-				22BB2D2E229B8E840033D303 /* GJHomePageViewController.m */,
-				22BB2D2B229B8E840033D303 /* GJHomePageViewController.xib */,
 				22BB2D2C229B8E840033D303 /* PSHomePageViewController.h */,
 				22BB2D2F229B8E840033D303 /* PSHomePageViewController.m */,
 				22BB2D2D229B8E840033D303 /* PSHomePageViewController.xib */,
@@ -1994,17 +1544,6 @@
 				22BB2D34229B8E840033D303 /* HomePageCollectionCell.xib */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		22BB2D3B229B8EA60033D303 /* 新设置 */ = {
-			isa = PBXGroup;
-			children = (
-				228645E622B4C75E00F8689B /* Api */,
-				2F6B3BEE22A8FDE500D11CB9 /* Model */,
-				22BB2D3C229B8EA60033D303 /* Controller */,
-				22BB2D46229B8EA60033D303 /* Cell */,
-			);
-			path = "新设置";
 			sourceTree = "<group>";
 		};
 		22BB2D3C229B8EA60033D303 /* Controller */ = {
@@ -2037,16 +1576,6 @@
 				22BB2D49229B8EA60033D303 /* MyViewControllerCell.m */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		22BB2D52229B8EBD0033D303 /* 新登录 */ = {
-			isa = PBXGroup;
-			children = (
-				2FD3FCB5229F6C15009FFA98 /* Model */,
-				2FD3FCB1229F6AB9009FFA98 /* Api */,
-				22BB2D53229B8EBD0033D303 /* Controller */,
-			);
-			path = "新登录";
 			sourceTree = "<group>";
 		};
 		22BB2D53229B8EBD0033D303 /* Controller */ = {
@@ -2174,12 +1703,6 @@
 			children = (
 				2221BAD022A7715B00151AA5 /* 物合安保模块 */,
 				22BB2D29229B8E840033D303 /* 新首页 */,
-				2F9F531522968A4700D2AD35 /* Cell */,
-				2F9F523D22968A4700D2AD35 /* Controller */,
-				2F9F534C22968A4800D2AD35 /* Model */,
-				2F9F52D522968A4700D2AD35 /* View */,
-				2F9F57E62296971A00D2AD35 /* 安保模块 */,
-				2F9F57B92296971900D2AD35 /* 在线报修 */,
 				2F17C2D822927DE9002C1CE0 /* 两巡模块 */,
 			);
 			path = "首页";
@@ -2734,6 +2257,8 @@
 		2F22847422B242660031716D /* 签名 */ = {
 			isa = PBXGroup;
 			children = (
+				2FC6E4BB22B7732500E4FDBD /* GJsignatureView.h */,
+				2FC6E4BA22B7732500E4FDBD /* GJsignatureView.m */,
 				2F22847522B242CE0031716D /* OwnerSignatureVC.h */,
 				2F22847622B242CE0031716D /* OwnerSignatureVC.m */,
 				2F22847722B242CE0031716D /* OwnerSignatureVC.xib */,
@@ -2816,13 +2341,11 @@
 				2F9F50DB22967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m */,
 				2F9F50DC22967E2600D2AD35 /* GJVideoPlayViewController.m */,
 				2F9F50DD22967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.h */,
-				2F9F50DE22967E2600D2AD35 /* GJBaseTabBarController.m */,
 				2F9F50DF22967E2600D2AD35 /* GJZXVideoPlayerVolumeView.m */,
 				2F9F50E022967E2600D2AD35 /* GJZXVideoPlayerTimeIndicatorView.h */,
 				2F9F50E122967E2600D2AD35 /* GJZXVideo.m */,
 				2F9F50E222967E2600D2AD35 /* GJZXVideoPlayerController.h */,
 				2F9F50E322967E2600D2AD35 /* GJZXVideoPlayerControlView.m */,
-				2F9F50E422967E2600D2AD35 /* GJBaseTabBarController.h */,
 				2F9F50E522967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.m */,
 				2F9F50E622967E2600D2AD35 /* GJZXVideoPlayerBatteryView.h */,
 				2F9F50E722967E2600D2AD35 /* GJVideoPlayViewController.h */,
@@ -3180,220 +2703,12 @@
 			path = MHPhotoBrowser;
 			sourceTree = "<group>";
 		};
-		2F9F523D22968A4700D2AD35 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F524522968A4700D2AD35 /* GJhomeViewController.h */,
-				2F9F524022968A4700D2AD35 /* GJhomeViewController.m */,
-				2F9F52D322968A4700D2AD35 /* GJGraViewController.h */,
-				2F9F524122968A4700D2AD35 /* GJGraViewController.m */,
-				2F9F524622968A4700D2AD35 /* GJSMS_Scroll_ImageView.h */,
-				2F9F524222968A4700D2AD35 /* GJSMS_Scroll_ImageView.m */,
-				2F9F523E22968A4700D2AD35 /* GJRunLablenewsViewController.h */,
-				2F9F524322968A4700D2AD35 /* GJRunLablenewsViewController.m */,
-				2F9F523F22968A4700D2AD35 /* GJHomeCommuntyViewController.h */,
-				2F9F524422968A4700D2AD35 /* GJHomeCommuntyViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2F9F52D522968A4700D2AD35 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F531422968A4700D2AD35 /* GJHomeButton.h */,
-				2F9F531122968A4700D2AD35 /* GJHomeButton.m */,
-				2F9F52D722968A4700D2AD35 /* GJhomeView.h */,
-				2F9F531222968A4700D2AD35 /* GJhomeView.m */,
-				2F9F52D622968A4700D2AD35 /* GJToolBarView.h */,
-				2F9F531322968A4700D2AD35 /* GJToolBarView.m */,
-				2F9F52D822968A4700D2AD35 /* ChildView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2F9F52D822968A4700D2AD35 /* ChildView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52D922968A4700D2AD35 /* WLBOWnerView */,
-				2F9F52E522968A4700D2AD35 /* WLBTableView */,
-				2F9F52EA22968A4700D2AD35 /* WLBQueryView */,
-				2F9F530722968A4700D2AD35 /* WLBDispatchnewsView */,
-				2F9F530C22968A4700D2AD35 /* WLBVisitorView */,
-			);
-			path = ChildView;
-			sourceTree = "<group>";
-		};
-		2F9F52D922968A4700D2AD35 /* WLBOWnerView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52DA22968A4700D2AD35 /* GJOwnerHeadView.h */,
-				2F9F52DB22968A4700D2AD35 /* GJOwnChildView.m */,
-				2F9F52DC22968A4700D2AD35 /* GJOwnChildView.h */,
-				2F9F52DD22968A4700D2AD35 /* GJOwnerHeadView.m */,
-			);
-			path = WLBOWnerView;
-			sourceTree = "<group>";
-		};
-		2F9F52E522968A4700D2AD35 /* WLBTableView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52E622968A4700D2AD35 /* GJTableSweepView.h */,
-				2F9F52E722968A4700D2AD35 /* GJTableView.m */,
-				2F9F52E822968A4700D2AD35 /* GJTableView.h */,
-				2F9F52E922968A4700D2AD35 /* GJTableSweepView.m */,
-			);
-			path = WLBTableView;
-			sourceTree = "<group>";
-		};
-		2F9F52EA22968A4700D2AD35 /* WLBQueryView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52EB22968A4700D2AD35 /* GJQueryView.m */,
-				2F9F52EC22968A4700D2AD35 /* GJQueryView.h */,
-				2F9F52ED22968A4700D2AD35 /* WLBQueryChildCell */,
-				2F9F52FA22968A4700D2AD35 /* WLBQueryChildView */,
-			);
-			path = WLBQueryView;
-			sourceTree = "<group>";
-		};
-		2F9F52ED22968A4700D2AD35 /* WLBQueryChildCell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52EE22968A4700D2AD35 /* GJChargeTableViewCell.m */,
-				2F9F52EF22968A4700D2AD35 /* GJServiceTableViewCell.h */,
-				2F9F52F022968A4700D2AD35 /* GJVehicleTableViewCell.h */,
-				2F9F52F122968A4700D2AD35 /* GJCusInTableViewCell.h */,
-				2F9F52F222968A4700D2AD35 /* GJContractTableViewCell.m */,
-				2F9F52F322968A4700D2AD35 /* GJRealestateTableViewCell.h */,
-				2F9F52F422968A4700D2AD35 /* GJChargeTableViewCell.h */,
-				2F9F52F522968A4700D2AD35 /* GJServiceTableViewCell.m */,
-				2F9F52F622968A4700D2AD35 /* GJCusInTableViewCell.m */,
-				2F9F52F722968A4700D2AD35 /* GJVehicleTableViewCell.m */,
-				2F9F52F822968A4700D2AD35 /* GJRealestateTableViewCell.m */,
-				2F9F52F922968A4700D2AD35 /* GJContractTableViewCell.h */,
-			);
-			path = WLBQueryChildCell;
-			sourceTree = "<group>";
-		};
-		2F9F52FA22968A4700D2AD35 /* WLBQueryChildView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F52FB22968A4700D2AD35 /* GJChargeView.m */,
-				2F9F52FC22968A4700D2AD35 /* GJContractView.h */,
-				2F9F52FD22968A4700D2AD35 /* GJServiceView.h */,
-				2F9F52FE22968A4700D2AD35 /* GJVehicleView.h */,
-				2F9F52FF22968A4700D2AD35 /* GJCusInView.m */,
-				2F9F530022968A4700D2AD35 /* GJRealestateView.m */,
-				2F9F530122968A4700D2AD35 /* GJChargeView.h */,
-				2F9F530222968A4700D2AD35 /* GJServiceView.m */,
-				2F9F530322968A4700D2AD35 /* GJContractView.m */,
-				2F9F530422968A4700D2AD35 /* GJRealestateView.h */,
-				2F9F530522968A4700D2AD35 /* GJCusInView.h */,
-				2F9F530622968A4700D2AD35 /* GJVehicleView.m */,
-			);
-			path = WLBQueryChildView;
-			sourceTree = "<group>";
-		};
-		2F9F530722968A4700D2AD35 /* WLBDispatchnewsView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F530822968A4700D2AD35 /* GJDispatchview.h */,
-				2F9F530922968A4700D2AD35 /* GJDispatchnewsView.h */,
-				2F9F530A22968A4700D2AD35 /* GJDispatchnewsView.m */,
-				2F9F530B22968A4700D2AD35 /* GJDispatchview.m */,
-			);
-			path = WLBDispatchnewsView;
-			sourceTree = "<group>";
-		};
-		2F9F530C22968A4700D2AD35 /* WLBVisitorView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F530D22968A4700D2AD35 /* GJVisitorView.h */,
-				2F9F530E22968A4700D2AD35 /* GJVisitorHistoryView.m */,
-				2F9F530F22968A4700D2AD35 /* GJVisitorView.m */,
-				2F9F531022968A4700D2AD35 /* GJVisitorHistoryView.h */,
-			);
-			path = WLBVisitorView;
-			sourceTree = "<group>";
-		};
-		2F9F531522968A4700D2AD35 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F531622968A4700D2AD35 /* GJComplaintChildQuestTableViewCell.h */,
-				2F9F533522968A4700D2AD35 /* GJComplaintChildQuestTableViewCell.m */,
-				2F9F534922968A4700D2AD35 /* GJVisHistoryCell.h */,
-				2F9F532C22968A4700D2AD35 /* GJVisHistoryCell.m */,
-				2F9F531722968A4700D2AD35 /* GJAttendanceCell.h */,
-				2F9F533622968A4700D2AD35 /* GJAttendanceCell.m */,
-				2F9F533422968A4700D2AD35 /* GJConsultationChildViewCell.h */,
-				2F9F531822968A4700D2AD35 /* GJConsultationChildViewCell.m */,
-				2F9F533322968A4700D2AD35 /* GJPhonenumberTableViewCell.h */,
-				2F9F531922968A4700D2AD35 /* GJPhonenumberTableViewCell.m */,
-				2F9F534622968A4700D2AD35 /* GJMatterTypeTableViewCell.h */,
-				2F9F532F22968A4700D2AD35 /* GJMatterTypeTableViewCell.m */,
-				2F9F531A22968A4700D2AD35 /* GJMatterTableViewCellTwo.h */,
-				2F9F533222968A4700D2AD35 /* GJMatterTableViewCellTwo.m */,
-				2F9F531B22968A4700D2AD35 /* GJAttendanceOwnTopHeadView.m */,
-				2F9F533122968A4700D2AD35 /* GJAttendanceOwnTopHeadView.h */,
-				2F9F531C22968A4700D2AD35 /* GJExpressViewCell.h */,
-				2F9F533F22968A4700D2AD35 /* GJExpressViewCell.m */,
-				2F9F531E22968A4700D2AD35 /* GJComplaintChildViewCell.h */,
-				2F9F533D22968A4700D2AD35 /* GJComplaintChildViewCell.m */,
-				2F9F533C22968A4700D2AD35 /* GJOwnChildRightTableViewCell.h */,
-				2F9F531F22968A4700D2AD35 /* GJOwnChildRightTableViewCell.m */,
-				2F9F534222968A4700D2AD35 /* GJMatterTableViewCellThree.h */,
-				2F9F532722968A4700D2AD35 /* GJMatterTableViewCellThree.m */,
-				2F9F532022968A4700D2AD35 /* GJMatterTableViewCell.h */,
-				2F9F533B22968A4700D2AD35 /* GJMatterTableViewCell.m */,
-				2F9F532122968A4700D2AD35 /* GJPositioningChildTableViewCell.h */,
-				2F9F533A22968A4700D2AD35 /* GJPositioningChildTableViewCell.m */,
-				2F9F532222968A4700D2AD35 /* GJDispatchCell.h */,
-				2F9F533922968A4700D2AD35 /* GJDispatchCell.m */,
-				2F9F532322968A4700D2AD35 /* GJOwnChildTableViewCell.h */,
-				2F9F533822968A4700D2AD35 /* GJOwnChildTableViewCell.m */,
-				2F9F532422968A4700D2AD35 /* GJDispatchnewsCell.h */,
-				2F9F533722968A4700D2AD35 /* GJDispatchnewsCell.m */,
-				2F9F534422968A4700D2AD35 /* GJParkingViewCell.h */,
-				2F9F532522968A4700D2AD35 /* GJParkingViewCell.m */,
-				2F9F532622968A4700D2AD35 /* GJConsultationViewCell.h */,
-				2F9F534322968A4700D2AD35 /* GJConsultationViewCell.m */,
-				2F9F534122968A4700D2AD35 /* GJRepairChildViewCell.h */,
-				2F9F532822968A4700D2AD35 /* GJRepairChildViewCell.m */,
-				2F9F534022968A4700D2AD35 /* GJComplaintTableViewCell.h */,
-				2F9F532922968A4700D2AD35 /* GJComplaintTableViewCell.m */,
-				2F9F534A22968A4700D2AD35 /* GJPositioningTableViewCell.h */,
-				2F9F532B22968A4700D2AD35 /* GJPositioningTableViewCell.m */,
-				2F9F534722968A4700D2AD35 /* GJHouseTableViewCell.h */,
-				2F9F532D22968A4700D2AD35 /* GJHouseTableViewCell.m */,
-				2F9F532E22968A4700D2AD35 /* GJMatterTableViewCellFour.h */,
-				2F9F534822968A4700D2AD35 /* GJMatterTableViewCellFour.m */,
-				2F9F533E22968A4700D2AD35 /* GJOwnerauditViewCell.h */,
-				2F9F531D22968A4700D2AD35 /* GJOwnerauditViewCell.m */,
-				2F9F533022968A4700D2AD35 /* GJDeliverwaterTableViewCell.h */,
-				2F9F534522968A4700D2AD35 /* GJDeliverwaterTableViewCell.m */,
-				2F9F532A22968A4700D2AD35 /* GJVonsultationChildQuestTableViewCell.h */,
-				2F9F534B22968A4800D2AD35 /* GJVonsultationChildQuestTableViewCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		2F9F534C22968A4800D2AD35 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F534D22968A4800D2AD35 /* GJCommunityModel.m */,
-				2F9F534E22968A4800D2AD35 /* GJCommunityModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		2F9F53C722968A5C00D2AD35 /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
-				22BB2D52229B8EBD0033D303 /* 新登录 */,
-				2F9F53C822968A5C00D2AD35 /* GJLoginViewController.h */,
-				2F9F53CA22968A5C00D2AD35 /* GJLoginViewController.m */,
-				2F9F53C922968A5C00D2AD35 /* GJSearchPassWordController.h */,
-				2F9F53CB22968A5C00D2AD35 /* GJSearchPassWordController.m */,
+				2FD3FCB5229F6C15009FFA98 /* Model */,
+				2FD3FCB1229F6AB9009FFA98 /* Api */,
+				22BB2D53229B8EBD0033D303 /* Controller */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -3401,129 +2716,12 @@
 		2F9F53CC22968A5D00D2AD35 /* 设置 */ = {
 			isa = PBXGroup;
 			children = (
-				22BB2D3B229B8EA60033D303 /* 新设置 */,
-				2F9F53CD22968A5D00D2AD35 /* Controller */,
-				2F9F53E922968A5D00D2AD35 /* Cell */,
-				2F9F53FA22968A5D00D2AD35 /* Model */,
-				2F9F53FB22968A5D00D2AD35 /* View */,
-				2F9F540722968A5D00D2AD35 /* Api */,
+				228645E622B4C75E00F8689B /* Api */,
+				2F6B3BEE22A8FDE500D11CB9 /* Model */,
+				22BB2D3C229B8EA60033D303 /* Controller */,
+				22BB2D46229B8EA60033D303 /* Cell */,
 			);
 			path = "设置";
-			sourceTree = "<group>";
-		};
-		2F9F53CD22968A5D00D2AD35 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53CE22968A5D00D2AD35 /* GJmyViewController.h */,
-				2F9F53CF22968A5D00D2AD35 /* GJmyViewController.m */,
-				2F9F53D022968A5D00D2AD35 /* ChildViewController */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2F9F53D022968A5D00D2AD35 /* ChildViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53E022968A5D00D2AD35 /* GJMessageViewController.h */,
-				2F9F53D122968A5D00D2AD35 /* GJMessageViewController.m */,
-				2F9F53D822968A5D00D2AD35 /* GJNewsChildViewController.h */,
-				2F9F53D222968A5D00D2AD35 /* GJNewsChildViewController.m */,
-				2F9F53D322968A5D00D2AD35 /* GJFeedbackViewController.h */,
-				2F9F53E522968A5D00D2AD35 /* GJFeedbackViewController.m */,
-				2F9F53E422968A5D00D2AD35 /* GJSetUpController.h */,
-				2F9F53D422968A5D00D2AD35 /* GJSetUpController.m */,
-				2F9F53D522968A5D00D2AD35 /* GJSliderViewController.h */,
-				2F9F53E822968A5D00D2AD35 /* GJSliderViewController.m */,
-				2F9F53E722968A5D00D2AD35 /* GJnewsViewController.h */,
-				2F9F53D622968A5D00D2AD35 /* GJnewsViewController.m */,
-				2F9F53E622968A5D00D2AD35 /* GJMessageNewsViewController.h */,
-				2F9F53D722968A5D00D2AD35 /* GJMessageNewsViewController.m */,
-				2F9F53D922968A5D00D2AD35 /* WLBAboutUsChildVC */,
-				2F9F53E122968A5D00D2AD35 /* WLBChangePassChildVC */,
-			);
-			path = ChildViewController;
-			sourceTree = "<group>";
-		};
-		2F9F53D922968A5D00D2AD35 /* WLBAboutUsChildVC */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53DA22968A5D00D2AD35 /* GJDisclaimerViewController.h */,
-				2F9F53DD22968A5D00D2AD35 /* GJDisclaimerViewController.m */,
-				2F9F53DB22968A5D00D2AD35 /* GJProblemViewController.h */,
-				2F9F53DE22968A5D00D2AD35 /* GJProblemViewController.m */,
-				2F9F53DF22968A5D00D2AD35 /* GJAboutUsViewcontroller.h */,
-				2F9F53DC22968A5D00D2AD35 /* GJAboutUsViewcontroller.m */,
-			);
-			path = WLBAboutUsChildVC;
-			sourceTree = "<group>";
-		};
-		2F9F53E122968A5D00D2AD35 /* WLBChangePassChildVC */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53E222968A5D00D2AD35 /* GJChangePassViewController.h */,
-				2F9F53E322968A5D00D2AD35 /* GJChangePassViewController.m */,
-			);
-			path = WLBChangePassChildVC;
-			sourceTree = "<group>";
-		};
-		2F9F53E922968A5D00D2AD35 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53EA22968A5D00D2AD35 /* GJNewsTableViewSexCell.m */,
-				2F9F53EB22968A5D00D2AD35 /* GJNewsTableViewTopCell.m */,
-				2F9F53EC22968A5D00D2AD35 /* GJMyCell.h */,
-				2F9F53ED22968A5D00D2AD35 /* GJNewsTableViewCell.m */,
-				2F9F53EE22968A5D00D2AD35 /* GJMessageTableViewCell.m */,
-				2F9F53EF22968A5D00D2AD35 /* GJMyUnderCell.m */,
-				2F9F53F022968A5D00D2AD35 /* GJMyUpCell.h */,
-				2F9F53F122968A5D00D2AD35 /* GJMyCenterCell.m */,
-				2F9F53F222968A5D00D2AD35 /* GJNewsTableViewCell.h */,
-				2F9F53F322968A5D00D2AD35 /* GJMyCell.m */,
-				2F9F53F422968A5D00D2AD35 /* GJNewsTableViewTopCell.h */,
-				2F9F53F522968A5D00D2AD35 /* GJNewsTableViewSexCell.h */,
-				2F9F53F622968A5D00D2AD35 /* GJMyUnderCell.h */,
-				2F9F53F722968A5D00D2AD35 /* GJMessageTableViewCell.h */,
-				2F9F53F822968A5D00D2AD35 /* GJMyUpCell.m */,
-				2F9F53F922968A5D00D2AD35 /* GJMyCenterCell.h */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		2F9F53FA22968A5D00D2AD35 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2F9F53FB22968A5D00D2AD35 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53FC22968A5D00D2AD35 /* ChildView */,
-				2F9F540522968A5D00D2AD35 /* GJMyView.h */,
-				2F9F540622968A5D00D2AD35 /* GJMyView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2F9F53FC22968A5D00D2AD35 /* ChildView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F53FE22968A5D00D2AD35 /* GJAboutusView.h */,
-				2F9F53FF22968A5D00D2AD35 /* GJNewsChildView.h */,
-				2F9F540022968A5D00D2AD35 /* GJSetupView.h */,
-				2F9F540222968A5D00D2AD35 /* GJAboutusView.m */,
-				2F9F540322968A5D00D2AD35 /* GJSetupView.m */,
-				2F9F540422968A5D00D2AD35 /* GJNewsChildView.m */,
-			);
-			path = ChildView;
-			sourceTree = "<group>";
-		};
-		2F9F540722968A5D00D2AD35 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Api;
 			sourceTree = "<group>";
 		};
 		2F9F574922968B4700D2AD35 /* UIView */ = {
@@ -3535,35 +2733,6 @@
 				2F9F574B22968B4700D2AD35 /* UIView+Common.h */,
 			);
 			path = UIView;
-			sourceTree = "<group>";
-		};
-		2F9F57502296921300D2AD35 /* 待整理文件 */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57512296921300D2AD35 /* GJQMViewController.m */,
-				2F9F57522296921300D2AD35 /* GJPlaceHolderView.m */,
-				2F9F57532296921300D2AD35 /* GJsignatureView.h */,
-				2F9F57542296921300D2AD35 /* GJKZVideoSupport.m */,
-				2F9F57552296921300D2AD35 /* GJUIScrollView+APParallaxHeader.h */,
-				2F9F57562296921300D2AD35 /* GJJZLocationConverter.h */,
-				2F9F57572296921300D2AD35 /* pinyin.h */,
-				2F9F57582296921300D2AD35 /* GJYTKKeyValueStore.m */,
-				2F9F57592296921300D2AD35 /* GJKZVideoConfig.m */,
-				2F9F575A2296921300D2AD35 /* GJKZVideoViewController.m */,
-				2F9F575B2296921300D2AD35 /* GJQueRenViewController.m */,
-				2F9F575C2296921300D2AD35 /* GJsignatureView.m */,
-				2F9F575D2296921300D2AD35 /* GJPlaceHolderView.h */,
-				2F9F575E2296921300D2AD35 /* GJQMViewController.h */,
-				2F9F575F2296921300D2AD35 /* GJUIScrollView+APParallaxHeader.m */,
-				2F9F57602296921300D2AD35 /* GJKZVideoSupport.h */,
-				2F9F57612296921300D2AD35 /* pinyin.c */,
-				2F9F57622296921300D2AD35 /* GJJZLocationConverter.m */,
-				2F9F57632296921300D2AD35 /* GJQueRenViewController.h */,
-				2F9F57642296921300D2AD35 /* GJKZVideoViewController.h */,
-				2F9F57652296921300D2AD35 /* GJKZVideoConfig.h */,
-				2F9F57662296921300D2AD35 /* GJYTKKeyValueStore.h */,
-			);
-			path = "待整理文件";
 			sourceTree = "<group>";
 		};
 		2F9F57722296930400D2AD35 /* IQKeyBoardManager */ = {
@@ -3652,10 +2821,6 @@
 				2F9F59642296A4E000D2AD35 /* GJAppDelegate.m */,
 				2F9F57A8229694CA00D2AD35 /* TBTabBar.h */,
 				2F9F57A5229694CA00D2AD35 /* TBTabBar.m */,
-				2F9F57A9229694CA00D2AD35 /* GJNavigationController.h */,
-				2F9F57A6229694CA00D2AD35 /* GJNavigationController.m */,
-				2F9F57A7229694CA00D2AD35 /* GJViewController.h */,
-				2F9F57AA229694CA00D2AD35 /* GJViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -3682,269 +2847,6 @@
 				2F9F57B62296958F00D2AD35 /* GJKSDatePicker.m */,
 			);
 			path = WLBGJKSDatePicker;
-			sourceTree = "<group>";
-		};
-		2F9F57B92296971900D2AD35 /* 在线报修 */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57BA2296971900D2AD35 /* Controller */,
-				2F9F57E22296971900D2AD35 /* Cell */,
-				2F9F57E32296971900D2AD35 /* Model */,
-				2F9F57E42296971900D2AD35 /* View */,
-				2F9F57E52296971900D2AD35 /* Api */,
-			);
-			path = "在线报修";
-			sourceTree = "<group>";
-		};
-		2F9F57BA2296971900D2AD35 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57BB2296971900D2AD35 /* GJExecutedViewController.h */,
-				2F9F57C72296971900D2AD35 /* GJExecutedViewController.m */,
-				2F9F57C62296971900D2AD35 /* GJUnexecutedViewController.h */,
-				2F9F57BC2296971900D2AD35 /* GJUnexecutedViewController.m */,
-				2F9F57BD2296971900D2AD35 /* GJCancelViewController.h */,
-				2F9F57C82296971900D2AD35 /* GJCancelViewController.m */,
-				2F9F57C52296971900D2AD35 /* GJFishedViewController.h */,
-				2F9F57D12296971900D2AD35 /* GJFishedViewController.m */,
-				2F9F57C92296971900D2AD35 /* WageViewController */,
-				2F9F57BE2296971900D2AD35 /* FJSlidingController */,
-				2F9F57CE2296971900D2AD35 /* VoiceWageViewController */,
-				2F9F57D22296971900D2AD35 /* ChildViewController */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2F9F57BE2296971900D2AD35 /* FJSlidingController */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57BF2296971900D2AD35 /* GJFJSlidingController.h */,
-				2F9F57C22296971900D2AD35 /* GJFJSlidingController.m */,
-				2F9F57C32296971900D2AD35 /* GJFZPSlidingController.h */,
-				2F9F57C02296971900D2AD35 /* GJFZPSlidingController.m */,
-				2F9F57C42296971900D2AD35 /* GJSegmentTapView.h */,
-				2F9F57C12296971900D2AD35 /* GJSegmentTapView.m */,
-			);
-			path = FJSlidingController;
-			sourceTree = "<group>";
-		};
-		2F9F57C92296971900D2AD35 /* WageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57CC2296971900D2AD35 /* GJAllWageViewController.h */,
-				2F9F57CA2296971900D2AD35 /* GJAllWageViewController.m */,
-				2F9F57CB2296971900D2AD35 /* GJwageViewController.h */,
-				2F9F57CD2296971900D2AD35 /* GJwageViewController.m */,
-			);
-			path = WageViewController;
-			sourceTree = "<group>";
-		};
-		2F9F57CE2296971900D2AD35 /* VoiceWageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57CF2296971900D2AD35 /* GJVoiceWageViewController.h */,
-				2F9F57D02296971900D2AD35 /* GJVoiceWageViewController.m */,
-			);
-			path = VoiceWageViewController;
-			sourceTree = "<group>";
-		};
-		2F9F57D22296971900D2AD35 /* ChildViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57D32296971900D2AD35 /* GJExecutedFishViewController.m */,
-				2F9F57D42296971900D2AD35 /* GJCancelChildViewController.m */,
-				2F9F57D52296971900D2AD35 /* GJOverChildViewController.h */,
-				2F9F57D62296971900D2AD35 /* GJFishChildViewController.m */,
-				2F9F57D72296971900D2AD35 /* GJExecutedChildViewController.h */,
-				2F9F57D82296971900D2AD35 /* GJWholeViewController.m */,
-				2F9F57D92296971900D2AD35 /* GJUnexeChildViewController.m */,
-				2F9F57DA2296971900D2AD35 /* GJCancelChildViewController.h */,
-				2F9F57DB2296971900D2AD35 /* GJExecutedFishViewController.h */,
-				2F9F57DC2296971900D2AD35 /* GJOverChildViewController.m */,
-				2F9F57DD2296971900D2AD35 /* payViewController.h */,
-				2F9F57DE2296971900D2AD35 /* GJUnexeChildViewController.h */,
-				2F9F57DF2296971900D2AD35 /* GJWholeViewController.h */,
-				2F9F57E02296971900D2AD35 /* GJExecutedChildViewController.m */,
-				2F9F57E12296971900D2AD35 /* GJFishChildViewController.h */,
-			);
-			path = ChildViewController;
-			sourceTree = "<group>";
-		};
-		2F9F57E22296971900D2AD35 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F586A2296983600D2AD35 /* ChildViewCell */,
-				2F9F587D2296983700D2AD35 /* WLBExecutedCell */,
-				2F9F58972296983700D2AD35 /* WLBOverExeCell */,
-				2F9F58862296983700D2AD35 /* WLBUnexecutedCell */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		2F9F57E32296971900D2AD35 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2F9F57E42296971900D2AD35 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2F9F57E52296971900D2AD35 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Api;
-			sourceTree = "<group>";
-		};
-		2F9F57E62296971A00D2AD35 /* 安保模块 */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57E72296971A00D2AD35 /* Controller */,
-				2F9F57FC2296971A00D2AD35 /* Cell */,
-				2F9F57FD2296971A00D2AD35 /* Model */,
-				2F9F57FE2296971A00D2AD35 /* View */,
-				2F9F57FF2296971A00D2AD35 /* Api */,
-			);
-			path = "安保模块";
-			sourceTree = "<group>";
-		};
-		2F9F57E72296971A00D2AD35 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F57E82296971A00D2AD35 /* MLSecurityWCLVC.h */,
-				2F9F57F22296971A00D2AD35 /* MLSecurityWCLVC.m */,
-				2F9F57F42296971A00D2AD35 /* MLSecurityYCLDetailVC.h */,
-				2F9F57E92296971A00D2AD35 /* MLSecurityYCLDetailVC.m */,
-				2F9F57EA2296971A00D2AD35 /* MLSecurityYWCVC.h */,
-				2F9F57F32296971A00D2AD35 /* MLSecurityYWCVC.m */,
-				2F9F57EB2296971A00D2AD35 /* MLSecurityListenOrderVC.h */,
-				2F9F57F92296971A00D2AD35 /* MLSecurityListenOrderVC.m */,
-				2F9F57EC2296971A00D2AD35 /* MLSecurityCLZVC.h */,
-				2F9F57F82296971A00D2AD35 /* MLSecurityCLZVC.m */,
-				2F9F57F72296971A00D2AD35 /* MLSecurityDCLVC.h */,
-				2F9F57ED2296971A00D2AD35 /* MLSecurityDCLVC.m */,
-				2F9F57EE2296971A00D2AD35 /* MLPoliceWorkOrderVC.h */,
-				2F9F57F62296971A00D2AD35 /* MLPoliceWorkOrderVC.m */,
-				2F9F57F52296971A00D2AD35 /* MLSecurityConfirmSignatureVC.h */,
-				2F9F57EF2296971A00D2AD35 /* MLSecurityConfirmSignatureVC.m */,
-				2F9F57FB2296971A00D2AD35 /* MLMarkCompletedVC.h */,
-				2F9F57F02296971A00D2AD35 /* MLMarkCompletedVC.m */,
-				2F9F57FA2296971A00D2AD35 /* MLSecurityYCLVC.h */,
-				2F9F57F12296971A00D2AD35 /* MLSecurityYCLVC.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		2F9F57FC2296971A00D2AD35 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		2F9F57FD2296971A00D2AD35 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2F9F57FE2296971A00D2AD35 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2F9F57FF2296971A00D2AD35 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Api;
-			sourceTree = "<group>";
-		};
-		2F9F586A2296983600D2AD35 /* ChildViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F586B2296983600D2AD35 /* GJExecutedFishTableViewCell.m */,
-				2F9F586C2296983600D2AD35 /* GJOverChildTableViewThreeCell.h */,
-				2F9F586D2296983600D2AD35 /* GJExecutedChildTwoTableViewCell.h */,
-				2F9F586E2296983600D2AD35 /* GJExecutedFishTableViewCells.h */,
-				2F9F586F2296983600D2AD35 /* GJOverTableViewFouthCell.h */,
-				2F9F58702296983600D2AD35 /* GJExecutedChildTableViewCell.h */,
-				2F9F58712296983600D2AD35 /* GJUnexeChildTableViewCell.m */,
-				2F9F58722296983600D2AD35 /* GJOverChildTableViewCell.h */,
-				2F9F58732296983600D2AD35 /* GJOverChildTableViewTwoCell.h */,
-				2F9F58742296983600D2AD35 /* GJExecutedFishTableViewCell.h */,
-				2F9F58752296983600D2AD35 /* GJExecutedFishTableViewCells.m */,
-				2F9F58762296983600D2AD35 /* GJExecutedChildTwoTableViewCell.m */,
-				2F9F58772296983600D2AD35 /* GJOverChildTableViewThreeCell.m */,
-				2F9F58782296983600D2AD35 /* GJOverChildTableViewCell.m */,
-				2F9F58792296983600D2AD35 /* GJUnexeChildTableViewCell.h */,
-				2F9F587A2296983600D2AD35 /* GJExecutedChildTableViewCell.m */,
-				2F9F587B2296983600D2AD35 /* GJOverTableViewFouthCell.m */,
-				2F9F587C2296983600D2AD35 /* GJOverChildTableViewTwoCell.m */,
-			);
-			path = ChildViewCell;
-			sourceTree = "<group>";
-		};
-		2F9F587D2296983700D2AD35 /* WLBExecutedCell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F587E2296983700D2AD35 /* GJExecutedTableViewThreeCell.m */,
-				2F9F587F2296983700D2AD35 /* GJExecutedTableViewTwoCell.h */,
-				2F9F58802296983700D2AD35 /* GJExecutedTableViewFouthCell.h */,
-				2F9F58812296983700D2AD35 /* GJExecutedTableViewCell.m */,
-				2F9F58822296983700D2AD35 /* GJExecutedTableViewTwoCell.m */,
-				2F9F58832296983700D2AD35 /* GJExecutedTableViewThreeCell.h */,
-				2F9F58842296983700D2AD35 /* GJExecutedTableViewFouthCell.m */,
-				2F9F58852296983700D2AD35 /* GJExecutedTableViewCell.h */,
-			);
-			path = WLBExecutedCell;
-			sourceTree = "<group>";
-		};
-		2F9F58862296983700D2AD35 /* WLBUnexecutedCell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F58872296983700D2AD35 /* GJWageFouthImageTableViewCell.h */,
-				2F9F58882296983700D2AD35 /* GJWagethirdImageTableViewCell.h */,
-				2F9F58892296983700D2AD35 /* GJWageSecondTableViewCell.h */,
-				2F9F588A2296983700D2AD35 /* GJWageFouthTableViewCell.h */,
-				2F9F588B2296983700D2AD35 /* GJWageFirstImageTableViewCell.h */,
-				2F9F588C2296983700D2AD35 /* GJWageSecondImageTableViewCell.h */,
-				2F9F588D2296983700D2AD35 /* GJWageFirstTableViewCell.h */,
-				2F9F588E2296983700D2AD35 /* GJWageThirdTableViewCell.m */,
-				2F9F588F2296983700D2AD35 /* GJWageFouthImageTableViewCell.m */,
-				2F9F58902296983700D2AD35 /* GJWageFouthTableViewCell.m */,
-				2F9F58912296983700D2AD35 /* GJWageSecondTableViewCell.m */,
-				2F9F58922296983700D2AD35 /* GJWagethirdImageTableViewCell.m */,
-				2F9F58932296983700D2AD35 /* GJWageSecondImageTableViewCell.m */,
-				2F9F58942296983700D2AD35 /* GJWageFirstImageTableViewCell.m */,
-				2F9F58952296983700D2AD35 /* GJWageThirdTableViewCell.h */,
-				2F9F58962296983700D2AD35 /* GJWageFirstTableViewCell.m */,
-			);
-			path = WLBUnexecutedCell;
-			sourceTree = "<group>";
-		};
-		2F9F58972296983700D2AD35 /* WLBOverExeCell */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F58982296983700D2AD35 /* GJOverTableViewThreeCell.m */,
-				2F9F58992296983700D2AD35 /* GJOverTableViewTwoCell.m */,
-				2F9F589A2296983700D2AD35 /* GJOverTableViewFouthCells.m */,
-				2F9F589B2296983700D2AD35 /* GJOverTableViewOneCell.h */,
-				2F9F589C2296983700D2AD35 /* GJOverTableViewTwoCell.h */,
-				2F9F589D2296983700D2AD35 /* GJOverTableViewThreeCell.h */,
-				2F9F589E2296983700D2AD35 /* GJOverTableViewOneCell.m */,
-				2F9F589F2296983700D2AD35 /* GJOverTableViewFouthCells.h */,
-			);
-			path = WLBOverExeCell;
 			sourceTree = "<group>";
 		};
 		2F9F58B92296988100D2AD35 /* SDAdScrollView */ = {
@@ -4040,6 +2942,8 @@
 		2FB0862822B4CDF30040A3BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2FC6E4B822B7718A00E4FDBD /* GJCommunityModel.h */,
+				2FC6E4B722B7718900E4FDBD /* GJCommunityModel.m */,
 				2FB0862922B4CE100040A3BC /* HomeModel.h */,
 				2FB0862A22B4CE100040A3BC /* HomeModel.m */,
 			);
@@ -4098,7 +3002,6 @@
 			isa = PBXGroup;
 			children = (
 				2F9F57A4229694CA00D2AD35 /* Main */,
-				2F9F57502296921300D2AD35 /* 待整理文件 */,
 				2F17C2C222927BCC002C1CE0 /*  ThirdParty */,
 				2F9F53C722968A5C00D2AD35 /* 登录 */,
 				2F9F53CC22968A5D00D2AD35 /* 设置 */,
@@ -4298,7 +3201,6 @@
 				2F9F517722967E8C00D2AD35 /* WechatShortVideo_close@2x.png in Resources */,
 				2221BBC122A799B100151AA5 /* PSWODetailsSignatureCell.xib in Resources */,
 				2F17C45D22927DEA002C1CE0 /* PPMembersView.xib in Resources */,
-				22BB2D35229B8E840033D303 /* GJHomePageViewController.xib in Resources */,
 				22BB2D5D229B8EBD0033D303 /* WHZLForgetPasswordVC.xib in Resources */,
 				2F17C41E22927DEA002C1CE0 /* PatrolFormCell.xib in Resources */,
 				2F17C44D22927DEA002C1CE0 /* PPmemberScanHeaderView.xib in Resources */,
@@ -4459,16 +3361,11 @@
 				2F17C3FF22927DEA002C1CE0 /* PatrolUrgentTasksVC.m in Sources */,
 				2F9F591422969E2100D2AD35 /* GJFZPMagnificationImage.m in Sources */,
 				2F17C3F822927DEA002C1CE0 /* AppID.m in Sources */,
-				2F9F563322968A5F00D2AD35 /* GJSetUpController.m in Sources */,
 				22BB2D51229B8EA60033D303 /* MyViewControllerCell.m in Sources */,
-				2F9F580C2296971A00D2AD35 /* GJFishChildViewController.m in Sources */,
 				2221BB5422A7715B00151AA5 /* PSWOHeaderInvalidMarkVC.m in Sources */,
 				2F9F519522967E8C00D2AD35 /* GJSCAudioConfiguration.m in Sources */,
 				2F9F510922967E2600D2AD35 /* GJZXVideo.m in Sources */,
 				2FFD52C222ADEE7B000960F7 /* NewOrderModelIvv_json.m in Sources */,
-				2F9F53C122968A4800D2AD35 /* GJExpressViewCell.m in Sources */,
-				2F9F539522968A4800D2AD35 /* GJTableView.m in Sources */,
-				2F9F53AB22968A4800D2AD35 /* GJConsultationChildViewCell.m in Sources */,
 				2221BB5722A7715B00151AA5 /* PSTranformWorkOrderVC.m in Sources */,
 				2F6B3BF122A8FDFE00D11CB9 /* AboutModel.m in Sources */,
 				2F9F51B72296800100D2AD35 /* GJSTKLocalFileDataSource.m in Sources */,
@@ -4478,109 +3375,78 @@
 				2221BBB222A799B100151AA5 /* PSWODetailsHeaderCell.m in Sources */,
 				2F9F518C22967E8C00D2AD35 /* GJSCVideoConfiguration.m in Sources */,
 				2F17C44522927DEA002C1CE0 /* PPInspectDeviceModelVideo_list.m in Sources */,
-				2F9F53AF22968A4800D2AD35 /* GJOwnChildRightTableViewCell.m in Sources */,
 				2F9F510C22967E2600D2AD35 /* GJZXVideoPlayerTimeIndicatorView.m in Sources */,
 				2F17C46C22927DEA002C1CE0 /* PatrolHttpRequest.m in Sources */,
 				2F17C40022927DEA002C1CE0 /* PatrolUrgentMapDetailVC.m in Sources */,
 				2F17C40722927DEA002C1CE0 /* PageOneViewController.m in Sources */,
 				2F9F590E22969E2100D2AD35 /* GJSingleTon.m in Sources */,
 				2FF7D93222AF37830010B842 /* OrderDetailModelRepaird.m in Sources */,
-				2F9F53BF22968A4800D2AD35 /* GJMatterTableViewCell.m in Sources */,
 				2F9F51B82296800100D2AD35 /* GJSTKDataSourceWrapper.m in Sources */,
 				2F9F591622969E2100D2AD35 /* GJFZPprovinceView.m in Sources */,
-				2F9F564022968A5F00D2AD35 /* GJMyUnderCell.m in Sources */,
 				2F17C41A22927DEA002C1CE0 /* PatrolFormCell.m in Sources */,
 				2F9F51D32296831600D2AD35 /* GJSVIndefiniteAnimatedView.m in Sources */,
 				2F17C40E22927DEA002C1CE0 /* PatrolMemberOrder_N.m in Sources */,
-				2F9F535122968A4800D2AD35 /* GJSMS_Scroll_ImageView.m in Sources */,
-				2F9F58B82296983700D2AD35 /* GJOverTableViewOneCell.m in Sources */,
 				2F17C43522927DEA002C1CE0 /* PPTaskDetailModelMember_list.m in Sources */,
-				2F9F539622968A4800D2AD35 /* GJTableSweepView.m in Sources */,
 				2F14C5AC2297768C0099E9C5 /* GJrunLabel.m in Sources */,
 				2F9F57992296930500D2AD35 /* GJIQBarButtonItem.m in Sources */,
 				2F17C3F122927DEA002C1CE0 /* PatrolCustomAnnotationView.m in Sources */,
 				2F17C43D22927DEA002C1CE0 /* PPDeviceGroupModel.m in Sources */,
-				2F9F58162296971A00D2AD35 /* MLSecurityWCLVC.m in Sources */,
 				2F9F59442296A17900D2AD35 /* GJAFHTTPSessionManager.m in Sources */,
 				2F9F519622967E8C00D2AD35 /* GJCIImageRendererUtils.m in Sources */,
-				2F9F58B52296983700D2AD35 /* GJOverTableViewThreeCell.m in Sources */,
-				2F9F58072296971A00D2AD35 /* GJwageViewController.m in Sources */,
 				2F9F518822967E8C00D2AD35 /* GJSCAudioTools.m in Sources */,
 				2F17C44722927DEA002C1CE0 /* PPSubmitOrdersProject_list.m in Sources */,
 				2F9F59432296A17900D2AD35 /* GJAFHTTPRequestOperationManager.m in Sources */,
 				2F9F52202296858000D2AD35 /* GJMJRefreshAutoNormalFooter.m in Sources */,
 				2F9F57982296930500D2AD35 /* GJIQKeyboardManager.m in Sources */,
-				2F9F510722967E2600D2AD35 /* GJBaseTabBarController.m in Sources */,
-				2F9F58AF2296983700D2AD35 /* GJWageFouthTableViewCell.m in Sources */,
 				2F17C45222927DEA002C1CE0 /* PPmemberScanHeaderView.m in Sources */,
-				2F9F53A522968A4800D2AD35 /* GJDispatchview.m in Sources */,
 				2F17C3EB22927DEA002C1CE0 /* PPViewTool.m in Sources */,
 				2F17C42A22927DEA002C1CE0 /* PatroPlayerItem.m in Sources */,
 				2F9F52282296858000D2AD35 /* GJMJRefreshAutoFooter.m in Sources */,
 				2F9F523A2296880700D2AD35 /* GJMHPhotoModel.m in Sources */,
-				2F9F564722968A5F00D2AD35 /* GJNewsChildView.m in Sources */,
 				2F9F51D42296831600D2AD35 /* GJSVProgressHUD.m in Sources */,
-				2F9F53BE22968A4800D2AD35 /* GJPositioningChildTableViewCell.m in Sources */,
-				2F9F58032296971A00D2AD35 /* GJFJSlidingController.m in Sources */,
-				2F9F58042296971A00D2AD35 /* GJExecutedViewController.m in Sources */,
-				2F9F53A622968A4800D2AD35 /* GJVisitorHistoryView.m in Sources */,
 				2F17C40622927DEA002C1CE0 /* PtroMemberDetailCommitVC.m in Sources */,
 				2F17C42122927DEA002C1CE0 /* PatrolTaskCell.m in Sources */,
 				2F9F510A22967E2600D2AD35 /* GJZXVideoPlayerControlView.m in Sources */,
 				22BB2D4F229B8EA60033D303 /* PSOfficialWechatVC.m in Sources */,
 				2F17C44022927DEA002C1CE0 /* PPOrdersDetailsModel.m in Sources */,
-				2F9F57AD229694CA00D2AD35 /* GJViewController.m in Sources */,
 				228645F022B4CFFA00F8689B /* PSFeedBackViewController.m in Sources */,
-				2F9F58122296971A00D2AD35 /* MLSecurityDCLVC.m in Sources */,
 				2221BBD222A7C4AC00151AA5 /* PSWOTextViewCell.m in Sources */,
-				2F9F580D2296971A00D2AD35 /* GJWholeViewController.m in Sources */,
 				2F9F59422296A17900D2AD35 /* GJAFNetworkReachabilityManager.m in Sources */,
-				2F9F58A82296983700D2AD35 /* GJOverChildTableViewTwoCell.m in Sources */,
 				2F17C3FB22927DEA002C1CE0 /* PPBaseViewController.m in Sources */,
 				2221BB6022A7715B00151AA5 /* SecurityWorkOrderVC.m in Sources */,
 				2F9F57B72296959000D2AD35 /* GJKSDatePickerAppearance.m in Sources */,
 				2F9F510822967E2600D2AD35 /* GJZXVideoPlayerVolumeView.m in Sources */,
 				2F9F57A02296930500D2AD35 /* GJIQUIViewController+Additions.m in Sources */,
 				228E71DA22AE54C100E9ECE7 /* WorkOrderListModel.m in Sources */,
-				2F9F58A32296983700D2AD35 /* GJExecutedChildTwoTableViewCell.m in Sources */,
 				2F9F50CA22967C1500D2AD35 /* GJMASViewConstraint.m in Sources */,
-				2F9F576E2296921300D2AD35 /* GJsignatureView.m in Sources */,
 				2F17C42E22927DEA002C1CE0 /* PPGroupInfoModelTool_list.m in Sources */,
 				2F22847D22B242EE0031716D /* OwnerSignatureDetermineVC.m in Sources */,
 				2221BBB122A799B100151AA5 /* PSWorkOrderDetalisImageCell.m in Sources */,
-				2F9F563122968A5F00D2AD35 /* GJMessageViewController.m in Sources */,
 				2F9F518B22967E8C00D2AD35 /* GJSCFilter+VideoComposition.m in Sources */,
 				2F9F52212296858000D2AD35 /* GJMJRefreshAutoStateFooter.m in Sources */,
 				2F9F50C922967C1500D2AD35 /* GJNSArray+MASAdditions.m in Sources */,
 				2F17C44A22927DEA002C1CE0 /* PPTeamHeaderView.m in Sources */,
 				2F9F518722967E8C00D2AD35 /* GJUIImage+SCSaveToCameraRoll.m in Sources */,
-				2F9F563E22968A5F00D2AD35 /* GJNewsTableViewCell.m in Sources */,
 				2F17C40F22927DEA002C1CE0 /* PPMemberTeamListVC.m in Sources */,
-				2F9F580F2296971A00D2AD35 /* GJOverChildViewController.m in Sources */,
 				2F9F59292296A0FE00D2AD35 /* UIButton+Extension.m in Sources */,
 				2F17C44322927DEA002C1CE0 /* ZXJSubmitUrgentModel.m in Sources */,
 				2F17C43E22927DEA002C1CE0 /* PPSubmitOrdersPicture_list.m in Sources */,
-				2F9F580E2296971A00D2AD35 /* GJUnexeChildViewController.m in Sources */,
-				2F9F535222968A4800D2AD35 /* GJRunLablenewsViewController.m in Sources */,
-				2F9F58AA2296983700D2AD35 /* GJExecutedTableViewCell.m in Sources */,
 				2F9F51B42296800100D2AD35 /* GJNSMutableArray+STKAudioPlayer.m in Sources */,
 				2F9F52262296858000D2AD35 /* GJMJRefreshFooter.m in Sources */,
 				2FA329D822B1E1BE003547A6 /* BottomBarView.m in Sources */,
 				2F17C41222927DEA002C1CE0 /* PatrolOrderListVC.m in Sources */,
 				2F9F522A2296858000D2AD35 /* GJMJRefreshComponent.m in Sources */,
 				2221BBBC22A799B100151AA5 /* PSWODetailsVoiceCell.m in Sources */,
+				2FC6E4B922B7718A00E4FDBD /* GJCommunityModel.m in Sources */,
 				2F9F591822969E2100D2AD35 /* GJWaterFLayout.m in Sources */,
 				2F9F579A2296930500D2AD35 /* GJIQUIView+IQKeyboardToolbar.m in Sources */,
 				2F9F59632296A49E00D2AD35 /* XSDLocationTools.m in Sources */,
 				2F9F521E2296858000D2AD35 /* GJMJRefreshBackStateFooter.m in Sources */,
 				2F17C46B22927DEA002C1CE0 /* AnimatedAnnotationView.m in Sources */,
 				2F9F591922969E2100D2AD35 /* GJFZPBusinessTabbarTypeView.m in Sources */,
-				2F9F563A22968A5F00D2AD35 /* GJFeedbackViewController.m in Sources */,
-				2F9F539822968A4800D2AD35 /* GJChargeTableViewCell.m in Sources */,
 				2F17C41C22927DEA002C1CE0 /* PatrolOrderCell.m in Sources */,
 				2F9F59482296A17900D2AD35 /* GJAFURLResponseSerialization.m in Sources */,
 				2F9F57A12296930500D2AD35 /* GJIQUITextFieldView+Additions.m in Sources */,
-				2F9F58112296971A00D2AD35 /* MLSecurityYCLDetailVC.m in Sources */,
 				2F17C43A22927DEA002C1CE0 /* UrgenttaskDetailModel.m in Sources */,
 				2F17C44F22927DEA002C1CE0 /* PPMemberHeaderView.m in Sources */,
 				2F9F59402296A17900D2AD35 /* GJAFURLRequestSerialization.m in Sources */,
@@ -4591,19 +3457,11 @@
 				22BB2D5C229B8EBD0033D303 /* WHZLForgetPasswordVC.m in Sources */,
 				2F9F594F2296A23B00D2AD35 /* NSString+Common.m in Sources */,
 				2F17C3ED22927DEA002C1CE0 /* ImageProcessing.m in Sources */,
-				2F9F58062296971A00D2AD35 /* GJAllWageViewController.m in Sources */,
-				2F9F58AC2296983700D2AD35 /* GJExecutedTableViewFouthCell.m in Sources */,
-				2F9F58B12296983700D2AD35 /* GJWagethirdImageTableViewCell.m in Sources */,
 				2F9F52272296858000D2AD35 /* GJMJRefreshHeader.m in Sources */,
-				2F9F58A22296983700D2AD35 /* GJExecutedFishTableViewCells.m in Sources */,
-				2F9F58AB2296983700D2AD35 /* GJExecutedTableViewTwoCell.m in Sources */,
-				2F9F53B322968A4800D2AD35 /* GJComplaintTableViewCell.m in Sources */,
-				2F9F53BC22968A4800D2AD35 /* GJOwnChildTableViewCell.m in Sources */,
 				2F9F519422967E8C00D2AD35 /* GJSCSwipeableFilterView.m in Sources */,
 				2F17C43322927DEA002C1CE0 /* PPCarModel.m in Sources */,
 				2F17C43922927DEA002C1CE0 /* UrgenttaskDetailModelVideo_list.m in Sources */,
 				2F9F59222296A00200D2AD35 /* UIImage+Extension.m in Sources */,
-				2F9F53B922968A4800D2AD35 /* GJComplaintChildQuestTableViewCell.m in Sources */,
 				2221BBB622A799B100151AA5 /* PSWODetailsSignatureCell.m in Sources */,
 				2F9F519122967E8C00D2AD35 /* GJSCIOPixelBuffers.m in Sources */,
 				2FF7D93322AF37830010B842 /* OrderDetailModel.m in Sources */,
@@ -4616,33 +3474,24 @@
 				2F9F590B22969E2100D2AD35 /* GJFZPPullDownMenu.m in Sources */,
 				2F17C41D22927DEA002C1CE0 /* PatrolDeviceCell.m in Sources */,
 				2F9F51B62296800100D2AD35 /* GJSTKAudioPlayer.m in Sources */,
-				2F9F53A022968A4800D2AD35 /* GJRealestateView.m in Sources */,
 				2F17C45E22927DEA002C1CE0 /* PPNoDataView.m in Sources */,
 				2F9F518422967E8C00D2AD35 /* GJNSURL+SCSaveToCameraRoll.m in Sources */,
 				2F17C2BE22927B4F002C1CE0 /* UIButton+LSetting.m in Sources */,
-				2F9F563922968A5F00D2AD35 /* GJChangePassViewController.m in Sources */,
 				2F9F57972296930500D2AD35 /* GJIQTextView.m in Sources */,
-				2F9F563422968A5F00D2AD35 /* GJnewsViewController.m in Sources */,
 				2F9F58DF22969D1B00D2AD35 /* GJCuiPickerView.m in Sources */,
 				22BB2D38229B8E840033D303 /* PSHomePageViewController.m in Sources */,
 				2F17C43022927DEA002C1CE0 /* PPGroupInfoModelMember_list.m in Sources */,
-				2F9F53B622968A4800D2AD35 /* GJHouseTableViewCell.m in Sources */,
-				2F9F539922968A4800D2AD35 /* GJContractTableViewCell.m in Sources */,
 				2F9F519222967E8C00D2AD35 /* GJSCWeakSelectorTarget.m in Sources */,
 				2F17C2D122927BCC002C1CE0 /* XXPageTabView.m in Sources */,
 				2F17C41922927DEA002C1CE0 /* PatrolMembersCell.m in Sources */,
-				2F9F58152296971A00D2AD35 /* MLSecurityYCLVC.m in Sources */,
-				2F9F58012296971A00D2AD35 /* GJFZPSlidingController.m in Sources */,
 				2F17C44922927DEA002C1CE0 /* PPTaskListModel.m in Sources */,
 				2F17C3EA22927DEA002C1CE0 /* PPDateTool.m in Sources */,
 				2F9F591722969E2100D2AD35 /* GJUIPlaceHolderTextView.m in Sources */,
-				2F9F53B722968A4800D2AD35 /* GJMatterTypeTableViewCell.m in Sources */,
 				2F9F52222296858000D2AD35 /* GJMJRefreshAutoGifFooter.m in Sources */,
 				2F9F519322967E8C00D2AD35 /* GJSCPhotoConfiguration.m in Sources */,
 				2F17C40C22927DEA002C1CE0 /* PatrolMemberOrderVC.m in Sources */,
 				228E71DD22AE5EF200E9ECE7 /* WorkOrderBaseCell.m in Sources */,
 				2221BBC022A799B100151AA5 /* PSWODetailsVideoCell.m in Sources */,
-				2F9F576C2296921300D2AD35 /* GJKZVideoViewController.m in Sources */,
 				2F9F58D822969BB000D2AD35 /* GJFMDatabaseQueue.m in Sources */,
 				2F17C46222927DEA002C1CE0 /* PPOrderDetailView.m in Sources */,
 				2F17C44622927DEA002C1CE0 /* PPSubmitOrdersModel.m in Sources */,
@@ -4652,107 +3501,67 @@
 				2F9F523B2296880700D2AD35 /* GJMHPhotosBrowserView.m in Sources */,
 				2F14C5BC229796E70099E9C5 /* GJShowMoreOperationView.m in Sources */,
 				2F9F58DA22969BB000D2AD35 /* GJFMDatabaseAdditions.m in Sources */,
-				2F9F53AA22968A4800D2AD35 /* GJToolBarView.m in Sources */,
-				2F9F53B122968A4800D2AD35 /* GJMatterTableViewCellThree.m in Sources */,
 				2F9F50CF22967C1500D2AD35 /* GJMASViewAttribute.m in Sources */,
 				2F17C46D22927DEA002C1CE0 /* BaseRequest.m in Sources */,
 				2F9F51D22296831600D2AD35 /* GJSVRadialGradientLayer.m in Sources */,
 				2F9F519D22967E8C00D2AD35 /* GJSCRecorder.m in Sources */,
 				2F9F51BC2296800100D2AD35 /* GJSTKHTTPDataSource.m in Sources */,
 				2F17C43622927DEA002C1CE0 /* PPTaskDetailModelCommunity_list.m in Sources */,
-				2F9F58B22296983700D2AD35 /* GJWageSecondImageTableViewCell.m in Sources */,
 				2F9F519B22967E8C00D2AD35 /* GJSCRecordSessionSegment.m in Sources */,
-				2F9F539022968A4800D2AD35 /* GJOwnChildView.m in Sources */,
 				2F9F521C2296858000D2AD35 /* GJUIScrollView+MJExtension.m in Sources */,
-				2F9F58182296971A00D2AD35 /* MLPoliceWorkOrderVC.m in Sources */,
 				2F17C41622927DEA002C1CE0 /* PatrolOrderDetailVC.m in Sources */,
 				2F17C41322927DEA002C1CE0 /* PatrolTeamAndDeviceVC.m in Sources */,
-				2F9F539E22968A4800D2AD35 /* GJChargeView.m in Sources */,
 				2F9F591022969E2100D2AD35 /* GJNetWorkBlock.m in Sources */,
 				2F9F521B2296858000D2AD35 /* GJUIView+MJExtension.m in Sources */,
 				2F9F57AB229694CA00D2AD35 /* TBTabBar.m in Sources */,
 				2F9F510622967E2600D2AD35 /* GJVideoPlayViewController.m in Sources */,
-				2F9F576A2296921300D2AD35 /* GJYTKKeyValueStore.m in Sources */,
-				2F9F57682296921300D2AD35 /* GJPlaceHolderView.m in Sources */,
 				2F9F579C2296930500D2AD35 /* GJIQToolbar.m in Sources */,
-				2F9F53B222968A4800D2AD35 /* GJRepairChildViewCell.m in Sources */,
 				22BB2D4A229B8EA60033D303 /* PSAboutUsViewController.m in Sources */,
-				2F9F58B32296983700D2AD35 /* GJWageFirstImageTableViewCell.m in Sources */,
 				2221BBC422A799B100151AA5 /* PSWOMemberImageCell.m in Sources */,
-				2F9F58A02296983700D2AD35 /* GJExecutedFishTableViewCell.m in Sources */,
 				2F9F52182296858000D2AD35 /* GJUIScrollView+MJRefresh.m in Sources */,
-				2F9F562E22968A5F00D2AD35 /* GJLoginViewController.m in Sources */,
 				2F9F510B22967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.m in Sources */,
-				2F9F57AC229694CA00D2AD35 /* GJNavigationController.m in Sources */,
 				2F9F590A22969E2100D2AD35 /* GJLCLNetWork.m in Sources */,
 				2221BB5E22A7715B00151AA5 /* PSWorkOrderListVC.m in Sources */,
 				2F17C2D022927BCC002C1CE0 /* XXPageTabItemLable.m in Sources */,
 				2F9F51BA2296800100D2AD35 /* GJSTKCoreFoundationDataSource.m in Sources */,
-				22BB2D37229B8E840033D303 /* GJHomePageViewController.m in Sources */,
 				2F9F59472296A17900D2AD35 /* GJAFURLConnectionOperation.m in Sources */,
-				2F9F576F2296921300D2AD35 /* GJUIScrollView+APParallaxHeader.m in Sources */,
 				2F9F58BF2296988100D2AD35 /* GJNSTimer+Addition.m in Sources */,
 				2221BB5222A7715B00151AA5 /* PSWODetailsDistributeVC.m in Sources */,
-				2F9F539B22968A4800D2AD35 /* GJCusInTableViewCell.m in Sources */,
-				2F9F53B422968A4800D2AD35 /* GJPositioningTableViewCell.m in Sources */,
 				2F17C40B22927DEA002C1CE0 /* PatrolMembersDetailVC.m in Sources */,
 				2F9F52242296858000D2AD35 /* GJMJRefreshNormalHeader.m in Sources */,
 				2F9F519C22967E8C00D2AD35 /* GJSCSampleBufferHolder.m in Sources */,
-				2F9F563622968A5F00D2AD35 /* GJAboutUsViewcontroller.m in Sources */,
 				2F9F518222967E8C00D2AD35 /* GJSCImageView.m in Sources */,
-				2F9F53A922968A4800D2AD35 /* GJhomeView.m in Sources */,
 				2221BB6D22A7998200151AA5 /* PSWOHandlingTextCell.m in Sources */,
-				2F9F53BD22968A4800D2AD35 /* GJDispatchCell.m in Sources */,
-				2F9F53BA22968A4800D2AD35 /* GJAttendanceCell.m in Sources */,
 				2F17C44122927DEA002C1CE0 /* PPInspectDeviceModelPicture_list.m in Sources */,
 				2F9F518122967E8C00D2AD35 /* GJSCFilter+UIImage.m in Sources */,
 				2F9F518E22967E8C00D2AD35 /* GJSCFilter.m in Sources */,
-				2F9F58172296971A00D2AD35 /* MLSecurityYWCVC.m in Sources */,
 				2F9F50CB22967C1500D2AD35 /* GJNSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				2F9F53C522968A4800D2AD35 /* GJVonsultationChildQuestTableViewCell.m in Sources */,
 				2F17C3EF22927DEA002C1CE0 /* LSCircularProgressView.m in Sources */,
 				2F9F521F2296858000D2AD35 /* GJMJRefreshBackGifFooter.m in Sources */,
 				2F17C2C122927B90002C1CE0 /* UserManager.m in Sources */,
 				2F17C3F222927DEA002C1CE0 /* PPLocationMapVC.m in Sources */,
-				2F9F58B62296983700D2AD35 /* GJOverTableViewTwoCell.m in Sources */,
-				2F9F539722968A4800D2AD35 /* GJQueryView.m in Sources */,
-				2F9F58B72296983700D2AD35 /* GJOverTableViewFouthCells.m in Sources */,
 				2F9F579B2296930500D2AD35 /* GJIQTitleBarButtonItem.m in Sources */,
-				2F9F563D22968A5F00D2AD35 /* GJNewsTableViewTopCell.m in Sources */,
-				2F9F576B2296921300D2AD35 /* GJKZVideoConfig.m in Sources */,
-				2F9F58B02296983700D2AD35 /* GJWageSecondTableViewCell.m in Sources */,
-				2F9F53A822968A4800D2AD35 /* GJHomeButton.m in Sources */,
 				2F9F574F22968BAA00D2AD35 /* UIView+Frame.m in Sources */,
 				2F9F591122969E2100D2AD35 /* GJNetworkDetermine.m in Sources */,
 				2221BBAD22A799B100151AA5 /* PSWOHeaderVoiceCell.m in Sources */,
-				2F9F539F22968A4800D2AD35 /* GJCusInView.m in Sources */,
 				2F9F57A32296930500D2AD35 /* GJIQUIWindow+Hierarchy.m in Sources */,
-				2F9F53A122968A4800D2AD35 /* GJServiceView.m in Sources */,
-				2F9F58082296971A00D2AD35 /* GJVoiceWageViewController.m in Sources */,
-				2F9F58022296971A00D2AD35 /* GJSegmentTapView.m in Sources */,
-				2F9F58AD2296983700D2AD35 /* GJWageThirdTableViewCell.m in Sources */,
 				2F17C42222927DEA002C1CE0 /* PatrolRepairLabelCell.m in Sources */,
 				2F9F510022967E2600D2AD35 /* GJXSMediaPlayerMaskView.m in Sources */,
 				2F9F523C2296880700D2AD35 /* GJMHPhotoBrowserController.m in Sources */,
 				2F9F518322967E8C00D2AD35 /* GJSCVideoPlayerView.m in Sources */,
+				2FC6E4BC22B7732500E4FDBD /* GJsignatureView.m in Sources */,
 				2F9F521D2296858000D2AD35 /* GJMJRefreshBackNormalFooter.m in Sources */,
 				2F9F519722967E8C00D2AD35 /* GJSCPlayer.m in Sources */,
 				2F17C41522927DEA002C1CE0 /* PPCommunityOrderListVC.m in Sources */,
 				2F9F59212296A00200D2AD35 /* UIImage+HYBImageCliped.m in Sources */,
 				222AA56322ACA7020079D2DF /* PSWorkOrderDetailsVC.m in Sources */,
 				2F17C42822927DEA002C1CE0 /* PatrolOnlinePlayersCell.m in Sources */,
-				2F9F539D22968A4800D2AD35 /* GJRealestateTableViewCell.m in Sources */,
 				2F9F590C22969E2100D2AD35 /* GJUITapImageView.m in Sources */,
 				2F17C43C22927DEA002C1CE0 /* PPGuaranteeModel.m in Sources */,
 				2F9F57A22296930500D2AD35 /* GJIQNSArray+Sort.m in Sources */,
 				2F9F59622296A49E00D2AD35 /* GJFZAccount.m in Sources */,
-				2F9F57712296921300D2AD35 /* GJJZLocationConverter.m in Sources */,
 				2221BB5B22A7715B00151AA5 /* PSShowWorkOrderVC.m in Sources */,
 				2F17C40522927DEA002C1CE0 /* PtrolMemberTaskListVC.m in Sources */,
-				2F9F53C322968A4800D2AD35 /* GJDeliverwaterTableViewCell.m in Sources */,
-				2F9F53B022968A4800D2AD35 /* GJParkingViewCell.m in Sources */,
-				2F9F58A42296983700D2AD35 /* GJOverChildTableViewThreeCell.m in Sources */,
-				2F9F564222968A5F00D2AD35 /* GJMyCell.m in Sources */,
 				2F9F518622967E8C00D2AD35 /* GJSCRecorderTools.m in Sources */,
 				2F9F517F22967E8C00D2AD35 /* GJWechatShortVideoController.m in Sources */,
 				2221BBC622A799B100151AA5 /* PSWOMemberVoiceCell.m in Sources */,
@@ -4764,73 +3573,47 @@
 				2F17C43B22927DEA002C1CE0 /* PPDeviceListModel.m in Sources */,
 				2F9F59662296A4E100D2AD35 /* GJAppDelegate.m in Sources */,
 				2F17C42D22927DEA002C1CE0 /* TaskListModel.m in Sources */,
-				2F9F535322968A4800D2AD35 /* GJHomeCommuntyViewController.m in Sources */,
 				2F9F519922967E8C00D2AD35 /* GJSCRecorderToolsView.m in Sources */,
-				2F9F58002296971A00D2AD35 /* GJUnexecutedViewController.m in Sources */,
 				2F17C2D722927C0E002C1CE0 /* PPConst.m in Sources */,
 				2221BBB822A799B100151AA5 /* PSWODetailsListCell.m in Sources */,
-				2F9F580A2296971A00D2AD35 /* GJExecutedFishViewController.m in Sources */,
-				2F9F539C22968A4800D2AD35 /* GJVehicleTableViewCell.m in Sources */,
 				2F17C3F422927DEA002C1CE0 /* PatrolAnnotationModel.m in Sources */,
 				2221BBBA22A799B100151AA5 /* PSWODetailsQrCodeCell.m in Sources */,
 				2F02D7B4228D3E9B0044D823 /* main.m in Sources */,
 				2F17C41022927DEA002C1CE0 /* PatrolMemberTaskVC.m in Sources */,
 				2F9F574C22968B4700D2AD35 /* UIView+Common.m in Sources */,
-				2F9F53AD22968A4800D2AD35 /* GJAttendanceOwnTopHeadView.m in Sources */,
 				2F17C45A22927DEA002C1CE0 /* PPUserGuideVC.m in Sources */,
 				2F17C41F22927DEA002C1CE0 /* PPComunityOrderCell.m in Sources */,
-				2F9F58A62296983700D2AD35 /* GJExecutedChildTableViewCell.m in Sources */,
-				2F9F58132296971A00D2AD35 /* MLSecurityConfirmSignatureVC.m in Sources */,
 				2F9F510522967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m in Sources */,
-				2F9F580B2296971A00D2AD35 /* GJCancelChildViewController.m in Sources */,
 				2F9F58DB22969BB000D2AD35 /* GJFMDatabase.m in Sources */,
-				2F9F563C22968A5F00D2AD35 /* GJNewsTableViewSexCell.m in Sources */,
 				2F17C43822927DEA002C1CE0 /* UrgenttaskDetailModelPicture_list.m in Sources */,
-				2F9F58A72296983700D2AD35 /* GJOverTableViewFouthCell.m in Sources */,
 				2F9F59502296A23B00D2AD35 /* NSString+Extension.m in Sources */,
-				2F9F564122968A5F00D2AD35 /* GJMyCenterCell.m in Sources */,
 				2F9F50C822967C1500D2AD35 /* GJView+MASAdditions.m in Sources */,
 				2F9F519E22967E8C00D2AD35 /* GJSCRecorderFocusTargetView.m in Sources */,
 				2F9F52392296880700D2AD35 /* GJMHPhotoCollectionCell.m in Sources */,
 				2F17C46122927DEA002C1CE0 /* PPOrderHeaderView.m in Sources */,
-				2F9F53C022968A4800D2AD35 /* GJComplaintChildViewCell.m in Sources */,
-				2F9F534F22968A4800D2AD35 /* GJhomeViewController.m in Sources */,
-				2F9F53B522968A4800D2AD35 /* GJVisHistoryCell.m in Sources */,
 				2F17C40222927DEA002C1CE0 /* PatrolCommunityDetailVC.m in Sources */,
-				2F9F53A722968A4800D2AD35 /* GJVisitorView.m in Sources */,
 				2F17C45922927DEA002C1CE0 /* BaseAlertViewController.m in Sources */,
 				2F17C3F022927DEA002C1CE0 /* PatrolTaskMapVC.m in Sources */,
 				2221BBAB22A799B100151AA5 /* PSWOHeaderImagaeCell.m in Sources */,
-				2F9F535022968A4800D2AD35 /* GJGraViewController.m in Sources */,
 				2F9F519822967E8C00D2AD35 /* GJSCContext.m in Sources */,
 				2F9F519022967E8C00D2AD35 /* GJSCSaveToCameraRollOperation.m in Sources */,
 				2F17C42622927DEA002C1CE0 /* PatrolUrgentTasksCell.m in Sources */,
 				2F9F518D22967E8C00D2AD35 /* GJSCAssetExportSession.m in Sources */,
-				2F9F563522968A5F00D2AD35 /* GJMessageNewsViewController.m in Sources */,
-				2F9F563722968A5F00D2AD35 /* GJDisclaimerViewController.m in Sources */,
 				2221BBAC22A799B100151AA5 /* PSWOHeaderTextCell.m in Sources */,
 				22A129A522AF80AE0043359A /* PSWOHeaderVideoCell.m in Sources */,
 				2F9F57B12296951D00D2AD35 /* UILabel+Extension.m in Sources */,
 				2F14C5BB229796E70099E9C5 /* GJCollectionNomalCell.m in Sources */,
 				2F22847822B242CE0031716D /* OwnerSignatureVC.m in Sources */,
 				2F17C45722927DEA002C1CE0 /* ConfirmationVC.m in Sources */,
-				2F9F58052296971A00D2AD35 /* GJCancelViewController.m in Sources */,
 				2F9F59412296A17900D2AD35 /* GJAFURLSessionManager.m in Sources */,
-				2F9F563222968A5F00D2AD35 /* GJNewsChildViewController.m in Sources */,
-				2F9F58A92296983700D2AD35 /* GJExecutedTableViewThreeCell.m in Sources */,
 				2FD3FCB4229F6B2C009FFA98 /* LoginRequest.m in Sources */,
 				2F17C43122927DEA002C1CE0 /* PPInspectDetailsModelPicture_list.m in Sources */,
 				2221BB7022A7998200151AA5 /* PSWOHandlingVoiceCell.m in Sources */,
-				2F9F53C422968A4800D2AD35 /* GJMatterTableViewCellFour.m in Sources */,
 				2F9F591522969E2100D2AD35 /* GJQHMainGestureRecognizerViewController.m in Sources */,
 				2F9F59452296A17900D2AD35 /* GJAFHTTPRequestOperation.m in Sources */,
-				2F9F58092296971A00D2AD35 /* GJFishedViewController.m in Sources */,
 				2F14C5B9229796E70099E9C5 /* GJWebViewController.m in Sources */,
-				2F9F539122968A4800D2AD35 /* GJOwnerHeadView.m in Sources */,
-				2F9F539A22968A4800D2AD35 /* GJServiceTableViewCell.m in Sources */,
 				2F9F59492296A17900D2AD35 /* GJAFSecurityPolicy.m in Sources */,
 				2F17C45122927DEA002C1CE0 /* PtrolMemberHeaderView.m in Sources */,
-				2F9F53AC22968A4800D2AD35 /* GJPhonenumberTableViewCell.m in Sources */,
 				2F17C40D22927DEA002C1CE0 /* PPMemberDetailCommitVC.m in Sources */,
 				2F6B3BF522A9154B00D11CB9 /* SecurityRequest.m in Sources */,
 				2F17C45C22927DEA002C1CE0 /* ShowImageVC.m in Sources */,
@@ -4842,18 +3625,12 @@
 				2F9F590922969E2100D2AD35 /* GJFZPWorkMenus.m in Sources */,
 				22BB2D39229B8E840033D303 /* HomePageCollectionCell.m in Sources */,
 				2F17C41422927DEA002C1CE0 /* PatrolChangeRepairVC.m in Sources */,
-				2F9F53A222968A4800D2AD35 /* GJContractView.m in Sources */,
 				2221BBB722A799B100151AA5 /* PSWorkOrderDetailsCell.m in Sources */,
 				2F9F517E22967E8C00D2AD35 /* GJCALayer+AddUIColor.m in Sources */,
 				2F17C3F522927DEA002C1CE0 /* MaatterSubmitModel.m in Sources */,
 				2F9F57B82296959000D2AD35 /* GJKSDatePicker.m in Sources */,
 				2F9F52232296858000D2AD35 /* GJMJRefreshStateHeader.m in Sources */,
 				2F17C40822927DEA002C1CE0 /* PatrolTeamDetailsVC.m in Sources */,
-				2F9F581A2296971A00D2AD35 /* MLSecurityListenOrderVC.m in Sources */,
-				2F9F563822968A5F00D2AD35 /* GJProblemViewController.m in Sources */,
-				2F9F53A422968A4800D2AD35 /* GJDispatchnewsView.m in Sources */,
-				2F9F53B822968A4800D2AD35 /* GJMatterTableViewCellTwo.m in Sources */,
-				2F9F58102296971A00D2AD35 /* GJExecutedChildViewController.m in Sources */,
 				2FD3FCB8229F6C15009FFA98 /* UserManagerModel.m in Sources */,
 				2F17C40422927DEA002C1CE0 /* PtrolMemberOrderListVC.m in Sources */,
 				2F9F518F22967E8C00D2AD35 /* GJSCFilterImageView.m in Sources */,
@@ -4863,72 +3640,49 @@
 				2221BB5322A7715B00151AA5 /* DistributeWorkOrderVC.m in Sources */,
 				2F9F518022967E8C00D2AD35 /* GJSCRecordSessionManager.m in Sources */,
 				2FB0862B22B4CE100040A3BC /* HomeModel.m in Sources */,
-				2F9F58142296971A00D2AD35 /* MLMarkCompletedVC.m in Sources */,
 				2221BBAF22A799B100151AA5 /* PSWOSelectMemberCell.m in Sources */,
 				2F17C46322927DEA002C1CE0 /* OrderBottomView.m in Sources */,
-				2F9F58192296971A00D2AD35 /* MLSecurityCLZVC.m in Sources */,
-				2F9F564622968A5F00D2AD35 /* GJSetupView.m in Sources */,
 				2F9F50CC22967C1500D2AD35 /* GJMASLayoutConstraint.m in Sources */,
 				2F17C2CE22927BCC002C1CE0 /* QrCodeScanningVC.m in Sources */,
 				2F9F510322967E2600D2AD35 /* GJZXVideoPlayerController.m in Sources */,
 				2221BBB422A799B100151AA5 /* PSWODetailsImageCell.m in Sources */,
-				2F9F563B22968A5F00D2AD35 /* GJSliderViewController.m in Sources */,
 				2221BBC722A799B100151AA5 /* PSWOMemberTextCell.m in Sources */,
 				2F9F51C5229681A200D2AD35 /* GJMBProgressHUD+MJ.m in Sources */,
 				2F17C3EE22927DEA002C1CE0 /* PPMJRefreshHeader.m in Sources */,
-				2F9F58A12296983700D2AD35 /* GJUnexeChildTableViewCell.m in Sources */,
 				2FD3FCC1229FB46F009FFA98 /* WKWebViewController.m in Sources */,
 				2F9F579E2296930500D2AD35 /* GJIQUIScrollView+Additions.m in Sources */,
 				2FD3FCC5229FC607009FFA98 /* HomeRequest.m in Sources */,
 				2F9F52372296880700D2AD35 /* GJMHTapImgView.m in Sources */,
-				2F9F53C222968A4800D2AD35 /* GJConsultationViewCell.m in Sources */,
-				2F9F53C622968A4800D2AD35 /* GJCommunityModel.m in Sources */,
 				2F17C3F322927DEA002C1CE0 /* PPDeviceMapVC.m in Sources */,
 				2F9F579F2296930500D2AD35 /* GJIQUIView+Hierarchy.m in Sources */,
 				2F9F519A22967E8C00D2AD35 /* GJSCProcessingQueue.m in Sources */,
-				2F9F53AE22968A4800D2AD35 /* GJOwnerauditViewCell.m in Sources */,
 				2F9F58D922969BB000D2AD35 /* GJFMDatabasePool.m in Sources */,
-				2F9F563022968A5F00D2AD35 /* GJmyViewController.m in Sources */,
 				2F17C43722927DEA002C1CE0 /* AnimatedAnnotation.m in Sources */,
 				2F9F510222967E2600D2AD35 /* GJXSMediaPlayer.m in Sources */,
 				2F9F518522967E8C00D2AD35 /* GJSCRecordSession.m in Sources */,
 				2F9F591222969E2100D2AD35 /* GJFZPWorkMenuView.m in Sources */,
 				2F9F51B52296800100D2AD35 /* GJSTKAutoRecoveringHTTPDataSource.m in Sources */,
 				2F9F52292296858000D2AD35 /* GJMJRefreshBackFooter.m in Sources */,
-				2F9F53A322968A4800D2AD35 /* GJVehicleView.m in Sources */,
 				2F17C2CF22927BCC002C1CE0 /* CATCurveProgressView.m in Sources */,
-				2F9F57692296921300D2AD35 /* GJKZVideoSupport.m in Sources */,
 				2F9F58DC22969BB000D2AD35 /* GJFMResultSet.m in Sources */,
-				2F9F564522968A5F00D2AD35 /* GJAboutusView.m in Sources */,
 				2F9F50CE22967C1500D2AD35 /* GJMASConstraint.m in Sources */,
 				2221BB5F22A7715B00151AA5 /* PSBasicWorkOrderVC.m in Sources */,
 				2F17C44B22927DEA002C1CE0 /* PPNavigationBarView.m in Sources */,
-				2F9F57702296921300D2AD35 /* pinyin.c in Sources */,
-				2F9F563F22968A5F00D2AD35 /* GJMessageTableViewCell.m in Sources */,
 				2F9F59462296A17900D2AD35 /* GJAFNetworkTool.m in Sources */,
 				2FD3FCBB229F73A1009FFA98 /* AnimtionUtils.m in Sources */,
-				2F9F562F22968A5F00D2AD35 /* GJSearchPassWordController.m in Sources */,
 				2F17C44222927DEA002C1CE0 /* GuaranteeListModel.m in Sources */,
-				2F9F58B42296983700D2AD35 /* GJWageFirstTableViewCell.m in Sources */,
 				2F17C45B22927DEA002C1CE0 /* PPSelectCarVC.m in Sources */,
 				2F17C44822927DEA002C1CE0 /* PPInspectDeviceModel.m in Sources */,
-				2F9F576D2296921300D2AD35 /* GJQueRenViewController.m in Sources */,
-				2F9F58A52296983700D2AD35 /* GJOverChildTableViewCell.m in Sources */,
 				2F17C43222927DEA002C1CE0 /* PPInspectDetailsModel.m in Sources */,
 				2F17C46022927DEA002C1CE0 /* PatrolPatrolView.m in Sources */,
 				2F9F50CD22967C1500D2AD35 /* GJMASCompositeConstraint.m in Sources */,
 				2F17C46722927DEA002C1CE0 /* PPUrgentBottomView.m in Sources */,
-				2F9F53BB22968A4800D2AD35 /* GJDispatchnewsCell.m in Sources */,
 				2F9F511F22967E2600D2AD35 /* GJMViewController.m in Sources */,
-				2F9F58AE2296983700D2AD35 /* GJWageFouthImageTableViewCell.m in Sources */,
 				2F17C40122927DEA002C1CE0 /* PatrolTaskListVC.m in Sources */,
 				2F9F518922967E8C00D2AD35 /* GJSCMediaTypeConfiguration.m in Sources */,
-				2F9F564822968A5F00D2AD35 /* GJMyView.m in Sources */,
-				2F9F564322968A5F00D2AD35 /* GJMyUpCell.m in Sources */,
 				2F9F521A2296858000D2AD35 /* GJMJRefreshConst.m in Sources */,
 				2FD3FCBE229F8061009FFA98 /* AppDelegate.m in Sources */,
 				2F9F590D22969E2100D2AD35 /* GJFZPPulldownMenuView.m in Sources */,
-				2F9F57672296921300D2AD35 /* GJQMViewController.m in Sources */,
 				2F17C42F22927DEA002C1CE0 /* PPGroupInfoModel.m in Sources */,
 				2221BB6C22A7998200151AA5 /* PSWOHandlingImageCell.m in Sources */,
 				2F9F59572296A37400D2AD35 /* GJWYScrollView.m in Sources */,

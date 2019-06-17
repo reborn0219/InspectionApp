@@ -9,7 +9,7 @@
 #import "PPMemberDetailCommitVC.h"
 #import "PPViewTool.h"
 #import "PatrolFormCell.h"
-#import "GJKZVideoViewController.h"
+
 #import "PPInspectDeviceModel.h"
 #import "GJWechatShortVideoController.h"
 #import "lame.h"

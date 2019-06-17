@@ -163,24 +163,7 @@ static NSInteger uploadCount = 1;
                      topVC = topVC.presentedViewController;
                      
                  }
-                 if ([topVC isKindOfClass:[GJLoginViewController class]]) {
-                     
-                 }else{
-                     
-                
-
-                    
-                     [GJSVProgressHUD showErrorWithStatus:@"登录失效，请重新登录"];
-                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                         [weakSelf closeAppClicked];
-                         GJLoginViewController *loginVC = [[GJLoginViewController alloc]init];
-                         [topVC presentViewController:loginVC animated:YES completion:nil];
-                         [weakSelf stopLocationService];
-                     });
-
-                     
-
-                 }
+              
              }
          }];
 //    }
