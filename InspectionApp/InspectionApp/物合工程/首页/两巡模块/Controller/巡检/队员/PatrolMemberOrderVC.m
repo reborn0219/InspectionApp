@@ -63,16 +63,16 @@
         if (resultCode == SucceedCode) {
 
             NSDictionary * obj = data;
-            _detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
+            weakSelf.detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
             weakSelf.phView.type = 1;
-            [weakSelf.phView assignmentWithModel:_detailModel withType:1];
+            [weakSelf.phView assignmentWithModel:weakSelf.detailModel withType:1];
             [weakSelf.tableView reloadData];
             
             NSMutableArray * annotationArr = [NSMutableArray array];
-            for (PPTaskDetailModelCommunity_list * communityModel in _detailModel.community_list) {
+            for (PPTaskDetailModelCommunity_list * communityModel in weakSelf.detailModel.community_list) {
                 PatrolAnnotationModel *pointAnnotation = [[PatrolAnnotationModel alloc] init];
                 pointAnnotation.coordinate = CLLocationCoordinate2DMake(communityModel.latitude.doubleValue,communityModel.longitude.doubleValue);
-                pointAnnotation.annotation_status = _detailModel.task_status;
+                pointAnnotation.annotation_status = weakSelf.detailModel.task_status;
                 pointAnnotation.annotation_name = [NSString stringWithFormat:@"%@\r设备数:（%@）",communityModel.community_name,communityModel.device_number];
 
 
@@ -163,7 +163,7 @@
         
         PatrolAnnotationModel *pointAnnotation = [[PatrolAnnotationModel alloc] init];
         pointAnnotation.coordinate = CLLocationCoordinate2DMake(communityModel.latitude.doubleValue,communityModel.longitude.doubleValue);
-        pointAnnotation.annotation_status = _detailModel.task_status;
+        pointAnnotation.annotation_status = weakSelf.detailModel.task_status;
         pointAnnotation.annotation_name = communityModel.community_name;
 //        pointAnnotation.annotation_name = [NSString stringWithFormat:@"%@\r设备数：（%@）",communityModel.community_name,communityModel.device_number];
 

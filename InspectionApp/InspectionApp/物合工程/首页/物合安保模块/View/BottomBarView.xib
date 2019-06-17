@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BottomBarView">
+            <rect key="frame" x="0.0" y="0.0" width="496" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-aD-kz7">
+                    <rect key="frame" x="0.0" y="0.0" width="496" height="67"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpX-1o-JBs">
+                            <rect key="frame" x="184" y="0.0" width="312" height="67"/>
+                            <state key="normal" title="转移工单" backgroundImage="Rectang"/>
+                            <connections>
+                                <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gLI-vi-MKO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKZ-Xg-HAz">
+                            <rect key="frame" x="0.0" y="0.0" width="184" height="67"/>
+                            <color key="backgroundColor" red="0.84705882352941175" green="0.95294117647058818" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="标记无效">
+                                <color key="titleColor" red="0.12549019607843137" green="0.63137254901960782" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="9go-Kk-FxK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hv9-nK-HO9">
+                            <rect key="frame" x="0.0" y="0.0" width="496" height="67"/>
+                            <state key="normal" title="抢单" backgroundImage="详情_抢单">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="1yb-El-pMJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hv9-nK-HO9" firstAttribute="leading" secondItem="SWC-aD-kz7" secondAttribute="leading" id="0zb-5q-H8D"/>
+                        <constraint firstItem="nKZ-Xg-HAz" firstAttribute="leading" secondItem="SWC-aD-kz7" secondAttribute="leading" id="1Jn-ZN-1qr"/>
+                        <constraint firstItem="nKZ-Xg-HAz" firstAttribute="width" secondItem="rpX-1o-JBs" secondAttribute="width" multiplier="139:236" id="2se-IT-taJ"/>
+                        <constraint firstItem="rpX-1o-JBs" firstAttribute="leading" secondItem="nKZ-Xg-HAz" secondAttribute="trailing" id="4J9-fW-bTv"/>
+                        <constraint firstAttribute="bottom" secondItem="hv9-nK-HO9" secondAttribute="bottom" id="CFG-u3-Elo"/>
+                        <constraint firstAttribute="bottom" secondItem="rpX-1o-JBs" secondAttribute="bottom" id="FlZ-xe-HXO"/>
+                        <constraint firstItem="hv9-nK-HO9" firstAttribute="top" secondItem="SWC-aD-kz7" secondAttribute="top" id="QVQ-7q-bHy"/>
+                        <constraint firstAttribute="bottom" secondItem="nKZ-Xg-HAz" secondAttribute="bottom" id="QzA-J2-y59"/>
+                        <constraint firstAttribute="trailing" secondItem="hv9-nK-HO9" secondAttribute="trailing" id="d4h-zW-ErB"/>
+                        <constraint firstAttribute="trailing" secondItem="rpX-1o-JBs" secondAttribute="trailing" id="h3B-Za-kqo"/>
+                        <constraint firstItem="nKZ-Xg-HAz" firstAttribute="top" secondItem="SWC-aD-kz7" secondAttribute="top" id="hVD-Xz-siT"/>
+                        <constraint firstItem="rpX-1o-JBs" firstAttribute="top" secondItem="SWC-aD-kz7" secondAttribute="top" id="mS8-0Q-rAu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SWC-aD-kz7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FE0-lc-AZw"/>
+                <constraint firstAttribute="bottom" secondItem="SWC-aD-kz7" secondAttribute="bottom" id="J23-d8-oDE"/>
+                <constraint firstItem="SWC-aD-kz7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xfx-kO-iQA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SWC-aD-kz7" secondAttribute="trailing" id="Zi2-2z-64X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="grabBtn" destination="hv9-nK-HO9" id="mhZ-aJ-tXG"/>
+                <outlet property="leftBtn" destination="nKZ-Xg-HAz" id="aSh-UJ-YPW"/>
+                <outlet property="rightBtn" destination="rpX-1o-JBs" id="p5y-DY-Q4x"/>
+            </connections>
+            <point key="canvasLocation" x="113.04347826086958" y="49.888392857142854"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectang" width="375" height="188"/>
+        <image name="详情_抢单" width="375" height="48"/>
+    </resources>
+</document>

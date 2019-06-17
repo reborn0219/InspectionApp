@@ -14,7 +14,14 @@
     [super awakeFromNib];
     // Initialization code
 }
-
+- (void)setIsHidden:(BOOL)isHidden
+{
+    if (isHidden == YES) {
+        self.clickBtn.hidden = YES;
+    }else{
+        self.clickBtn.hidden = NO;
+    }
+}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

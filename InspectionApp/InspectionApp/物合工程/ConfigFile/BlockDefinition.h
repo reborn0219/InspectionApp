@@ -62,6 +62,7 @@ typedef void (^CellEventBlock)(id _Nullable data,UIView *_Nullable view,NSIndexP
 
 typedef void (^AlertBlock)(NSInteger index);
 
+typedef void (^WorkAlertBlock)(id _Nullable data,WorkAlertType type);
 
 @class TaskListModel;
 typedef void (^TaskCellBlock)(TaskListModel* model);

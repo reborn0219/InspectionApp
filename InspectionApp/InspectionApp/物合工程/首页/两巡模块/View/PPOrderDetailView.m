@@ -143,7 +143,7 @@
         _namephoneLb.text = @"-   -";
 
     }
-    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡查",model.patrolled_count?:@"0",model.patrol_count];
+    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡逻",model.patrolled_count?:@"0",model.patrol_count];
     if (model.patrol_date) {
         if (model.patrol_date.length>16) {
             _timeLb.text = [model.patrol_date substringToIndex:16]?:@"-";
@@ -155,9 +155,9 @@
 //    _timeLb.text = [PPDateTool stringFormat:model.patrol_date];
     if (model.work_sheet_status.integerValue == 6) {
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
-        [_stateBtn setTitle:@"未巡查" forState:(UIControlStateNormal)];
+        [_stateBtn setTitle:@"未巡逻" forState:(UIControlStateNormal)];
     }else{
-       [_stateBtn setTitle:@"已巡查" forState:(UIControlStateNormal)];
+       [_stateBtn setTitle:@"已巡逻" forState:(UIControlStateNormal)];
        [_stateBtn setBackgroundColor:OVER_COLOR];
     }
     if (model.picture_list.count>0) {

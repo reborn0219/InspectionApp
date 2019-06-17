@@ -9,6 +9,7 @@
 #import "WHZLLoginViewController.h"
 #import "WHZLForgetPasswordVC.h"
 #import "PSHomePageViewController.h"
+#import "LoginRequest.h"
 @interface WHZLLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextFeild;
 @property (weak, nonatomic) IBOutlet UIButton *scanBut;
@@ -26,8 +27,11 @@
     // Do any additional setup after loading the view from its nib.
     self.codeTextFeild.secureTextEntry = YES;
     [self.navigationController.navigationBar setHidden:YES];
-    _codeTextFeild.text = @"88998600";
-    _phoneTextFeild.text = @"18810000002";
+
+//    _codeTextFeild.text = @"123456789";
+//    _phoneTextFeild.text = @"13403110724";
+//    _codeTextFeild.text = @"88998600";
+//    _phoneTextFeild.text = @"18810000002";
 
 }
 - (IBAction)scanPasswordAction:(id)sender {
@@ -50,36 +54,64 @@
 - (IBAction)loginAction:(id)sender {
     
     NSString *md5password = [NSString md5HexDigest:_codeTextFeild.text];
-    GJLCLNetWork *network = [[GJLCLNetWork alloc]init];
-    [network requestNetWithInterface:@"" andM:@"security_api" andF:@"login" andA:@"do_lgoin" andBodyOfRequestForKeyArr:@[@"mobile_phone",@"password"] andValueArr:@[_phoneTextFeild.text,md5password] andBlock:^(id dictionary) {
+    NSDictionary *dic = @{@"mobile_phone":_phoneTextFeild.text,@"password":md5password};
+    [LoginRequest do_lgoin:dic :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
+        
+        NSDictionary *dictionary = data;
         SLog(@"dictionary___%@",dictionary);
-       
-        if ([[NSString stringWithFormat:@"%@",dictionary[@"state"]] isEqualToString:@"1"]) {
+
+        if (resultCode == SucceedCode) {
             
-            NSDictionary *userInfo =   dictionary[@"return_data"][@"user_info"];
+            NSDictionary *userInfo =   dictionary[@"user_info"];
+            NSDictionary *about =   dictionary[@"about"];
+            [UserManager saveAboutModel:[AboutModel yy_modelWithJSON:about]];
             [UserManager saveUserInfo:[UserManagerModel yy_modelWithJSON:userInfo]];
             [[NSUserDefaults standardUserDefaults]setObject:@(YES) forKey:@"IS_LOGIN"];
             [[NSUserDefaults standardUserDefaults]synchronize];
-            //            [[XSDLocationTools shareInstance]startLocationService];
+            //[[XSDLocationTools shareInstance]startLocationService];
             PSHomePageViewController *homeVC = [[PSHomePageViewController alloc]init];
             UINavigationController *homenav = [[UINavigationController alloc]initWithRootViewController:homeVC];
             APP_DELEGATE.window.rootViewController=homenav;
             ///绑定标签
-//            [AppSystemSetPresenters getBindingTag];
+            //[AppSystemSetPresenters getBindingTag];
             CATransition * animation =  [AnimtionUtils getAnimation:7 subtag:2];
             [homenav.view.window.layer addAnimation:animation forKey:nil];
-
-        }else if([[NSString stringWithFormat:@"%@",dictionary[@"state"]] isEqualToString:@"-1"])
-        {
-            [GJSVProgressHUD showErrorWithStatus:@"网络不稳定，请重试"];
-            
-        }else
-        {
-            [GJSVProgressHUD showErrorWithStatus:dictionary[@"return_data"]];
+        }else{
             
         }
-        
+     
     }];
+    
+//    GJLCLNetWork *network = [[GJLCLNetWork alloc]init];
+//    [network requestNetWithInterface:@"" andM:@"security_api" andF:@"login" andA:@"do_lgoin" andBodyOfRequestForKeyArr:@[@"mobile_phone",@"password"] andValueArr:@[_phoneTextFeild.text,md5password] andBlock:^(id dictionary) {
+//        SLog(@"dictionary___%@",dictionary);
+//
+//        if ([[NSString stringWithFormat:@"%@",dictionary[@"state"]] isEqualToString:@"1"]) {
+//
+//            NSDictionary *userInfo =   dictionary[@"return_data"][@"user_info"];
+//            [UserManager saveUserInfo:[UserManagerModel yy_modelWithJSON:userInfo]];
+//            [[NSUserDefaults standardUserDefaults]setObject:@(YES) forKey:@"IS_LOGIN"];
+//            [[NSUserDefaults standardUserDefaults]synchronize];
+//            //            [[XSDLocationTools shareInstance]startLocationService];
+//            PSHomePageViewController *homeVC = [[PSHomePageViewController alloc]init];
+//            UINavigationController *homenav = [[UINavigationController alloc]initWithRootViewController:homeVC];
+//            APP_DELEGATE.window.rootViewController=homenav;
+//            ///绑定标签
+////            [AppSystemSetPresenters getBindingTag];
+//            CATransition * animation =  [AnimtionUtils getAnimation:7 subtag:2];
+//            [homenav.view.window.layer addAnimation:animation forKey:nil];
+//
+//        }else if([[NSString stringWithFormat:@"%@",dictionary[@"state"]] isEqualToString:@"-1"])
+//        {
+//            [GJSVProgressHUD showErrorWithStatus:@"网络不稳定，请重试"];
+//
+//        }else
+//        {
+//            [GJSVProgressHUD showErrorWithStatus:dictionary[@"return_data"]];
+//
+//        }
+//
+//    }];
 }
 
 

@@ -35,7 +35,7 @@
     _deviceNoLb.text = cellModel.device_no;
     _deviceAdressLb.text = cellModel.device_position;
     
-    _deviceCycleLb.text = [NSString stringWithFormat:@"%@/%@次巡检",cellModel.inspected_count,cellModel.inspect_count];
+    _deviceCycleLb.text = [NSString stringWithFormat:@"%@/%@次巡查",cellModel.inspected_count,cellModel.inspect_count];
 
     if (cellModel.work_sheet_status.integerValue==2) {
         [_stateBtn setTitle:@"正常" forState:UIControlStateNormal];
@@ -48,7 +48,7 @@
         _state_btn_w.constant = 32;
 
     }else  if (cellModel.work_sheet_status.integerValue==1) {
-        [_stateBtn setTitle:@"未巡检" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"未巡查" forState:UIControlStateNormal];
         _state_btn_w.constant = 40;
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
     }

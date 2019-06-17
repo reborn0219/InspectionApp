@@ -16,5 +16,11 @@
 //根据图片名返回一张高亮状态的button图片
 +(UIImage *)imagewithColor:(UIColor *)color;
 
-
+/**
+ *  根据CIImage生成指定大小的UIImage
+ *
+ *  @param image CIImage
+ *  @param size  图片宽度
+ */
+- (UIImage *)createNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat) size;
 @end

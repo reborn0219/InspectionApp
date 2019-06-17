@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PSOfficialWechatVC : UIViewController
 -(void)showInVC:(UIViewController *)VC;
+@property (nonatomic, strong)NSString  *imageUrl;
 @end
 
 NS_ASSUME_NONNULL_END

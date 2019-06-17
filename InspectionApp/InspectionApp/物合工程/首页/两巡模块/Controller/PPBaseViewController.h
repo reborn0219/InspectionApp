@@ -26,5 +26,7 @@
 -(void)rightBarAction:(NSInteger)type;
 -(void)segementDidSelected:(NSInteger)type;
 -(void)backValue:(NSString *)value;
+-(void)markOverAction;
 @property (nonatomic,strong) UIView *topView;
+
 @end

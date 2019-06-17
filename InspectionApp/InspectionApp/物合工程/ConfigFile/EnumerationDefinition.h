@@ -56,4 +56,36 @@ typedef NS_ENUM(NSInteger, OrderCycle)
     OrderCycleYear = 4,//年
     
 };
+//工单列表
+typedef NS_ENUM(NSInteger,WorkOrderType)
+{
+    WorkOrderUnhandle = 0,//未处理
+    WorkOrderWaitingToHandle = 1,//待处理
+    WorkOrderHandling = 2,//处理中
+    WorkOrderHandled = 3,//已处理
+    WorkOrderFinished = 4,//已完成
+};
+typedef NS_ENUM(NSInteger,WorkOrderDataType)
+{
+    WorkOrderTextData = 0,
+    WorkOrderVoiceData = 1,
+    WorkOrderImageData = 2,
+};
+typedef NS_ENUM(NSInteger,WorkAlertType)
+{
+    WorkOrderAlertClose = 0,
+    WorkOrderAlertQuiet = 1,
+    WorkOrderAlertGrab = 2,
+    WorkOrderAlertNext = 3,
+     WorkOrderAlertConfirm = 4,
+    WorkOrderAlertDistribute = 5,
+    WorkOrderAlertMarkInvalid = 6,
+    WorkOrderAlertTranform = 7,
+    WorkOrderAlertPlayVoice = 8,
+    WorkOrderAlertPlayVedio= 9,
+    WorkOrderAlertHandle= 10,
+     WorkOrderAlertSelectMember= 11,
+    WorkOrderAlertMarkFinished= 12,
+};
+
 #endif /* EnumerationDefinition_h */

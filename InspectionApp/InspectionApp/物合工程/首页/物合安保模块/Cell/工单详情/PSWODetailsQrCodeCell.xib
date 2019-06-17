@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="343" id="KGk-i7-Jjw" customClass="PSWODetailsQrCodeCell">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="343"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="342.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZeT-B9-qNH">
+                        <rect key="frame" x="70" y="40.5" width="219" height="219"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ZeT-B9-qNH" secondAttribute="height" id="Em2-20-hWF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工单二维码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hml-u4-wl8">
+                        <rect key="frame" x="142" y="269.5" width="75" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="MRn-Ll-n2u"/>
+                            <constraint firstAttribute="height" constant="20" id="cJ4-fx-P9y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hml-u4-wl8" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="6HA-nz-50E"/>
+                    <constraint firstItem="ZeT-B9-qNH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="70" id="BWl-a9-vgg"/>
+                    <constraint firstAttribute="bottom" secondItem="hml-u4-wl8" secondAttribute="bottom" constant="55" id="FUd-IO-kTg"/>
+                    <constraint firstItem="ZeT-B9-qNH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="KdF-0M-LlU"/>
+                    <constraint firstAttribute="trailing" secondItem="ZeT-B9-qNH" secondAttribute="trailing" constant="70" id="evu-ZT-cHH"/>
+                    <constraint firstItem="ZeT-B9-qNH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="nrd-q7-BF2"/>
+                    <constraint firstItem="hml-u4-wl8" firstAttribute="top" secondItem="ZeT-B9-qNH" secondAttribute="bottom" constant="10" id="yI5-Ra-wpr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="QrCodeImage" destination="ZeT-B9-qNH" id="jvb-o8-MtT"/>
+            </connections>
+            <point key="canvasLocation" x="32.608695652173914" y="-27.790178571428569"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -194,23 +194,23 @@
             NSLog(@"%@",data);
             NSDictionary * dic = data;
             
-                _detailModel = [PPInspectDeviceModel yy_modelWithJSON:dic];
-                [weakSelf assignment:_detailModel];
+                weakSelf.detailModel = [PPInspectDeviceModel yy_modelWithJSON:dic];
+                [weakSelf assignment:weakSelf.detailModel];
          
-                [_tableView reloadData];
-                weakSelf.tableview_h.constant = _tableView.contentSize.height;
+                [weakSelf.tableView reloadData];
+                weakSelf.tableview_h.constant = weakSelf.tableView.contentSize.height;
                 //当工单状态为已完成时 只查看不提交
-                weakSelf.work_sheet_status = _detailModel.work_sheet_status;
-                if (_detailModel.work_sheet_status.intValue != 1) {
+                weakSelf.work_sheet_status = weakSelf.detailModel.work_sheet_status;
+                if (weakSelf.detailModel.work_sheet_status.intValue != 1) {
                  
-                    _changeRepairBtn.hidden = YES;
-                    _leftSubmitBtn.hidden = YES;
+                    weakSelf.changeRepairBtn.hidden = YES;
+                    weakSelf.leftSubmitBtn.hidden = YES;
                     [weakSelf assignmentOverModel:weakSelf.detailModel];
                 }
          
         }else{
             
-            [_backView setHidden:YES];
+            [weakSelf.backView setHidden:YES];
         }
       
     }];
@@ -336,7 +336,7 @@
     self.submitOrdersModel.is_normal =@"3";
     [self assginSubmitModel];
     if (_isnull==YES) {
-        [GJMBProgressHUD showError:@"巡检项目结果不能为空"];
+        [GJMBProgressHUD showError:@"巡查项目结果不能为空"];
         return;
     }
     NSDictionary * dic = [self.submitOrdersModel yy_modelToJSONObject];
@@ -372,7 +372,7 @@
     self.submitOrdersModel.is_normal =@"2";
     [self assginSubmitModel];
     if (_isnull==YES) {
-        [GJMBProgressHUD showError:@"巡检项目结果不能为空"];
+        [GJMBProgressHUD showError:@"巡查项目结果不能为空"];
         return;
     }
     NSDictionary * dic = [self.submitOrdersModel yy_modelToJSONObject];
@@ -898,11 +898,11 @@
     }else{
      _deviceAdressLb.text = [NSString stringWithFormat:@"%@ %@",viewModel.inspect_user_name,viewModel.inspect_user_phone];
     }
-    _circleLb.text = [NSString stringWithFormat:@"%@/%@巡检",viewModel.inspected_count,viewModel.inspect_count];
+    _circleLb.text = [NSString stringWithFormat:@"%@/%@巡查",viewModel.inspected_count,viewModel.inspect_count];
     
     if (_work_sheet_status.integerValue == 1) {
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
-        [_stateBtn setTitle:@"未巡检" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"未巡查" forState:UIControlStateNormal];
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"Asia/Shanghai"];
         [formatter setTimeZone:timeZone];

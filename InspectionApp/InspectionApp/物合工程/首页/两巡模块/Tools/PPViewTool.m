@@ -274,4 +274,27 @@
     }
     return currentViewController;
 }
++(NSString *)orderTypeToString:(NSInteger)index
+{
+    switch (index) {
+        case 0:
+                 return @"未处理";
+            break;
+        case 1:
+            return @"待处理";
+            break;
+        case 2:
+            return @"处理中";
+            break;
+        case 3:
+            return @"已处理";
+            break;
+        case 4:
+            return @"已完成";
+            break;
+        default:
+            break;
+    }
+    return @"";
+}
 @end

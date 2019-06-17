@@ -202,9 +202,10 @@
 //            }else{
 //            }
 //        }];
+    }else if (_type == 4){
+        self.view.alpha = 0;
+        self.view.backgroundColor = [UIColor clearColor];
     }
-
-   
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

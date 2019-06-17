@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) AlertBlock block;
 
 - (void)setImageWithImageArray:(NSMutableArray *)imageArr withIndex:(int)index;
+- (void)setImageNoDeleWithImageArray:(NSMutableArray *)imageArr withIndex:(int)index;
+
 @end
 
 NS_ASSUME_NONNULL_END

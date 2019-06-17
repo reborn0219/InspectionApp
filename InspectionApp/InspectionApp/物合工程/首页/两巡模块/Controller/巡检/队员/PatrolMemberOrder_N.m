@@ -134,8 +134,8 @@
     [PatrolHttpRequest membergroupdevicelist:@{@"work_id":weakSelf.work_id,@"group_id":weakSelf.group_id,@"work_sheet_status":self.work_sheet_status}:^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
         if (resultCode == SucceedCode) {
             NSDictionary *obj = data;
-            [_deviceArr removeAllObjects];
-            [_deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
+            [weakSelf.deviceArr removeAllObjects];
+            [weakSelf.deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
             [weakSelf.tableView reloadData];
         }
         [weakSelf.tableView.mj_header endRefreshing];

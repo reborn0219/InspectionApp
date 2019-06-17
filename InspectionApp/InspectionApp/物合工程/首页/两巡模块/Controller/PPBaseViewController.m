@@ -42,6 +42,8 @@
             [weakSelf segementDidSelected:index];
         }else if (index ==11) {
             [weakSelf segementDidSelected:index];
+        }else if (index ==200) {
+            [weakSelf markOverAction];
         }else{
             [weakSelf rightBarAction:index];
         }
@@ -186,6 +188,9 @@
     
 //    {"device_id":"133","device_number":"SB20190425000133"}
  
+    
+}
+-(void)markOverAction{
     
 }
 @end

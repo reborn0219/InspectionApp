@@ -77,10 +77,10 @@
         if (resultCode == SucceedCode) {
             
             NSDictionary * obj = data;
-            [_groupArr removeAllObjects];
-            [_groupArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceGroupModel class] json:[obj objectForKey:@"device_group_list"]]];
+            [weakSelf.groupArr removeAllObjects];
+            [weakSelf.groupArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceGroupModel class] json:[obj objectForKey:@"device_group_list"]]];
             [weakSelf.tableView reloadData];
-            if (_groupArr.count == 0) {
+            if (weakSelf.groupArr.count == 0) {
                 weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
             }
         }else{
@@ -98,10 +98,10 @@
         if (resultCode == SucceedCode) {
             NSDictionary * obj = data;
             
-            [_deviceArr removeAllObjects];
-            [_deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
+            [weakSelf.deviceArr removeAllObjects];
+            [weakSelf.deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
             [weakSelf.tableView reloadData];
-            if (_deviceArr.count == 0) {
+            if (weakSelf.deviceArr.count == 0) {
                 weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
             }
         }else{
@@ -165,7 +165,7 @@
         [_btn_3 setTitleColor:HexRGB(0x46CCD9) forState:UIControlStateNormal];
        self.work_sheet_status = @"3";
     }else if (btn.tag == 103) {
-        //未巡检
+        //未巡查
         [_v_4 setHidden:NO];
         [_btn_4 setTitleColor:HexRGB(0x46CCD9) forState:UIControlStateNormal];
       self.work_sheet_status = @"1";
@@ -237,7 +237,7 @@
         
         
         _btn_4= [[UIButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH/4*3,0,SCREEN_WIDTH/4,45)];
-        [_btn_4 setTitle:@"未巡检" forState:UIControlStateNormal];
+        [_btn_4 setTitle:@"未巡查" forState:UIControlStateNormal];
         _btn_4.titleLabel.font = [UIFont systemFontOfSize:15.0f];
 
         [_btn_4 addTarget:self action:@selector(topBtnAction:) forControlEvents:UIControlEventTouchUpInside];

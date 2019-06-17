@@ -158,7 +158,7 @@
     [self.navigationController.navigationBar setHidden:YES];
     self.tabBarController.hidesBottomBarWhenPushed = YES;
     [self showNaBar:2];
-    [self setBarTitle:@"巡查社区详情"];
+    [self setBarTitle:@"巡逻社区详情"];
     
 }
 -(void)viewWillDisappear:(BOOL)animated{
@@ -187,18 +187,18 @@
             NSLog(@"%@",data);
             NSDictionary * dic = data;
             
-            _detailModel = [PPInspectDetailsModel yy_modelWithJSON:dic];
-            [weakSelf assignment:_detailModel];
+            weakSelf.detailModel = [PPInspectDetailsModel yy_modelWithJSON:dic];
+            [weakSelf assignment:weakSelf.detailModel];
           
-            _submitOrdersModel.work_sheet_id = _detailModel.work_sheet_id;
+            weakSelf.submitOrdersModel.work_sheet_id = weakSelf.detailModel.work_sheet_id;
          
             //当工单状态为已完成时 只查看不提交
             if (weakSelf.work_sheet_status.integerValue == 5){
-                [weakSelf assignmentOver:_detailModel];
+                [weakSelf assignmentOver:weakSelf.detailModel];
             }
 
         }else{
-            [_backView setHidden:YES];
+            [weakSelf.backView setHidden:YES];
         }
         
     }];
@@ -269,13 +269,13 @@
     _timeLb.text =[format1 stringFromDate:date];
     
     _deviceAdressLb.text = [NSString stringWithFormat:@"%@  %@",viewModel.patrol_user_name,viewModel.patrol_user_phone];
-    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡查",viewModel.patrolled_count?:@"0",viewModel.patrol_count];
+    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡逻",viewModel.patrolled_count?:@"0",viewModel.patrol_count];
     if (self.work_sheet_status.integerValue == 6) {
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
-        [_stateBtn setTitle:@"未巡查" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"未巡逻" forState:UIControlStateNormal];
     }else if (viewModel.work_sheet_status.integerValue == 5) {
         [_stateBtn setBackgroundColor:OVER_COLOR];
-        [_stateBtn setTitle:@"已巡查" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"已巡逻" forState:UIControlStateNormal];
         
     }
     
@@ -324,10 +324,10 @@
     
     MJWeakSelf
     ConfirmationVC * firmationVC = [[ConfirmationVC alloc]init];
-    [firmationVC showInVC:self withTitle:@"是否确定提交巡查结果？"];
+    [firmationVC showInVC:self withTitle:@"是否确定提交巡逻结果？"];
     firmationVC.block = ^(NSInteger index) {
         if (index) {
-            //巡查
+            //巡逻
             [PatrolHttpRequest patrolworkcommit:dic :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
                 
                 if (resultCode == SucceedCode) {

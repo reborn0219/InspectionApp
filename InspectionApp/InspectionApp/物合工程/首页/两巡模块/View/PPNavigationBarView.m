@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *scanBtn;
 @property (weak, nonatomic) IBOutlet UIButton *backBtn;
 @property (weak, nonatomic) IBOutlet UILabel *titleLb;
+@property (weak, nonatomic) IBOutlet UIButton *markOverBtn;
 @end
 
 
@@ -23,6 +24,7 @@
 -(void)awakeFromNib{
     [super awakeFromNib];
     [_scanBtn setHidden:YES];
+    [_markOverBtn setHidden:YES];
 }
 - (IBAction)segmentBtnAction:(id)sender {
     UIButton * btn = sender;
@@ -58,6 +60,12 @@
 - (IBAction)cycleBtnAction:(id)sender {
     if (_block){
         _block(2);
+    }
+}
+- (IBAction)markOverAction:(id)sender {
+    
+    if (_block){
+        _block(200);
     }
 }
 -(void)setItemTitle:(NSString *)title withType:(NSInteger)type{
@@ -132,13 +140,38 @@
         _titleLb.textColor = HexRGB(0x333333);
     }else if (type == 8){
         [self.segmentView setHidden:NO];
-        [self.rightBtn setHidden:NO];
+        [self.rightBtn setHidden:YES];
         [self.scanBtn setHidden:YES];
         [self.segmentLeftBtn setTitle:@"语音播报" forState:(UIControlStateNormal)];
         [self.segmentRightBtn setTitle:@"工单列表" forState:(UIControlStateNormal)];
         [self.backBtn setImage:[UIImage imageNamed:@"图标-返回"] forState:UIControlStateNormal];
         [self.rightBtn setImage:[UIImage imageNamed:@"icon_search"] forState:UIControlStateNormal];
         self.backgroundColor = [UIColor whiteColor];
+        _titleLb.textColor = HexRGB(0x333333);
+    }else if (type == 9){
+//        [self.rightBtn setHidden:NO];
+//        self.rightBtn.titleLabel.text = @"标记无效";
+//        [self.rightBtn setTintColor:HexRGB(0x20A1DB) ];
+////        [self.rightBtn setTitleColor:HexRGB(0x20A1DB) forState:(UIControlStateNormal)];
+////        self.rightBtn.titleLabel.textColor = HexRGB(0x20A1DB);
+//        [self.segmentView setHidden:YES];
+//        [self.backBtn setImage:[UIImage imageNamed:@"图标-返回"] forState:UIControlStateNormal];
+//        self.backgroundColor = [UIColor whiteColor];
+        
+    }else if(type== 200){
+        [self.rightBtn setHidden:YES];
+        [self.segmentView setHidden:YES];
+        [self.backBtn setImage:[UIImage imageNamed:@"图标-返回"] forState:UIControlStateNormal];
+        self.backgroundColor = [UIColor whiteColor];
+        [_markOverBtn setHidden:NO];
+        _titleLb.textColor = HexRGB(0x333333);
+    }else if(type== 201){
+        [self.rightBtn setHidden:YES];
+        [self.segmentView setHidden:YES];
+        [self.backBtn setImage:[UIImage imageNamed:@"图标-返回"] forState:UIControlStateNormal];
+        self.backgroundColor = [UIColor whiteColor];
+        [_markOverBtn setHidden:NO];
+        [_markOverBtn setTitle:@"提交" forState:(UIControlStateNormal)];
         _titleLb.textColor = HexRGB(0x333333);
     }
 }

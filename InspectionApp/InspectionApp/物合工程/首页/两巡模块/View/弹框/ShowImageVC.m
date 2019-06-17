@@ -37,6 +37,29 @@
     [self dismissViewControllerAnimated:NO completion:nil];
     
 }
+- (void)setImageNoDeleWithImageArray:(NSMutableArray *)imageArr withIndex:(int)index
+{
+    _page = index;
+    for (int i = 0; i <imageArr.count; i++) {
+       
+        UIImageView *imageV = [[UIImageView alloc]init];
+        imageV.contentMode =     UIViewContentModeScaleAspectFit;
+        [imageV setFrame:CGRectMake(i*KScreenWigth, 0, KScreenWigth, KScreenHeight)];
+        id obj = imageArr[i];
+        if ([obj isKindOfClass:[NSString class]] ) {
+            [imageV sd_setImageWithURL:[NSURL URLWithString:obj]];
+            
+        }else if ([obj isKindOfClass:[UIImage class]]){
+            imageV.image = obj;
+        }
+        [self.scrollView addSubview:imageV];
+    }
+    
+    self.scrollView.contentSize = CGSizeMake(SCREEN_WIDTH * imageArr.count, SCREEN_HEIGHT);
+    _pageControl.numberOfPages = imageArr.count;
+    [self.scrollView setContentOffset:CGPointMake(SCREEN_WIDTH*index,0)];
+    
+}
 - (void)setImageWithImageArray:(NSMutableArray *)imageArr withIndex:(int)index
 {
     _page = index;

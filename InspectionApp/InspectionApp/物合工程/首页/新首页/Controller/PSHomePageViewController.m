@@ -15,8 +15,12 @@
 #import "PatrolMatterSubmitVC.h"
 #import "PatrolTaskListVC.h"
 #import "PtrolMemberTaskListVC.h"
+#import "PatrolPatrolTaskListVC.h"
+#import "PatrolMemberTaskVC.h"
 #import "PSWorkOrderViewController.h"
 #import "HomeRequest.h"
+#import "SecurityWorkOrderVC.h"
+#import "HomeModel.h"
 @interface PSHomePageViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UILabel *identityLab;
@@ -29,6 +33,8 @@
 @property (nonatomic, strong)UICollectionView  *collectionView;
 @property (nonatomic, strong)NSArray  *nameArr;
 @property (nonatomic, strong)NSArray  *imageArr;
+@property (nonatomic,strong) HomeModel *controllerModel;
+
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *backViewHeight;
 
 @end
@@ -39,9 +45,11 @@
     [super viewDidLoad];
     [self createUI];
     if ([UserManager iscaptain].integerValue == 1) {
+        _identityLab.text = @"巡逻队长";
         self.nameArr = @[@"安保工单",@"安保巡逻管理",@"紧急任务",@"警务调度",@"在线报事"];
         self.imageArr = @[@"安保工单",@"安保巡逻管理",@"紧急任务",@"警务调度",@"在线报事"];
     }else{
+        _identityLab.text = @"巡逻队员";
         self.nameArr = @[@"安保工单",@"安保巡逻",@"紧急任务",@"警务调度",@"在线报事"];
         self.imageArr = @[@"安保工单",@"安保巡逻",@"紧急任务",@"警务调度",@"在线报事"];
     }
@@ -49,6 +57,7 @@
 }
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO];
     [self requestData];
 }
 - (void)viewWillDisappear:(BOOL)animated
@@ -56,12 +65,22 @@
     [super viewWillDisappear:animated];
 }
 -(void)requestData{
-    
+    MJWeakSelf
     [HomeRequest companyinfo:^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
         if (resultCode == SucceedCode) {
             NSLog(@"%@",data);
+            NSDictionary * dic = data;
+            weakSelf.controllerModel = [HomeModel yy_modelWithJSON:dic];
+            [weakSelf assignmentWithModel];
         }
     }];
+    
+}
+-(void)assignmentWithModel
+{
+    _checkedNoLab.text = _controllerModel.finished_num;
+    _uncheckNoLab.text = _controllerModel.unfinished_num;
+    _companyLab.text = _controllerModel.company_name;
     
 }
 - (void)createUI{
@@ -122,7 +141,7 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         //安保工单
-        PSWorkOrderViewController *workOrderVC = [[PSWorkOrderViewController alloc]init];
+        SecurityWorkOrderVC *workOrderVC = [[SecurityWorkOrderVC alloc]init];
 //        GJAllWageViewController *messageVC = [[GJAllWageViewController alloc] init];
 //        messageVC.isAnBao = YES;
            workOrderVC.hidesBottomBarWhenPushed = YES;
@@ -130,16 +149,25 @@
     }else if (indexPath.row == 1){
         //安保巡逻/安保巡逻管理
         if ([UserManager iscaptain].integerValue == 1) {
-            
+
             PatrolTaskListVC * pptlVC = [[PatrolTaskListVC alloc]init];
                pptlVC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:pptlVC animated:YES];
-            
+
         }else if ([UserManager iscaptain].integerValue == 0){
             PtrolMemberTaskListVC * pmolVC = [[PtrolMemberTaskListVC alloc]init];
                 pmolVC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:pmolVC animated:YES];
         }
+//        if ([UserManager iscaptain].integerValue == 1) {
+//            
+//            PatrolPatrolTaskListVC * pptlVC = [[PatrolPatrolTaskListVC alloc]init];
+//            [self.navigationController pushViewController:pptlVC animated:YES];
+//            
+//        }else if ([UserManager iscaptain].integerValue == 0){
+//            PatrolMemberTaskVC * pmtVC = [[PatrolMemberTaskVC alloc]init];
+//            [self.navigationController pushViewController:pmtVC animated:YES];
+//        }
     }else if (indexPath.row == 2){
         //紧急任务
         PatrolUrgentTasksVC * putVC = [[PatrolUrgentTasksVC alloc]init];

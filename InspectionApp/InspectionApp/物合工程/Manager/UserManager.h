@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "UserManagerModel.h"
+#import "AboutModel.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UserManager : NSObject
 +(void)saveUserInfo:(UserManagerModel *)userModel;
 +(UserManagerModel*)getUserInfo;
+
++(void)saveAboutModel:(AboutModel *)aboutModel;
++(AboutModel*)getAboutModel;
 
 +(NSString *)user_id;
 +(NSString *)token;
@@ -21,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString *)mobile_phone;
 +(NSString *)ture_name;
 +(NSString *)menber_id;
++(NSString *)security_id;
+
+
++(BOOL)order_starts;
 
 
 

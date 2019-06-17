@@ -55,6 +55,9 @@
 #import "AnimtionUtils.h"
 #import "GJAppDelegate.h"
 #import "WKWebViewController.h"
+#import "WorkOrderBaseCell.h"
+#import "SecurityRequest.h"
+
 #define KCurrentProperty_id   @"property_id"    //当前选中的Property_id
 #define KCurrentCommunity_id  @"community_id"   //当前选中的Community_id
 #define KUserDefault          [NSUserDefaults standardUserDefaults]
@@ -82,11 +85,15 @@
 #define FZLeftMenuH 500
 #define FZLeftMenuY 60
 
+#define URL_PIC @"http://img.meidyy.com/"
+
 //物联宝管家1.0.0
 //#define URL_LOCAL @"http://xiaoqu.meidyy.com/api/"
 //#define URL_LOCAL @"http://xiaoqu.demo.meidyy.com/api/"
 //#define URL_LOCAL @"http://xiaoqu.test.meidyy.com/api/"
-#define URL_LOCAL @"http://192.168.20.22:1006/api/"
+//#define URL_LOCAL @"http://192.168.20.22:1006/api/"
+
+#define URL_LOCAL @"http://192.168.10.23:1006/apiv2/"
 
 //#define URL_LOCAL @"http://192.168.0.6:80/wuhebao/api/index.php"
 //#define URL_LOCAL @"http://192.168.0.8:90/wuhebao_admin/trunk/api/index.php"

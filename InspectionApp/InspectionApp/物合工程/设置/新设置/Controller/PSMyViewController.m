@@ -12,6 +12,9 @@
 #import "WHZLForgetPasswordVC.h"
 #import "WHZLLoginViewController.h"
 #import "MyViewControllerCell.h"
+#import "PSFeedBackViewController.h"
+#import "MyselfRequest.h"
+#import "HomeModel.h"
 
 @interface PSMyViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
@@ -28,6 +31,7 @@
 @property (nonatomic, strong)NSArray  *nameArr;
 @property (nonatomic, strong)UIAlertView  *alert;
 @property (nonatomic, strong)NSString  *cache;
+@property (nonatomic, strong)HomeModel  *controllerModel;
 @end
 
 @implementation PSMyViewController
@@ -39,22 +43,43 @@
 }
 - (void)viewWillAppear:(BOOL)animated
 {
+    [self requestData];
     self.navigationController.navigationBar.hidden = YES;
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
   self.navigationController.navigationBar.hidden = NO;
 }
+-(void)requestData{
+    MJWeakSelf
+    [MyselfRequest companyinfo:^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
+        if (resultCode == SucceedCode) {
+            NSLog(@"%@",data);
+            NSDictionary * dic = data;
+            weakSelf.controllerModel = [HomeModel yy_modelWithJSON:dic];
+            [weakSelf assignmentWithModel];
+        }
+    }];
+    
+}
+-(void)assignmentWithModel
+{
+    _checkedLab.text = _controllerModel.finished_num;
+    _uncheckLab.text = _controllerModel.unfinished_num;
+    _companyLab.text = _controllerModel.company_name;
+    
+}
 -(void)createUI
 {
-    self.nameArr = @[@"修改密码",@"清除缓存",@"关于物合宝"];
+    self.nameArr = @[@"修改密码",@"清除缓存",@"意见反馈",@"关于物合宝"];
     self.view.backgroundColor = HexRGBAlpha(0xFEFEFE, 1);
     self.littleBackView.layer.cornerRadius = 8.0f;
     self.littleBackView.layer.masksToBounds = YES;
     self.littleBackView.backgroundColor = [UIColor whiteColor];
     self.littleBackView.layer.shadowOffset = CGSizeMake(0, 2);
+    self.backImageV.userInteractionEnabled = YES;
     [self.exitBtn setTitle:@"退出登录" forState:(UIControlStateNormal) ];
-    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 240, KScreenWigth, 150) style:(UITableViewStylePlain)];
+    self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 240, KScreenWigth, 180) style:(UITableViewStylePlain)];
     [self.tableView registerNib:[UINib nibWithNibName:@"MyViewControllerCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MyViewControllerCell"];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.delegate = self;
@@ -63,9 +88,11 @@
 }
 
 - (IBAction)backAction:(id)sender {
+
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (IBAction)exitAction:(id)sender {
+    [[NSUserDefaults standardUserDefaults]setObject:@(NO) forKey:@"IS_LOGIN"];
     WHZLLoginViewController *loginVC =[[WHZLLoginViewController alloc]init];
     UINavigationController *loginnav = [[UINavigationController alloc]initWithRootViewController:loginVC];
     APP_DELEGATE.window.rootViewController=loginnav;
@@ -75,7 +102,7 @@
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return self.nameArr.count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -96,6 +123,9 @@
     }else if (indexPath.row == 1){
         self.alert = [[UIAlertView alloc] initWithTitle:nil message:@"确定要清除缓存数据?" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定",nil];
         [self.alert show];
+    }else if (indexPath.row ==2){
+        PSFeedBackViewController *aboutVC = [[PSFeedBackViewController alloc]init];
+        [self.navigationController pushViewController:aboutVC animated:YES];
     }else{
         PSAboutUsViewController *aboutVC = [[PSAboutUsViewController alloc]init];
         [self.navigationController pushViewController:aboutVC animated:YES];
@@ -119,14 +149,6 @@
     self.cache= @"0.00M";
     [self.tableView reloadData];
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

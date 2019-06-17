@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="PSWODetailsVideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PSWOD-video" translatesAutoresizingMaskIntoConstraints="NO" id="tJf-3K-jVG">
+                        <rect key="frame" x="15" y="8" width="119" height="119"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="BAw-eO-of8"/>
+                            <constraint firstAttribute="width" secondItem="tJf-3K-jVG" secondAttribute="height" id="oQ9-Lv-17Q"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UlB-Do-oLv">
+                        <rect key="frame" x="15" y="8" width="119" height="119"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQ7-Lr-9aC">
+                        <rect key="frame" x="15" y="8" width="119" height="119"/>
+                        <state key="normal" image="rideo_play"/>
+                        <connections>
+                            <action selector="playVideoAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ad2-OC-OvN"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tJf-3K-jVG" secondAttribute="bottom" constant="8" id="12I-PD-Wdm"/>
+                    <constraint firstItem="tJf-3K-jVG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="5KJ-IC-tlg"/>
+                    <constraint firstItem="UlB-Do-oLv" firstAttribute="trailing" secondItem="tJf-3K-jVG" secondAttribute="trailing" id="5Z2-NB-4IE"/>
+                    <constraint firstItem="KQ7-Lr-9aC" firstAttribute="top" secondItem="UlB-Do-oLv" secondAttribute="top" id="AFi-pG-Fmj"/>
+                    <constraint firstItem="KQ7-Lr-9aC" firstAttribute="bottom" secondItem="UlB-Do-oLv" secondAttribute="bottom" id="Hft-aF-tLJ"/>
+                    <constraint firstItem="UlB-Do-oLv" firstAttribute="leading" secondItem="tJf-3K-jVG" secondAttribute="leading" id="UQT-ax-UGY"/>
+                    <constraint firstItem="UlB-Do-oLv" firstAttribute="height" secondItem="tJf-3K-jVG" secondAttribute="height" id="ZAj-nC-ZVg"/>
+                    <constraint firstItem="UlB-Do-oLv" firstAttribute="top" secondItem="tJf-3K-jVG" secondAttribute="top" id="aDm-v1-i4w"/>
+                    <constraint firstItem="tJf-3K-jVG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cyQ-6R-mIC"/>
+                    <constraint firstItem="KQ7-Lr-9aC" firstAttribute="leading" secondItem="UlB-Do-oLv" secondAttribute="leading" id="fij-4x-k2r"/>
+                    <constraint firstItem="KQ7-Lr-9aC" firstAttribute="trailing" secondItem="UlB-Do-oLv" secondAttribute="trailing" id="qf4-4R-E5V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="noVideoLab" destination="UlB-Do-oLv" id="jya-4m-jdk"/>
+                <outlet property="playBtn" destination="KQ7-Lr-9aC" id="2nc-61-Q92"/>
+                <outlet property="videoImageV" destination="tJf-3K-jVG" id="LP4-se-qze"/>
+            </connections>
+            <point key="canvasLocation" x="60.14492753623189" y="50.223214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PSWOD-video" width="119" height="119"/>
+        <image name="rideo_play" width="16" height="16"/>
+    </resources>
+</document>

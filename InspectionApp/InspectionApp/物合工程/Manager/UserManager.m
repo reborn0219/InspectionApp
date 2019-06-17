@@ -9,6 +9,21 @@
 #import "UserManager.h"
 
 @implementation UserManager
+
++(AboutModel*)getAboutModel{
+    NSData *data = [[NSUserDefaults standardUserDefaults] objectForKey:@"about_model"];
+    NSDictionary *dict = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    return  [AboutModel yy_modelWithJSON:dict];
+}
+
++(void)saveAboutModel:(AboutModel *)aboutModel{
+    
+    NSDictionary *productDic = [aboutModel yy_modelToJSONObject];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:productDic];
+    [[NSUserDefaults standardUserDefaults] setObject:data forKey:@"about_model"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
+}
+
 +(void)saveUserInfo:(UserManagerModel *)userModel{
     
     NSDictionary *productDic = [userModel yy_modelToJSONObject];
@@ -31,6 +46,7 @@
 +(NSString *)token{
     UserManagerModel *model = [UserManager getUserInfo];
     return model.token;
+   
 }
 +(NSString *)nick_name{
     UserManagerModel *model = [UserManager getUserInfo];
@@ -52,5 +68,19 @@
 +(NSString *)menber_id{
     UserManagerModel *model = [UserManager getUserInfo];
     return [NSString stringWithFormat:@"%ld",(long)model.member_id];
+}
+
++(BOOL)order_starts{
+    NSNumber *start = [[NSUserDefaults standardUserDefaults]objectForKey:Order_Starts];
+    if (!start) {
+        [[NSUserDefaults standardUserDefaults]setObject:@YES forKey:Order_Starts];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+    }
+
+    return start.boolValue;
+}
++(NSString *)security_id{
+    UserManagerModel *model = [UserManager getUserInfo];
+    return [NSString stringWithFormat:@"%ld",(long)model.security_id];
 }
 @end

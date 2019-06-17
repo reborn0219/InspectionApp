@@ -75,7 +75,7 @@
     _inspectnameLb.text = model.inspect_user_name;
     _inspectphoneLb.text = model.inspect_user_phone;
     _inspecttimeLb.text = model.inspect_time;
-    _xjcycleLb.text = [NSString stringWithFormat:@"%@/%@次巡检",model.inspected_count,model.inspect_count];
+    _xjcycleLb.text = [NSString stringWithFormat:@"%@/%@次巡查",model.inspected_count,model.inspect_count];
     if (model.work_sheet_status.integerValue==2) {
         [_stateBtn setTitle:@"正常" forState:UIControlStateNormal];
         [_stateBtn setBackgroundColor:OPTIONING_COLOR];
@@ -104,7 +104,7 @@
         [_changeRepairBtn setEnabled:NO];
         
     }else  if (model.work_sheet_status.integerValue==1) {
-        [_stateBtn setTitle:@"未巡检" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"未巡查" forState:UIControlStateNormal];
         _state_btn_w.constant = 40;
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
 //        _stateBtn.hidden = YES;
@@ -252,7 +252,7 @@
     [self.navigationController.navigationBar setHidden:YES];
     self.tabBarController.hidesBottomBarWhenPushed = YES;
     [self showNaBar:2];
-    [self setBarTitle:@"巡检设备详情"];
+    [self setBarTitle:@"巡查设备详情"];
     
     [self requestData];
     
@@ -265,14 +265,14 @@
             NSDictionary * obj = data;
             NSArray *work_sheet_list = [obj objectForKey:@"work_sheet_list"];
             if (work_sheet_list.count>0) {
-                _controlerModel = [PPInspectDeviceModel yy_modelWithJSON:work_sheet_list.firstObject];
-                [weakSelf assignmentWithModel:_controlerModel];
-                [_tableView reloadData];
-                _tableview_h.constant = _tableView.contentSize.height;
+                weakSelf.controlerModel = [PPInspectDeviceModel yy_modelWithJSON:work_sheet_list.firstObject];
+                [weakSelf assignmentWithModel:weakSelf.controlerModel];
+                [weakSelf.tableView reloadData];
+                weakSelf.tableview_h.constant = weakSelf.tableView.contentSize.height;
             }
           
         }else{
-            [_backView setHidden:YES];
+            [weakSelf.backView setHidden:YES];
         }
         
     }];

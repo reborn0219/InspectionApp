@@ -72,17 +72,17 @@
             if (resultCode == SucceedCode) {
                 NSDictionary * obj = data;
                 
-                [_deviceArr removeAllObjects];
-                _groupModel = [PPDeviceGroupModel yy_modelWithJSON:obj];
-                [_gradientArcChart setProgress:_groupModel.device_number Inspection:_groupModel.inspected_number Abnormal:_groupModel.abnormal_number];
-                [_deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
-                _teamNameLb.text= _groupModel.group_name;
-                _abnomalLb.text = [NSString stringWithFormat:@"已巡检设备%@/%@",_groupModel.inspected_number,_groupModel.device_number];
-                self.inspectLb.text = [NSString stringWithFormat:@"%@个异常设备",_groupModel.abnormal_number];
-                self.addressLb.text = _groupModel.group_no;
+                [weakSelf.deviceArr removeAllObjects];
+                weakSelf.groupModel = [PPDeviceGroupModel yy_modelWithJSON:obj];
+                [weakSelf.gradientArcChart setProgress:weakSelf.groupModel.device_number Inspection:weakSelf.groupModel.inspected_number Abnormal:weakSelf.groupModel.abnormal_number];
+                [weakSelf.deviceArr addObjectsFromArray:[NSArray yy_modelArrayWithClass:[PPDeviceListModel class] json:[obj objectForKey:@"device_list"]]];
+                weakSelf.teamNameLb.text= weakSelf.groupModel.group_name;
+                weakSelf.abnomalLb.text = [NSString stringWithFormat:@"已巡查设备%@/%@",weakSelf.groupModel.inspected_number,weakSelf.groupModel.device_number];
+                weakSelf.inspectLb.text = [NSString stringWithFormat:@"%@个异常设备",weakSelf.groupModel.abnormal_number];
+                self.addressLb.text = weakSelf.groupModel.group_no;
                 
                 [weakSelf.tableView reloadData];
-                if (_deviceArr.count == 0) {
+                if (weakSelf.deviceArr.count == 0) {
                     weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
                 }
 //                "device_number" = 10;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="137" id="KGk-i7-Jjw" customClass="PSWODetailsImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="545" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="545" height="136.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R44-9s-Tix">
+                        <rect key="frame" x="15" y="8" width="117.5" height="117.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="R44-9s-Tix" secondAttribute="height" id="9NQ-X4-ipv"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DLi-T9-0KR">
+                        <rect key="frame" x="147.5" y="8" width="117.5" height="117.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6HI-mk-zVu">
+                        <rect key="frame" x="280" y="8" width="117.5" height="117.5"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="103" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XfU-XC-wtW">
+                        <rect key="frame" x="412.5" y="8" width="117.5" height="117.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DLi-T9-0KR" firstAttribute="width" secondItem="6HI-mk-zVu" secondAttribute="width" id="8EP-LE-FPt"/>
+                    <constraint firstItem="6HI-mk-zVu" firstAttribute="leading" secondItem="DLi-T9-0KR" secondAttribute="trailing" constant="15" id="IC4-tM-TJI"/>
+                    <constraint firstItem="DLi-T9-0KR" firstAttribute="centerY" secondItem="R44-9s-Tix" secondAttribute="centerY" id="IWH-DT-MSn"/>
+                    <constraint firstItem="6HI-mk-zVu" firstAttribute="height" secondItem="DLi-T9-0KR" secondAttribute="height" id="QiB-dx-x9f"/>
+                    <constraint firstItem="R44-9s-Tix" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="VkO-oh-ITT"/>
+                    <constraint firstItem="6HI-mk-zVu" firstAttribute="centerY" secondItem="DLi-T9-0KR" secondAttribute="centerY" id="bM2-dN-ydZ"/>
+                    <constraint firstAttribute="bottom" secondItem="R44-9s-Tix" secondAttribute="bottom" constant="11" id="dHC-PV-FxE"/>
+                    <constraint firstItem="XfU-XC-wtW" firstAttribute="leading" secondItem="6HI-mk-zVu" secondAttribute="trailing" constant="15" id="dvX-2D-fu3"/>
+                    <constraint firstItem="R44-9s-Tix" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="f3I-4Q-68z"/>
+                    <constraint firstItem="XfU-XC-wtW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ffm-it-4SI"/>
+                    <constraint firstItem="XfU-XC-wtW" firstAttribute="height" secondItem="6HI-mk-zVu" secondAttribute="height" id="lp5-FJ-FYK"/>
+                    <constraint firstAttribute="trailing" secondItem="XfU-XC-wtW" secondAttribute="trailing" constant="15" id="nMb-1B-A8y"/>
+                    <constraint firstItem="6HI-mk-zVu" firstAttribute="width" secondItem="XfU-XC-wtW" secondAttribute="width" id="qeP-bT-ajt"/>
+                    <constraint firstItem="DLi-T9-0KR" firstAttribute="leading" secondItem="R44-9s-Tix" secondAttribute="trailing" constant="15" id="qnE-fr-sJc"/>
+                    <constraint firstItem="R44-9s-Tix" firstAttribute="width" secondItem="DLi-T9-0KR" secondAttribute="width" id="x8M-Jr-1Km"/>
+                    <constraint firstItem="DLi-T9-0KR" firstAttribute="height" secondItem="R44-9s-Tix" secondAttribute="height" id="xir-Ip-oin"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imageFour" destination="XfU-XC-wtW" id="pMu-WW-QCC"/>
+                <outlet property="imageOne" destination="R44-9s-Tix" id="x81-bB-ZTx"/>
+                <outlet property="imageThree" destination="6HI-mk-zVu" id="43N-uq-nnZ"/>
+                <outlet property="imageTwo" destination="DLi-T9-0KR" id="Yqy-tj-um6"/>
+            </connections>
+            <point key="canvasLocation" x="302.17391304347831" y="168.41517857142856"/>
+        </tableViewCell>
+    </objects>
+</document>

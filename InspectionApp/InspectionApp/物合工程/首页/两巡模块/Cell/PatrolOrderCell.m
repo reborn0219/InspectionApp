@@ -49,7 +49,7 @@
 //    [_gradientArcChart setProgress:@"20" Inspection:@"5" Abnormal:@"17"];
     
     self.communityNameLb.text= model.community_name;
-    self.abnormalLb.text = [NSString stringWithFormat:@"已巡检设备%@/%@",model.inspected_number,model.device_number];
+    self.abnormalLb.text = [NSString stringWithFormat:@"已巡查设备%@/%@",model.inspected_number,model.device_number];
     self.inspectedLb.text = [NSString stringWithFormat:@"%@个异常设备",model.abnormal_number];
     self.addressLb.text = model.community_position;
     

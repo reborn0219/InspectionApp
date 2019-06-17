@@ -53,7 +53,7 @@
     NSString *orderCycle = [NSString stringWithFormat:@"%ld",(long)_orderCycle];
     self.tableView.tableHeaderView = [UIView new];
     if (_pageType == PageOneTypeXunJian) {
-        ///巡检队长
+        ///巡查队长
         _PatrolType = 1;
         [PatrolHttpRequest inspecttasklist:@{@"task_status":orderType,@"task_cycle":orderCycle,@"currentPage":currentPage,@"pageSize":pageSize} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
 
@@ -82,7 +82,7 @@
         }];
         
     }else if(_pageType == PageOneTypeXunJianMember) {
-        ///巡检队员
+        ///巡查队员
         _PatrolType = 1;
 
         [PatrolHttpRequest memberinspectiontasklist:@{@"task_status":orderType,@"task_cycle":orderCycle,@"currentPage":currentPage,@"pageSize":pageSize} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
@@ -114,9 +114,9 @@
         }];
         
     }else if(_pageType == PageOneTypeXunCha) {
-        ///巡查队长
+        ///巡逻队长
         _PatrolType = 2;
-        [PatrolHttpRequest patroltasklist:@{@"task_status":orderType,@"task_cycle":orderCycle,@"currentPage":currentPage,@"pageSize":pageSize} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
+       [PatrolHttpRequest patroltasklist:@{@"task_status":orderType,@"task_cycle":orderCycle,@"currentPage":currentPage,@"pageSize":pageSize} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
             
             if (resultCode == SucceedCode) {
                 NSDictionary * obj = data;
@@ -142,7 +142,7 @@
         }];
         
     }else if(_pageType == PageOneTypeXunChaMember) {
-        ///巡查队员
+        ///巡逻队员
         _PatrolType = 2;
         if (_orderType!=0) {
             orderType = [NSString stringWithFormat:@"%ld",(long)_orderType+2];

@@ -31,11 +31,13 @@
     [self createUI];
     self.isCaptain = [UserManager iscaptain];
     if (self.isCaptain) {
-        self.nameArr = @[@"在线维修",@"工程巡检管理",@"在线报事",@"警务调度"];
-        self.imageArr = @[@"在线维修",@"工程巡检管理",@"在线报事",@"警务调度"];
+         _identityLab.text = @"巡查队长";
+        self.nameArr = @[@"在线维修",@"工程巡查管理",@"在线报事",@"警务调度"];
+        self.imageArr = @[@"在线维修",@"工程巡查管理",@"在线报事",@"警务调度"];
     }else{
-        self.nameArr = @[@"在线维修",@"工程巡检",@"在线报事",@"警务调度"];
-        self.imageArr = @[@"在线维修",@"工程巡检",@"在线报事",@"警务调度"];
+         _identityLab.text = @"巡查队员";
+        self.nameArr = @[@"在线维修",@"工程巡查",@"在线报事",@"警务调度"];
+        self.imageArr = @[@"在线维修",@"工程巡查",@"在线报事",@"警务调度"];
     }
 
 
@@ -122,14 +124,6 @@
     cell.imageV.image =[UIImage imageNamed:[NSString stringWithFormat:@"%@",self.imageArr[indexPath.row]]];
     return cell;
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

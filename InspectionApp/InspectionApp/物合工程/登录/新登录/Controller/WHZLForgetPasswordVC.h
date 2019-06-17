@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface WHZLForgetPasswordVC : UIViewController
+@interface WHZLForgetPasswordVC : PPBaseViewController
 @property (nonatomic, assign)BOOL isChange;
 @end
 

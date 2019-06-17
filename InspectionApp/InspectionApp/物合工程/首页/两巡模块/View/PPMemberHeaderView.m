@@ -52,7 +52,7 @@
     }
    
     if (_type==1) {
-        self.numberLb.text = [NSString stringWithFormat:@"%lu个巡检任务",(unsigned long)(long)model.community_list.count];
+        self.numberLb.text = [NSString stringWithFormat:@"%lu个巡查任务",(unsigned long)(long)model.community_list.count];
     }else{
         self.numberLb.text = [NSString stringWithFormat:@"%ld个社区",(long)model.community_list.count];
         
@@ -81,9 +81,9 @@
         {
             _state_view_w.constant = 46;
             if (type == 2) {
-                _stateLb.text = @"巡查中";
+                _stateLb.text = @"巡逻中";
             }else{
-                _stateLb.text = @"巡检中";
+                _stateLb.text = @"巡查中";
             }
          
             

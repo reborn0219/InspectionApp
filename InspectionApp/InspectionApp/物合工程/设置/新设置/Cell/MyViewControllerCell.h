@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *titleLab;
 @property (weak, nonatomic) IBOutlet UIButton *clickBtn;
 @property (weak, nonatomic) IBOutlet UILabel *detailsLab;
-
+@property (nonatomic, assign)  BOOL isHidden;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -13,12 +13,14 @@
 //NSString * const Server_Address = @"http://192.168.20.34:9006/liangxun/api/v1/";
 //NSString * const Server_Address = @"http://192.168.20.22:9006/liangxun/api/v1/";
 
-NSString * const Server_Address = @"http://192.168.20.22:9006/liangxun/api/v2/";
+NSString * const Server_Address = @"http://192.168.10.23:9007/liangxun/api/v2/";
 //NSString * const Server_Address = @"http://192.168.20.22:9000/mock/21/api/v1/";
 //NSString * const Server_Address = @"http://xiaoqu.testjar.meidyy.com/liangxun/api/v1/";
 //NSString * const Server_Address = @"https://api.meidyy.com/liangxun/api/v1/";
 
 NSString * const Map_Key = @"bb6d54f3e71a418046c9261788ecff18";
 NSString * const Chat_Server_Address = @"http://xiaoxi.node4.yanxishe.cc/";
+NSString * const Order_Starts = @"Order_Starts";
+NSString * const Page_Size = @"20";
 
 @end

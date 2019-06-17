@@ -45,7 +45,7 @@
     [self.navigationController.navigationBar setHidden:YES];
     self.tabBarController.hidesBottomBarWhenPushed = YES;
     [self showNaBar:1];
-    [self setBarTitle:@"巡查任务列表"];
+    [self setBarTitle:@"巡逻任务列表"];
     [self pageTabViewDidEndChange];
 }
 -(void)viewWillDisappear:(BOOL)animated{
@@ -74,7 +74,7 @@
     [self addChildViewController:test4];
     [self addChildViewController:test5];
 
-    self.pageTabView = [[XXPageTabView alloc] initWithChildControllers:self.childViewControllers childTitles:@[@"全部",@"未到执行时间",@"未开始执行",@"巡查中",@"已结束"]];
+    self.pageTabView = [[XXPageTabView alloc] initWithChildControllers:self.childViewControllers childTitles:@[@"全部",@"未到执行时间",@"未开始执行",@"巡逻中",@"已结束"]];
     self.pageTabView.frame = CGRectMake(0,NavBar_H, self.view.frame.size.width, self.view.frame.size.height-NavBar_H);
     self.pageTabView.delegate = self;
     //    self.pageTabView.bodyEnableScroll = NO;

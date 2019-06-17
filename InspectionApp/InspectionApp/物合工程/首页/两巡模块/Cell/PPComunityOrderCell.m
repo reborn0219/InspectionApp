@@ -26,15 +26,15 @@
 -(void)assignmentWithModel:(PPTaskDetailModelCommunity_list *)model{
 //    _cellModel = model;
     if (model.work_sheet_status.integerValue == 6) {
-        [_stateBtn setTitle:@"未巡查" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"未巡逻" forState:UIControlStateNormal];
         [_stateBtn setBackgroundColor:UN_OPTION_COLOR];
     }else{
-        [_stateBtn setTitle:@"已巡查" forState:UIControlStateNormal];
+        [_stateBtn setTitle:@"已巡逻" forState:UIControlStateNormal];
         [_stateBtn setBackgroundColor:OVER_COLOR];
     }
     _titleLb.text = model.community_name;
     _contentLb.text = model.community_position;
-    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡查",model.patrolled_count?:@"0",model.patrol_count];
+    _cycleLb.text = [NSString stringWithFormat:@"%@/%@次巡逻",model.patrolled_count?:@"0",model.patrol_count];
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

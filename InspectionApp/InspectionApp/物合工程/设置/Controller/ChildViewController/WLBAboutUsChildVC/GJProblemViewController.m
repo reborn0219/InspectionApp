@@ -11,7 +11,7 @@
 @interface GJProblemViewController ()
 {
     NSString *uploadUrl;
-    NSString *webViewStr;
+    NSString *textViewBackView;
 }
 //@property(nonatomic,strong)UILabel *TitleLable;
 @property(nonatomic,strong)UIAlertView *shengjialert;
@@ -41,8 +41,8 @@
 -(void)getdata
 {
     NSUserDefaults *userdefaults = [NSUserDefaults standardUserDefaults];
-    webViewStr = [userdefaults objectForKey:@"AboutUsQuestendStr"];
-    if (webViewStr != nil) {
+    textViewBackView = [userdefaults objectForKey:@"AboutUsQuestendStr"];
+    if (textViewBackView != nil) {
         [self createdUI];
     }else
     {
@@ -72,7 +72,7 @@
         {
             [userdefaults setObject:dictionary[@"return_data"] forKey:@"AboutUsQuestendStr"];
             [userdefaults synchronize];
-            webViewStr = dictionary[@"return_data"];
+            textViewBackView = dictionary[@"return_data"];
             [self createdUI];
         }
         [GJSVProgressHUD dismiss];
@@ -83,7 +83,7 @@
 -(void)createdUI
 {
     UIWebView *webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, W, H - 64)];
-    [webView loadHTMLString:webViewStr baseURL:nil];
+    [webView loadHTMLString:textViewBackView baseURL:nil];
     [self.tableview addSubview:webView];
 }
 

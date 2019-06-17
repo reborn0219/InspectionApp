@@ -70,7 +70,7 @@ static int const showtime = 7;
         UITabBarController *loginVC = [[UITabBarController alloc]init];
 
         UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginVC];
-        self.window.rootViewController = loginVC;
+        self.window.rootViewController = nav;
         [self.window makeKeyWindow];
     }
     //设置svp格式

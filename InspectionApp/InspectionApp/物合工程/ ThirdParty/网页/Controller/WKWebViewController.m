@@ -108,9 +108,11 @@
     [super viewWillAppear:animated];
     [self showNaBar:2];
     [self setBarTitle:_titleStr];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:_webUrl]];
-    [request addValue:[self readCurrentCookieWithDomain:_webUrl] forHTTPHeaderField:@"Cookie"];
-    [_webView loadRequest:request];
+//    UIWebView *webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0,w ,H - NavBar_H)];
+    [self.webView loadHTMLString:self.webUrl baseURL:nil];
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:_webUrl]];
+//    [request addValue:[self readCurrentCookieWithDomain:_webUrl] forHTTPHeaderField:@"Cookie"];
+//    [_webView loadRequest:request];
     
     
 }

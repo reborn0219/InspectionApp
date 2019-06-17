@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PSAboutUsViewController">
             <connections>
+                <outlet property="appNameLab" destination="cl4-uv-gSV" id="whH-uf-H0y"/>
+                <outlet property="versionLab" destination="WWQ-WS-1SW" id="cUl-Qn-CEp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -39,7 +41,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWQ-WS-1SW">
                     <rect key="frame" x="193.5" y="258" width="27" height="17"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="27" id="0Si-HV-Hd7"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="27" id="0Si-HV-Hd7"/>
                         <constraint firstAttribute="height" constant="17" id="Z5G-PO-TSH"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>

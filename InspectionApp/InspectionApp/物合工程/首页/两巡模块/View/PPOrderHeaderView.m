@@ -118,9 +118,9 @@
         {
             _state_view_w.constant = 46;
             if (type == 2) {
-              _statueLb.text = @"巡查中";
+              _statueLb.text = @"巡逻中";
             }else{
-              _statueLb.text = @"巡检中";
+              _statueLb.text = @"巡查中";
             }
            
             

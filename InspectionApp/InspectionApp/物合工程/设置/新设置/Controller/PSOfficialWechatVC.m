@@ -10,6 +10,7 @@
 
 @interface PSOfficialWechatVC ()
 @property (weak, nonatomic) IBOutlet UIButton *cancleBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *wechatImage;
 
 @end
 
@@ -32,6 +33,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.wechatImage sd_setImageWithURL:[NSURL URLWithString:self.imageUrl]];
 }
 - (IBAction)cancleBtnAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

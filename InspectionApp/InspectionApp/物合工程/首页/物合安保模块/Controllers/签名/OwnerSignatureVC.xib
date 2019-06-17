@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OwnerSignatureVC">
+            <connections>
+                <outlet property="backView" destination="u6T-9j-XQe" id="4RX-aS-OTo"/>
+                <outlet property="signatureView" destination="eVc-TP-8HP" id="g8F-Sr-Xnv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fax-m3-aXW">
+                    <rect key="frame" x="0.0" y="841" width="414" height="55"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3VH-kT-w0T">
+                            <rect key="frame" x="153.5" y="0.0" width="260.5" height="55"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="同意并提交" backgroundImage="Rectang"/>
+                            <connections>
+                                <action selector="comfirmAction:" destination="-1" eventType="touchUpInside" id="aU1-lZ-2pA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcG-R4-aPH">
+                            <rect key="frame" x="0.0" y="0.0" width="153.5" height="55"/>
+                            <color key="backgroundColor" red="0.84705882349999995" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="擦除重签">
+                                <color key="titleColor" red="0.12549019610000001" green="0.63137254899999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cacelAction:" destination="-1" eventType="touchUpInside" id="s2S-bZ-0tG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="3VH-kT-w0T" secondAttribute="trailing" id="1pd-ro-3E8"/>
+                        <constraint firstAttribute="height" constant="55" id="FGT-ai-UzG"/>
+                        <constraint firstItem="hcG-R4-aPH" firstAttribute="width" secondItem="3VH-kT-w0T" secondAttribute="width" multiplier="139:236" id="P41-cy-qVl"/>
+                        <constraint firstAttribute="bottom" secondItem="hcG-R4-aPH" secondAttribute="bottom" id="SoL-YB-IE2"/>
+                        <constraint firstItem="3VH-kT-w0T" firstAttribute="leading" secondItem="hcG-R4-aPH" secondAttribute="trailing" id="Tbk-q8-NJU"/>
+                        <constraint firstAttribute="bottom" secondItem="3VH-kT-w0T" secondAttribute="bottom" id="Ty7-ZP-gDl"/>
+                        <constraint firstItem="hcG-R4-aPH" firstAttribute="top" secondItem="fax-m3-aXW" secondAttribute="top" id="aJS-fS-kLG"/>
+                        <constraint firstItem="3VH-kT-w0T" firstAttribute="top" secondItem="fax-m3-aXW" secondAttribute="top" id="xgs-au-yup"/>
+                        <constraint firstItem="hcG-R4-aPH" firstAttribute="leading" secondItem="fax-m3-aXW" secondAttribute="leading" id="yom-PV-X26"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u6T-9j-XQe">
+                    <rect key="frame" x="15" y="88" width="384" height="738"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVc-TP-8HP" customClass="GJsignatureView">
+                            <rect key="frame" x="15" y="50" width="354" height="190"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="190" id="0KE-Tc-Ojb"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请将手机递给业主(请使用正楷其签名)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L40-v3-ytM">
+                            <rect key="frame" x="55.5" y="15" width="273" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本人与安保人员已达成协议，同意安保并承担相应费用" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-9o-7Kq">
+                            <rect key="frame" x="74" y="255" width="295" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98430448770523071" green="0.98430746793746948" blue="0.98431414365768433" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="eVc-TP-8HP" firstAttribute="leading" secondItem="u6T-9j-XQe" secondAttribute="leading" constant="15" id="Bvt-BP-Dfp"/>
+                        <constraint firstItem="8w9-9o-7Kq" firstAttribute="top" secondItem="eVc-TP-8HP" secondAttribute="bottom" constant="15" id="Kh9-yu-a5J"/>
+                        <constraint firstItem="eVc-TP-8HP" firstAttribute="top" secondItem="L40-v3-ytM" secondAttribute="bottom" constant="15" id="chh-yH-7Qp"/>
+                        <constraint firstAttribute="trailing" secondItem="8w9-9o-7Kq" secondAttribute="trailing" constant="15" id="en6-8G-c5H"/>
+                        <constraint firstItem="L40-v3-ytM" firstAttribute="centerX" secondItem="u6T-9j-XQe" secondAttribute="centerX" id="mjS-9U-Qun"/>
+                        <constraint firstItem="L40-v3-ytM" firstAttribute="top" secondItem="u6T-9j-XQe" secondAttribute="top" constant="15" id="rw4-c3-aqF"/>
+                        <constraint firstAttribute="trailing" secondItem="eVc-TP-8HP" secondAttribute="trailing" constant="15" id="zYR-5E-bld"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fax-m3-aXW" firstAttribute="top" secondItem="u6T-9j-XQe" secondAttribute="bottom" constant="15" id="1eB-YL-vjH"/>
+                <constraint firstAttribute="trailing" secondItem="fax-m3-aXW" secondAttribute="trailing" id="SlF-NO-VwT"/>
+                <constraint firstItem="u6T-9j-XQe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="hLg-Ev-AGf"/>
+                <constraint firstAttribute="trailing" secondItem="u6T-9j-XQe" secondAttribute="trailing" constant="15" id="hzy-iO-TXa"/>
+                <constraint firstItem="u6T-9j-XQe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="q2e-cg-veg"/>
+                <constraint firstItem="fax-m3-aXW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vnm-nb-zrm"/>
+                <constraint firstAttribute="bottom" secondItem="fax-m3-aXW" secondAttribute="bottom" id="xDR-V1-xJo"/>
+            </constraints>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Rectang" width="375" height="188"/>
+    </resources>
+</document>

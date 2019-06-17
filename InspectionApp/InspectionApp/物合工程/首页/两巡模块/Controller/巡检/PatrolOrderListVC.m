@@ -52,9 +52,9 @@
     self.tabBarController.hidesBottomBarWhenPushed = YES;
     [self showNaBar:2];
     if (_type.integerValue == 1) {
-        [self setBarTitle:@"任务巡检社区"];
+        [self setBarTitle:@"任务巡查社区"];
     }else{
-       [self setBarTitle:@"任务巡查社区"];
+       [self setBarTitle:@"任务巡逻社区"];
     }
   
     [self requestData];
@@ -79,42 +79,42 @@
 //}
 -(void)requestData{
     _tableView.tableHeaderView = [UIView new];
-    if (_type.integerValue == 1) {//巡检
+    if (_type.integerValue == 1) {//巡查
         MJWeakSelf
         [PatrolHttpRequest inspecttaskdetail:@{@"work_id":self.work_id} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
             
             if (resultCode == SucceedCode) {
                 NSDictionary * obj = data;
-                _detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
-                [weakSelf.headerView assignmentWithModel:_detailModel Type:1];
+                weakSelf.detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
+                [weakSelf.headerView assignmentWithModel:weakSelf.detailModel Type:1];
                 [weakSelf.tableView reloadData];
-                if (_detailModel.member_list.count == 0 && _detailModel.community_list.count == 0) {
+                if (weakSelf.detailModel.member_list.count == 0 && weakSelf.detailModel.community_list.count == 0) {
                     weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
                 }
-                if ([_detailModel.task_status intValue]== 3) {
-                    [_bottomView setHidden:NO];
-                    [_tableView setFrame:CGRectMake(15,181+NavBar_H,KScreenWigth-30,KScreenHeight-182-NavBar_H-48)];
+                if ([weakSelf.detailModel.task_status intValue]== 3) {
+                    [weakSelf.bottomView setHidden:NO];
+                    [weakSelf.tableView setFrame:CGRectMake(15,181+NavBar_H,KScreenWigth-30,KScreenHeight-182-NavBar_H-48)];
                 }
             }else{
                 weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
             }
             [weakSelf.tableView.mj_header endRefreshing];
         }];
-    }else{//巡查
+    }else{//巡逻
         MJWeakSelf
         [PatrolHttpRequest patroltaskdetail:@{@"work_id":self.work_id,@"currentPage":@"1",@"pageSize":@"20"} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
             
             if (resultCode == SucceedCode) {
                 NSDictionary * obj = data;
-                _detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
-                [weakSelf.headerView assignmentWithModel:_detailModel Type:2];
+                weakSelf.detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
+                [weakSelf.headerView assignmentWithModel:weakSelf.detailModel Type:2];
 
-                if (_detailModel.member_list.count == 0 && _detailModel.community_list.count == 0) {
+                if (weakSelf.detailModel.member_list.count == 0 && weakSelf.detailModel.community_list.count == 0) {
                     weakSelf.tableView.tableHeaderView = weakSelf.noDataView;
                 }
-                if ([_detailModel.task_status intValue]== 3) {
-                    [_bottomView setHidden:NO];
-                    [_tableView setFrame:CGRectMake(15,181+NavBar_H,KScreenWigth-30,KScreenHeight-182-NavBar_H-48)];
+                if ([weakSelf.detailModel.task_status intValue]== 3) {
+                    [weakSelf.bottomView setHidden:NO];
+                    [weakSelf.tableView setFrame:CGRectMake(15,181+NavBar_H,KScreenWigth-30,KScreenHeight-182-NavBar_H-48)];
                 }
                 [weakSelf.tableView reloadData];
 

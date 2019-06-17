@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param block 回调
  */
 +(void)companyinfo:(CommandCompleteBlock)block;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

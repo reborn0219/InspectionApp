@@ -99,9 +99,9 @@
             _status_label_w.constant = 46;
             
             if (type == 2) {
-            _statusLb.text = @"巡查中";
+            _statusLb.text = @"巡逻中";
             }else{
-            _statusLb.text = @"巡检中";
+            _statusLb.text = @"巡查中";
             }
             self.stateView.backgroundColor = OPTIONING_COLOR;
             _optionLb.text = @"继续执行";

@@ -11,12 +11,58 @@
 
 @implementation BaseRequest
 
++(void)postRequestDataParameters:(id)obj :(CommandCompleteBlock)block{
+ 
+    GJAFHTTPRequestOperationManager * httpManger = [[GJAFHTTPRequestOperationManager alloc]init];
+//    httpManger.requestSerializer = [AFHTTPRequestSerializer serializer];
+//    [httpManger.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+
+    httpManger.responseSerializer=[AFJSONResponseSerializer serializer];
+    [httpManger.requestSerializer willChangeValueForKey:@"timeoutInterval"];
+    httpManger.requestSerializer.timeoutInterval = 8.f;
+    [httpManger.requestSerializer didChangeValueForKey:@"timeoutInterval"];
+    
+    httpManger.requestSerializer=[AFJSONRequestSerializer serializer];
+//    [httpManger.requestSerializer setValue:[UserManager token] forHTTPHeaderField:@"token"];
+    
+    //    @"test/json",@"test/javascript",@"text/plain",
+    httpManger.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:@"text/html",nil];
+    NSMutableDictionary * mudic = [NSMutableDictionary dictionaryWithDictionary:obj];
+    [mudic setObject:@"security_api" forKey:@"m"];
+    [mudic setObject:APP_ID forKey:@"app_id"];
+    [mudic setObject:APP_SECRET forKey:@"app_secret"];
+    NSLog(@"post 入参:%@",mudic);
+
+    [httpManger POST:URL_LOCAL parameters:mudic success:^(GJAFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSDictionary * requestDic = operation.responseObject;
+        NSString * code = [requestDic objectForKey:@"state"];
+        NSObject * return_data = [requestDic objectForKey:@"return_data"];
+        if (code.integerValue == 1) {
+            block(return_data,SucceedCode,nil);
+            NSLog(@"------%@",return_data);
+        }else{
+                block(return_data,FailureCode,nil);
+//            [GJMBProgressHUD showError:[NSString stringWithFormat:@"%@",return_data]];
+        }
+        
+    } failure:^(GJAFHTTPRequestOperation *operation, NSError *error) {
+        
+        block(operation.responseObject,FailureCode,error);
+        
+    }];
+    
+    
+}
+
+
 +(void)getChatRequestData:(NSString *)url parameters:(id)obj :(CommandCompleteBlock)block{
     NSLog(@"get 入参:%@",obj);
     NSLog(@"接口地址：%@",url);
     GJAFHTTPRequestOperationManager * httpManger = [[GJAFHTTPRequestOperationManager alloc]initWithBaseURL:[NSURL URLWithString:Chat_Server_Address]];
     
     [httpManger.requestSerializer setValue:[UserManager token] forHTTPHeaderField:@"token"];
+    NSLog(@"token ==== %@",[UserManager token]);
     [httpManger.requestSerializer willChangeValueForKey:@"timeoutInterval"];
     httpManger.requestSerializer.timeoutInterval = 8.f;
     [httpManger.requestSerializer didChangeValueForKey:@"timeoutInterval"];

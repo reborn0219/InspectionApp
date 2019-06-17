@@ -33,4 +33,5 @@
 + (UIImage *)getWaterMarkImage: (UIImage *)originalImage andTitle: (NSString *)title andMarkFont: (UIFont *)markFont andMarkColor: (UIColor *)markColor;
 + (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 + (UIViewController *)getCurrentViewController;
++(NSString *)orderTypeToString:(NSInteger)index;
 @end

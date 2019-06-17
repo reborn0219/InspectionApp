@@ -44,7 +44,7 @@
     [self.navigationController.navigationBar setHidden:YES];
     self.tabBarController.hidesBottomBarWhenPushed = YES;
     [self showNaBar:2];
-    [self setBarTitle:@"巡查社区"];
+    [self setBarTitle:@"巡逻社区"];
     [self requestData];
 }
 -(void)viewWillDisappear:(BOOL)animated{
@@ -77,10 +77,10 @@
     _phView.block = ^(id  _Nullable data, UIView * _Nullable view, NSInteger index) {
      
         if (index == 5) {
-            //未巡查
+            //未巡逻
             weakSelf.work_sheet_status = @"6";
         }else if(index == 6){
-            //已巡查
+            //已巡逻
           weakSelf.work_sheet_status = @"5";
         }else{
             //全部
@@ -98,7 +98,7 @@
     }];
     
 }
-#pragma mark =======  巡检任务社区列表 ========
+#pragma mark =======  巡逻任务社区列表 ========
 -(void)requestData{
     MJWeakSelf
     [PatrolHttpRequest patrolworklist:@{@"work_id":_work_id,@"work_sheet_status":_work_sheet_status,@"currentPage":@"1",@"pageSize":@"20"} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
@@ -106,13 +106,13 @@
         if (resultCode == SucceedCode) {
             
             NSDictionary * obj = data;
-            _detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
-            [weakSelf.phView assignmentWithModel:_detailModel];
+            weakSelf.detailModel = [PPTaskDetailModel yy_modelWithJSON:obj];
+            [weakSelf.phView assignmentWithModel:weakSelf.detailModel];
             
             [weakSelf.tableView reloadData];
             
             NSMutableArray * annotationArr = [NSMutableArray array];
-            for (PPTaskDetailModelCommunity_list * communityModel in _detailModel.community_list) {
+            for (PPTaskDetailModelCommunity_list * communityModel in weakSelf.detailModel.community_list) {
                 PatrolAnnotationModel *pointAnnotation = [[PatrolAnnotationModel alloc] init];
                 pointAnnotation.coordinate = CLLocationCoordinate2DMake(communityModel.latitude.doubleValue,communityModel.longitude.doubleValue);
                 pointAnnotation.annotation_status = communityModel.work_sheet_status;
@@ -186,21 +186,21 @@
 }
 
 -(void)scrollAnimationUp{
-    
+    MJWeakSelf
     [UIView animateWithDuration:0.5 animations:^{
-        _backView.alpha = 1;
-        _tableView.transform = CGAffineTransformMakeTranslation(0,-(KScreenHeight-NavBar_H-150)+150);
+        weakSelf.backView.alpha = 1;
+        weakSelf.tableView.transform = CGAffineTransformMakeTranslation(0,-(KScreenHeight-NavBar_H-150)+150);
     } completion:^(BOOL finished) {
         _isUp = YES;
-        
     }];
     
 }
 -(void)scrollAnimationDown{
     _isUp = NO;
+    MJWeakSelf
     [UIView animateWithDuration:0.5 animations:^{
-        _backView.alpha = 0;
-        _tableView.transform = CGAffineTransformMakeTranslation(0,0);
+         weakSelf.backView.alpha = 0;
+         weakSelf.tableView.transform = CGAffineTransformMakeTranslation(0,0);
     }];
 }
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{

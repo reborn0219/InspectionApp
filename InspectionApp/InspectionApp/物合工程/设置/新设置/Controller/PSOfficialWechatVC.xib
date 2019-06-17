@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="cancleBtn" destination="nUY-dA-d4t" id="XbE-hu-sIM"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wechatImage" destination="8xM-c8-acY" id="Wng-kT-QFT"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
