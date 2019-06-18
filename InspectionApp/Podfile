@@ -3,15 +3,10 @@
 
 target 'InspectionApp' do
     
-  
-    pod 'UITableView+FDTemplateLayoutCell'
-    pod 'LCUIKit'
     pod 'YYText'
     pod 'YYModel'
-    pod 'MONActivityIndicatorView'
     pod 'SwipeView'
     pod 'YYCategories'
-    pod 'BlocksKit'
     pod 'AMap2DMap'
     pod 'AMapLocation'
     pod 'AMapSearch'

@@ -14,7 +14,10 @@
 #import <MAMapKit/MAMapKit.h>
 
 @interface AppDelegate ()
+{
+    BOOL isStop;
 
+}
 @end
 
 @implementation AppDelegate
@@ -91,5 +94,41 @@
 -(void)configMapKey{
     
     [AMapServices sharedServices].apiKey =Map_Key;
+}
+-(NSTimer *)chatTimer{
+    if (!_chatTimer) {
+        _chatTimer = [NSTimer timerWithTimeInterval:5 target:self selector:@selector(chatListenAction) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:_chatTimer forMode:NSRunLoopCommonModes];
+    }
+    return _chatTimer;
+}
+-(void)startChatTimer{
+    isStop = NO;
+    [self.chatTimer setFireDate:[NSDate distantPast]];
+}
+-(void)stopChatTimer{
+    isStop = YES;
+    [self.chatTimer setFireDate:[NSDate distantFuture]];
+}
+-(void)chatListenAction{
+    if (isStop == YES) {
+        return;
+    }
+    MJWeakSelf
+    [PatrolHttpRequest hasCall:@{@"id":[UserManager menber_id]} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
+        
+        if (resultCode==SucceedCode) {
+            NSString * isCall = data;
+            NSLog(@"轮询结果：----%@",isCall);
+            if (isCall.intValue!=0) {
+                [weakSelf stopChatTimer];
+                VideoChatViewController * chatVC = [[VideoChatViewController alloc]init];
+                chatVC.roomNo = isCall;
+                [[PPViewTool getCurrentViewController] presentViewController:chatVC animated:YES completion:nil];
+            }
+        }else{
+            
+        }
+    }];
 }
 @end

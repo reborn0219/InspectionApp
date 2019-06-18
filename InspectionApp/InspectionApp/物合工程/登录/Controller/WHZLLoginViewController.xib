@@ -33,10 +33,9 @@
                     </constraints>
                 </imageView>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入您的手机号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egZ-NI-Sdv">
-                    <rect key="frame" x="30" y="266" width="112" height="20"/>
+                    <rect key="frame" x="30" y="266" width="354" height="20"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="20" id="L4i-RX-jbM"/>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="112" id="Y7Q-H3-3Z2"/>
                     </constraints>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -50,9 +49,8 @@
                     </constraints>
                 </view>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AUj-02-F8s">
-                    <rect key="frame" x="30" y="325" width="127.5" height="20"/>
+                    <rect key="frame" x="30" y="325" width="312" height="20"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="127.5" id="2a5-WF-Akr"/>
                         <constraint firstAttribute="height" constant="20" id="aNv-7D-ynK"/>
                     </constraints>
                     <nil key="textColor"/>
@@ -125,6 +123,7 @@
                 <constraint firstItem="m4C-nZ-PJg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="DHI-93-SXT"/>
                 <constraint firstItem="T8l-cO-2FW" firstAttribute="top" secondItem="fpD-k2-gmz" secondAttribute="bottom" constant="6" id="F3a-Qa-iQi"/>
                 <constraint firstAttribute="trailing" secondItem="VtE-FK-Nsz" secondAttribute="trailing" constant="30" id="FFb-H0-Rrf"/>
+                <constraint firstAttribute="trailing" secondItem="egZ-NI-Sdv" secondAttribute="trailing" constant="30" id="G9Z-uP-JK7"/>
                 <constraint firstAttribute="trailing" secondItem="T8l-cO-2FW" secondAttribute="trailing" constant="30" id="Jbi-Fh-vqv"/>
                 <constraint firstItem="fpD-k2-gmz" firstAttribute="top" secondItem="AUj-02-F8s" secondAttribute="bottom" constant="14" id="KdU-Ju-RAt"/>
                 <constraint firstItem="AUj-02-F8s" firstAttribute="top" secondItem="Eft-do-cyx" secondAttribute="bottom" constant="24" id="NiW-1c-DZ1"/>
@@ -138,6 +137,7 @@
                 <constraint firstItem="AUj-02-F8s" firstAttribute="top" secondItem="VtE-FK-Nsz" secondAttribute="bottom" constant="-20" id="j24-du-Y4H"/>
                 <constraint firstAttribute="trailing" secondItem="tVq-Pq-lpb" secondAttribute="trailing" constant="30" id="qZs-eO-GkW"/>
                 <constraint firstItem="bXh-Ma-n9u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qha-R9-mdM"/>
+                <constraint firstItem="VtE-FK-Nsz" firstAttribute="leading" secondItem="AUj-02-F8s" secondAttribute="trailing" constant="28" id="xQn-yr-c5U"/>
             </constraints>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>

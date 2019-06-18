@@ -16,7 +16,6 @@
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import <MAMapKit/MAMapKit.h>
 #import <UserNotifications/UserNotifications.h>
-#import "GJWebViewController.h"
 #import "PSHomePageViewController.h"
 #import "WHZLLoginViewController.h"
 #import "PSMyViewController.h"

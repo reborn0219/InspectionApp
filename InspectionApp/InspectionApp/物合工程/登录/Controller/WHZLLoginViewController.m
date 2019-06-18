@@ -62,6 +62,8 @@
 
         if (resultCode == SucceedCode) {
             
+            AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+            [appDelegate startChatTimer];
             NSDictionary *userInfo =   dictionary[@"user_info"];
             NSDictionary *about =   dictionary[@"about"];
             [UserManager saveAboutModel:[AboutModel yy_modelWithJSON:about]];

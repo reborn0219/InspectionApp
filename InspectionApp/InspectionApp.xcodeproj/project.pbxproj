@@ -22,12 +22,6 @@
 		2221BB5E22A7715B00151AA5 /* PSWorkOrderListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB2422A7715B00151AA5 /* PSWorkOrderListVC.m */; };
 		2221BB5F22A7715B00151AA5 /* PSBasicWorkOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB2722A7715B00151AA5 /* PSBasicWorkOrderVC.m */; };
 		2221BB6022A7715B00151AA5 /* SecurityWorkOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB2822A7715B00151AA5 /* SecurityWorkOrderVC.m */; };
-		2221BB6B22A7998200151AA5 /* PSWOHandlingImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB6222A7998100151AA5 /* PSWOHandlingImageCell.xib */; };
-		2221BB6C22A7998200151AA5 /* PSWOHandlingImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB6322A7998100151AA5 /* PSWOHandlingImageCell.m */; };
-		2221BB6D22A7998200151AA5 /* PSWOHandlingTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB6422A7998100151AA5 /* PSWOHandlingTextCell.m */; };
-		2221BB6E22A7998200151AA5 /* PSWOHandlingVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB6622A7998100151AA5 /* PSWOHandlingVoiceCell.xib */; };
-		2221BB6F22A7998200151AA5 /* PSWOHandlingTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB6722A7998100151AA5 /* PSWOHandlingTextCell.xib */; };
-		2221BB7022A7998200151AA5 /* PSWOHandlingVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BB6922A7998100151AA5 /* PSWOHandlingVoiceCell.m */; };
 		2221BBA822A799B100151AA5 /* PSWOHeaderTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB7222A799B000151AA5 /* PSWOHeaderTextCell.xib */; };
 		2221BBA922A799B100151AA5 /* PSWOHeaderImagaeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB7622A799B000151AA5 /* PSWOHeaderImagaeCell.xib */; };
 		2221BBAA22A799B100151AA5 /* PSWOHeaderVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB7722A799B000151AA5 /* PSWOHeaderVoiceCell.xib */; };
@@ -56,12 +50,6 @@
 		2221BBC122A799B100151AA5 /* PSWODetailsSignatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB9B22A799B100151AA5 /* PSWODetailsSignatureCell.xib */; };
 		2221BBC222A799B100151AA5 /* PSWODetailsVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB9C22A799B100151AA5 /* PSWODetailsVideoCell.xib */; };
 		2221BBC322A799B100151AA5 /* PSWODetailsDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BB9D22A799B100151AA5 /* PSWODetailsDescriptionCell.xib */; };
-		2221BBC422A799B100151AA5 /* PSWOMemberImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BBA022A799B100151AA5 /* PSWOMemberImageCell.m */; };
-		2221BBC522A799B100151AA5 /* PSWOMemberImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BBA222A799B100151AA5 /* PSWOMemberImageCell.xib */; };
-		2221BBC622A799B100151AA5 /* PSWOMemberVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BBA422A799B100151AA5 /* PSWOMemberVoiceCell.m */; };
-		2221BBC722A799B100151AA5 /* PSWOMemberTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BBA522A799B100151AA5 /* PSWOMemberTextCell.m */; };
-		2221BBC822A799B100151AA5 /* PSWOMemberVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BBA622A799B100151AA5 /* PSWOMemberVoiceCell.xib */; };
-		2221BBC922A799B100151AA5 /* PSWOMemberTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BBA722A799B100151AA5 /* PSWOMemberTextCell.xib */; };
 		2221BBD222A7C4AC00151AA5 /* PSWOTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221BBD022A7C4AC00151AA5 /* PSWOTextViewCell.m */; };
 		2221BBD322A7C4AC00151AA5 /* PSWOTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2221BBD122A7C4AC00151AA5 /* PSWOTextViewCell.xib */; };
 		222AA56322ACA7020079D2DF /* PSWorkOrderDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AA56222ACA7020079D2DF /* PSWorkOrderDetailsVC.m */; };
@@ -100,10 +88,6 @@
 		2F02D7BE228D3E9B0044D823 /* InspectionAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02D7BD228D3E9B0044D823 /* InspectionAppTests.m */; };
 		2F02D7C9228D3E9B0044D823 /* InspectionAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02D7C8228D3E9B0044D823 /* InspectionAppUITests.m */; };
 		2F14C5AC2297768C0099E9C5 /* GJrunLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14C5AA2297768C0099E9C5 /* GJrunLabel.m */; };
-		2F14C5B9229796E70099E9C5 /* GJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14C5B0229796E70099E9C5 /* GJWebViewController.m */; };
-		2F14C5BA229796E70099E9C5 /* GJCollectionNormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14C5B3229796E70099E9C5 /* GJCollectionNormalModel.m */; };
-		2F14C5BB229796E70099E9C5 /* GJCollectionNomalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14C5B5229796E70099E9C5 /* GJCollectionNomalCell.m */; };
-		2F14C5BC229796E70099E9C5 /* GJShowMoreOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F14C5B6229796E70099E9C5 /* GJShowMoreOperationView.m */; };
 		2F14C5BE2297BFE70099E9C5 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14C5BD2297BFE70099E9C5 /* libmp3lame.a */; };
 		2F17C2BE22927B4F002C1CE0 /* UIButton+LSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F17C2BD22927B4F002C1CE0 /* UIButton+LSetting.m */; };
 		2F17C2C122927B90002C1CE0 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F17C2C022927B90002C1CE0 /* UserManager.m */; };
@@ -393,13 +377,6 @@
 		2F9F57B12296951D00D2AD35 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57AF2296951D00D2AD35 /* UILabel+Extension.m */; };
 		2F9F57B72296959000D2AD35 /* GJKSDatePickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57B52296958F00D2AD35 /* GJKSDatePickerAppearance.m */; };
 		2F9F57B82296959000D2AD35 /* GJKSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F57B62296958F00D2AD35 /* GJKSDatePicker.m */; };
-		2F9F58BE2296988100D2AD35 /* GJSDAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58BC2296988100D2AD35 /* GJSDAdScrollView.m */; };
-		2F9F58BF2296988100D2AD35 /* GJNSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58BD2296988100D2AD35 /* GJNSTimer+Addition.m */; };
-		2F9F58D822969BB000D2AD35 /* GJFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58CE22969BAF00D2AD35 /* GJFMDatabaseQueue.m */; };
-		2F9F58D922969BB000D2AD35 /* GJFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58CF22969BAF00D2AD35 /* GJFMDatabasePool.m */; };
-		2F9F58DA22969BB000D2AD35 /* GJFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58D322969BAF00D2AD35 /* GJFMDatabaseAdditions.m */; };
-		2F9F58DB22969BB000D2AD35 /* GJFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58D522969BAF00D2AD35 /* GJFMDatabase.m */; };
-		2F9F58DC22969BB000D2AD35 /* GJFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58D622969BAF00D2AD35 /* GJFMResultSet.m */; };
 		2F9F58DF22969D1B00D2AD35 /* GJCuiPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58DE22969D1A00D2AD35 /* GJCuiPickerView.m */; };
 		2F9F590922969E2100D2AD35 /* GJFZPWorkMenus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58E422969E1D00D2AD35 /* GJFZPWorkMenus.m */; };
 		2F9F590A22969E2100D2AD35 /* GJLCLNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F58EA22969E1E00D2AD35 /* GJLCLNetWork.m */; };
@@ -434,7 +411,6 @@
 		2F9F594F2296A23B00D2AD35 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F594D2296A23A00D2AD35 /* NSString+Common.m */; };
 		2F9F59502296A23B00D2AD35 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F594E2296A23A00D2AD35 /* NSString+Extension.m */; };
 		2F9F59532296A31900D2AD35 /* GJSYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F59512296A31800D2AD35 /* GJSYDatePicker.m */; };
-		2F9F59572296A37400D2AD35 /* GJWYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F59562296A37400D2AD35 /* GJWYScrollView.m */; };
 		2F9F59622296A49E00D2AD35 /* GJFZAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F595F2296A49E00D2AD35 /* GJFZAccount.m */; };
 		2F9F59632296A49E00D2AD35 /* XSDLocationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F59612296A49E00D2AD35 /* XSDLocationTools.m */; };
 		2F9F59662296A4E100D2AD35 /* GJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F59642296A4E000D2AD35 /* GJAppDelegate.m */; };
@@ -498,15 +474,6 @@
 		2221BB2722A7715B00151AA5 /* PSBasicWorkOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBasicWorkOrderVC.m; sourceTree = "<group>"; };
 		2221BB2822A7715B00151AA5 /* SecurityWorkOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityWorkOrderVC.m; sourceTree = "<group>"; };
 		2221BB2922A7715B00151AA5 /* SecurityWorkOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityWorkOrderVC.h; sourceTree = "<group>"; };
-		2221BB6222A7998100151AA5 /* PSWOHandlingImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOHandlingImageCell.xib; sourceTree = "<group>"; };
-		2221BB6322A7998100151AA5 /* PSWOHandlingImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOHandlingImageCell.m; sourceTree = "<group>"; };
-		2221BB6422A7998100151AA5 /* PSWOHandlingTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOHandlingTextCell.m; sourceTree = "<group>"; };
-		2221BB6522A7998100151AA5 /* PSWOHandlingVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOHandlingVoiceCell.h; sourceTree = "<group>"; };
-		2221BB6622A7998100151AA5 /* PSWOHandlingVoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOHandlingVoiceCell.xib; sourceTree = "<group>"; };
-		2221BB6722A7998100151AA5 /* PSWOHandlingTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOHandlingTextCell.xib; sourceTree = "<group>"; };
-		2221BB6822A7998100151AA5 /* PSWOHandlingTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOHandlingTextCell.h; sourceTree = "<group>"; };
-		2221BB6922A7998100151AA5 /* PSWOHandlingVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOHandlingVoiceCell.m; sourceTree = "<group>"; };
-		2221BB6A22A7998100151AA5 /* PSWOHandlingImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOHandlingImageCell.h; sourceTree = "<group>"; };
 		2221BB7222A799B000151AA5 /* PSWOHeaderTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOHeaderTextCell.xib; sourceTree = "<group>"; };
 		2221BB7322A799B000151AA5 /* PSWOHeaderTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOHeaderTextCell.h; sourceTree = "<group>"; };
 		2221BB7422A799B000151AA5 /* PSWOHeaderImagaeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOHeaderImagaeCell.h; sourceTree = "<group>"; };
@@ -549,15 +516,6 @@
 		2221BB9B22A799B100151AA5 /* PSWODetailsSignatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWODetailsSignatureCell.xib; sourceTree = "<group>"; };
 		2221BB9C22A799B100151AA5 /* PSWODetailsVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWODetailsVideoCell.xib; sourceTree = "<group>"; };
 		2221BB9D22A799B100151AA5 /* PSWODetailsDescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWODetailsDescriptionCell.xib; sourceTree = "<group>"; };
-		2221BB9F22A799B100151AA5 /* PSWOMemberVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOMemberVoiceCell.h; sourceTree = "<group>"; };
-		2221BBA022A799B100151AA5 /* PSWOMemberImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOMemberImageCell.m; sourceTree = "<group>"; };
-		2221BBA122A799B100151AA5 /* PSWOMemberTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOMemberTextCell.h; sourceTree = "<group>"; };
-		2221BBA222A799B100151AA5 /* PSWOMemberImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOMemberImageCell.xib; sourceTree = "<group>"; };
-		2221BBA322A799B100151AA5 /* PSWOMemberImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWOMemberImageCell.h; sourceTree = "<group>"; };
-		2221BBA422A799B100151AA5 /* PSWOMemberVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOMemberVoiceCell.m; sourceTree = "<group>"; };
-		2221BBA522A799B100151AA5 /* PSWOMemberTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWOMemberTextCell.m; sourceTree = "<group>"; };
-		2221BBA622A799B100151AA5 /* PSWOMemberVoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOMemberVoiceCell.xib; sourceTree = "<group>"; };
-		2221BBA722A799B100151AA5 /* PSWOMemberTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSWOMemberTextCell.xib; sourceTree = "<group>"; };
 		2221BBCF22A7C4AC00151AA5 /* PSWOTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSWOTextViewCell.h; sourceTree = "<group>"; };
 		2221BBD022A7C4AC00151AA5 /* PSWOTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSWOTextViewCell.m; sourceTree = "<group>"; };
 		2221BBD122A7C4AC00151AA5 /* PSWOTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSWOTextViewCell.xib; sourceTree = "<group>"; };
@@ -621,14 +579,6 @@
 		2F02D7CA228D3E9B0044D823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F14C5AA2297768C0099E9C5 /* GJrunLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJrunLabel.m; sourceTree = "<group>"; };
 		2F14C5AB2297768C0099E9C5 /* GJrunLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJrunLabel.h; sourceTree = "<group>"; };
-		2F14C5AF229796E70099E9C5 /* GJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWebViewController.h; sourceTree = "<group>"; };
-		2F14C5B0229796E70099E9C5 /* GJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWebViewController.m; sourceTree = "<group>"; };
-		2F14C5B2229796E70099E9C5 /* GJCollectionNormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCollectionNormalModel.h; sourceTree = "<group>"; };
-		2F14C5B3229796E70099E9C5 /* GJCollectionNormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCollectionNormalModel.m; sourceTree = "<group>"; };
-		2F14C5B5229796E70099E9C5 /* GJCollectionNomalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCollectionNomalCell.m; sourceTree = "<group>"; };
-		2F14C5B6229796E70099E9C5 /* GJShowMoreOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJShowMoreOperationView.m; sourceTree = "<group>"; };
-		2F14C5B7229796E70099E9C5 /* GJShowMoreOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJShowMoreOperationView.h; sourceTree = "<group>"; };
-		2F14C5B8229796E70099E9C5 /* GJCollectionNomalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCollectionNomalCell.h; sourceTree = "<group>"; };
 		2F14C5BD2297BFE70099E9C5 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		2F17C2B62292555A002C1CE0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2F17C2BC22927B4F002C1CE0 /* UIButton+LSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LSetting.h"; sourceTree = "<group>"; };
@@ -1157,21 +1107,6 @@
 		2F9F57B42296958F00D2AD35 /* GJKSDatePickerAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJKSDatePickerAppearance.h; sourceTree = "<group>"; };
 		2F9F57B52296958F00D2AD35 /* GJKSDatePickerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKSDatePickerAppearance.m; sourceTree = "<group>"; };
 		2F9F57B62296958F00D2AD35 /* GJKSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJKSDatePicker.m; sourceTree = "<group>"; };
-		2F9F58BA2296988100D2AD35 /* GJSDAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSDAdScrollView.h; sourceTree = "<group>"; };
-		2F9F58BB2296988100D2AD35 /* GJNSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJNSTimer+Addition.h"; sourceTree = "<group>"; };
-		2F9F58BC2296988100D2AD35 /* GJSDAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSDAdScrollView.m; sourceTree = "<group>"; };
-		2F9F58BD2296988100D2AD35 /* GJNSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GJNSTimer+Addition.m"; sourceTree = "<group>"; };
-		2F9F58CD22969BAF00D2AD35 /* GJFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFMDatabaseAdditions.h; sourceTree = "<group>"; };
-		2F9F58CE22969BAF00D2AD35 /* GJFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFMDatabaseQueue.m; sourceTree = "<group>"; };
-		2F9F58CF22969BAF00D2AD35 /* GJFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFMDatabasePool.m; sourceTree = "<group>"; };
-		2F9F58D022969BAF00D2AD35 /* GJFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFMResultSet.h; sourceTree = "<group>"; };
-		2F9F58D122969BAF00D2AD35 /* GJFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFMDatabase.h; sourceTree = "<group>"; };
-		2F9F58D222969BAF00D2AD35 /* GJFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFMDatabaseQueue.h; sourceTree = "<group>"; };
-		2F9F58D322969BAF00D2AD35 /* GJFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFMDatabaseAdditions.m; sourceTree = "<group>"; };
-		2F9F58D422969BAF00D2AD35 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		2F9F58D522969BAF00D2AD35 /* GJFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFMDatabase.m; sourceTree = "<group>"; };
-		2F9F58D622969BAF00D2AD35 /* GJFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFMResultSet.m; sourceTree = "<group>"; };
-		2F9F58D722969BAF00D2AD35 /* GJFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFMDatabasePool.h; sourceTree = "<group>"; };
 		2F9F58DD22969D1A00D2AD35 /* GJCuiPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCuiPickerView.h; sourceTree = "<group>"; };
 		2F9F58DE22969D1A00D2AD35 /* GJCuiPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCuiPickerView.m; sourceTree = "<group>"; };
 		2F9F58E322969E1D00D2AD35 /* GJFZPBusinessTabbarTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFZPBusinessTabbarTypeView.h; sourceTree = "<group>"; };
@@ -1245,8 +1180,6 @@
 		2F9F594E2296A23A00D2AD35 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		2F9F59512296A31800D2AD35 /* GJSYDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJSYDatePicker.m; sourceTree = "<group>"; };
 		2F9F59522296A31900D2AD35 /* GJSYDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJSYDatePicker.h; sourceTree = "<group>"; };
-		2F9F59552296A37400D2AD35 /* GJWYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJWYScrollView.h; sourceTree = "<group>"; };
-		2F9F59562296A37400D2AD35 /* GJWYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJWYScrollView.m; sourceTree = "<group>"; };
 		2F9F595E2296A49E00D2AD35 /* XSDLocationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDLocationTools.h; sourceTree = "<group>"; };
 		2F9F595F2296A49E00D2AD35 /* GJFZAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJFZAccount.m; sourceTree = "<group>"; };
 		2F9F59602296A49E00D2AD35 /* GJFZAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJFZAccount.h; sourceTree = "<group>"; };
@@ -1314,7 +1247,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2221BAD022A7715B00151AA5 /* 物合安保模块 */ = {
+		2221BAD022A7715B00151AA5 /* 物合工程模块 */ = {
 			isa = PBXGroup;
 			children = (
 				2FFD52BC22ADEE67000960F7 /* Model */,
@@ -1323,17 +1256,15 @@
 				2221BB0E22A7715B00151AA5 /* View */,
 				2221BB1E22A7715B00151AA5 /* Controllers */,
 			);
-			path = "物合安保模块";
+			path = "物合工程模块";
 			sourceTree = "<group>";
 		};
 		2221BAD122A7715B00151AA5 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				2221BB9E22A799B100151AA5 /* 队员未:待处理 */,
-				2221BB7122A799B000151AA5 /* 队长未:待处理 */,
+				2221BB7122A799B000151AA5 /* 工单列表 */,
 				2221BB8222A799B100151AA5 /* 工单详情 */,
 				2221BB7B22A799B000151AA5 /* 其他 */,
-				2221BB6122A7998100151AA5 /* 处理中:已结束 */,
 				228E71DB22AE5EF200E9ECE7 /* WorkOrderBaseCell.h */,
 				228E71DC22AE5EF200E9ECE7 /* WorkOrderBaseCell.m */,
 			);
@@ -1405,23 +1336,7 @@
 			path = "工单列表";
 			sourceTree = "<group>";
 		};
-		2221BB6122A7998100151AA5 /* 处理中:已结束 */ = {
-			isa = PBXGroup;
-			children = (
-				2221BB6A22A7998100151AA5 /* PSWOHandlingImageCell.h */,
-				2221BB6322A7998100151AA5 /* PSWOHandlingImageCell.m */,
-				2221BB6222A7998100151AA5 /* PSWOHandlingImageCell.xib */,
-				2221BB6822A7998100151AA5 /* PSWOHandlingTextCell.h */,
-				2221BB6422A7998100151AA5 /* PSWOHandlingTextCell.m */,
-				2221BB6722A7998100151AA5 /* PSWOHandlingTextCell.xib */,
-				2221BB6522A7998100151AA5 /* PSWOHandlingVoiceCell.h */,
-				2221BB6922A7998100151AA5 /* PSWOHandlingVoiceCell.m */,
-				2221BB6622A7998100151AA5 /* PSWOHandlingVoiceCell.xib */,
-			);
-			path = "处理中:已结束";
-			sourceTree = "<group>";
-		};
-		2221BB7122A799B000151AA5 /* 队长未:待处理 */ = {
+		2221BB7122A799B000151AA5 /* 工单列表 */ = {
 			isa = PBXGroup;
 			children = (
 				2221BB7322A799B000151AA5 /* PSWOHeaderTextCell.h */,
@@ -1437,7 +1352,7 @@
 				22A129A322AF80AE0043359A /* PSWOHeaderVideoCell.m */,
 				22A129A422AF80AE0043359A /* PSWOHeaderVideoCell.xib */,
 			);
-			path = "队长未:待处理";
+			path = "工单列表";
 			sourceTree = "<group>";
 		};
 		2221BB7B22A799B000151AA5 /* 其他 */ = {
@@ -1488,22 +1403,6 @@
 				2221BB9D22A799B100151AA5 /* PSWODetailsDescriptionCell.xib */,
 			);
 			path = "工单详情";
-			sourceTree = "<group>";
-		};
-		2221BB9E22A799B100151AA5 /* 队员未:待处理 */ = {
-			isa = PBXGroup;
-			children = (
-				2221BBA322A799B100151AA5 /* PSWOMemberImageCell.h */,
-				2221BBA022A799B100151AA5 /* PSWOMemberImageCell.m */,
-				2221BBA222A799B100151AA5 /* PSWOMemberImageCell.xib */,
-				2221BBA122A799B100151AA5 /* PSWOMemberTextCell.h */,
-				2221BBA522A799B100151AA5 /* PSWOMemberTextCell.m */,
-				2221BBA722A799B100151AA5 /* PSWOMemberTextCell.xib */,
-				2221BB9F22A799B100151AA5 /* PSWOMemberVoiceCell.h */,
-				2221BBA422A799B100151AA5 /* PSWOMemberVoiceCell.m */,
-				2221BBA622A799B100151AA5 /* PSWOMemberVoiceCell.xib */,
-			);
-			path = "队员未:待处理";
 			sourceTree = "<group>";
 		};
 		228645E622B4C75E00F8689B /* Api */ = {
@@ -1648,8 +1547,6 @@
 			isa = PBXGroup;
 			children = (
 				2F14C5AE229796E70099E9C5 /* Controller */,
-				2F14C5B1229796E70099E9C5 /* Model */,
-				2F14C5B4229796E70099E9C5 /* View */,
 			);
 			path = "网页";
 			sourceTree = "<group>";
@@ -1657,32 +1554,10 @@
 		2F14C5AE229796E70099E9C5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2F14C5AF229796E70099E9C5 /* GJWebViewController.h */,
-				2F14C5B0229796E70099E9C5 /* GJWebViewController.m */,
 				2FD3FCBF229FB46F009FFA98 /* WKWebViewController.h */,
 				2FD3FCC0229FB46F009FFA98 /* WKWebViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		2F14C5B1229796E70099E9C5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				2F14C5B2229796E70099E9C5 /* GJCollectionNormalModel.h */,
-				2F14C5B3229796E70099E9C5 /* GJCollectionNormalModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2F14C5B4229796E70099E9C5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2F14C5B5229796E70099E9C5 /* GJCollectionNomalCell.m */,
-				2F14C5B6229796E70099E9C5 /* GJShowMoreOperationView.m */,
-				2F14C5B7229796E70099E9C5 /* GJShowMoreOperationView.h */,
-				2F14C5B8229796E70099E9C5 /* GJCollectionNomalCell.h */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		2F17C2B52292554E002C1CE0 /* ConfigFile */ = {
@@ -1701,7 +1576,7 @@
 		2F17C2BA22925A80002C1CE0 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				2221BAD022A7715B00151AA5 /* 物合安保模块 */,
+				2221BAD022A7715B00151AA5 /* 物合工程模块 */,
 				22BB2D29229B8E840033D303 /* 新首页 */,
 				2F17C2D822927DE9002C1CE0 /* 两巡模块 */,
 			);
@@ -1723,10 +1598,7 @@
 			isa = PBXGroup;
 			children = (
 				2F14C5AD229796E70099E9C5 /* 网页 */,
-				2F9F59542296A37400D2AD35 /* 轮播图 */,
 				2F9F592A2296A17800D2AD35 /* AFNetworking */,
-				2F9F58CC22969BAF00D2AD35 /* FMDB */,
-				2F9F58B92296988100D2AD35 /* SDAdScrollView */,
 				2F9F57B22296958F00D2AD35 /* WLBGJKSDatePicker */,
 				2F9F57722296930400D2AD35 /* IQKeyBoardManager */,
 				2F9F522B2296880600D2AD35 /* MHPhotoBrowser */,
@@ -1766,10 +1638,10 @@
 		2F17C2C922927BCC002C1CE0 /* XXPageTab */ = {
 			isa = PBXGroup;
 			children = (
-				2F17C2CA22927BCC002C1CE0 /* XXPageTabItemLable.m */,
-				2F17C2CB22927BCC002C1CE0 /* XXPageTabView.m */,
 				2F17C2CC22927BCC002C1CE0 /* XXPageTabView.h */,
+				2F17C2CB22927BCC002C1CE0 /* XXPageTabView.m */,
 				2F17C2CD22927BCC002C1CE0 /* XXPageTabItemLable.h */,
+				2F17C2CA22927BCC002C1CE0 /* XXPageTabItemLable.m */,
 			);
 			path = XXPageTab;
 			sourceTree = "<group>";
@@ -2849,35 +2721,6 @@
 			path = WLBGJKSDatePicker;
 			sourceTree = "<group>";
 		};
-		2F9F58B92296988100D2AD35 /* SDAdScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F58BA2296988100D2AD35 /* GJSDAdScrollView.h */,
-				2F9F58BB2296988100D2AD35 /* GJNSTimer+Addition.h */,
-				2F9F58BC2296988100D2AD35 /* GJSDAdScrollView.m */,
-				2F9F58BD2296988100D2AD35 /* GJNSTimer+Addition.m */,
-			);
-			path = SDAdScrollView;
-			sourceTree = "<group>";
-		};
-		2F9F58CC22969BAF00D2AD35 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F58CD22969BAF00D2AD35 /* GJFMDatabaseAdditions.h */,
-				2F9F58CE22969BAF00D2AD35 /* GJFMDatabaseQueue.m */,
-				2F9F58CF22969BAF00D2AD35 /* GJFMDatabasePool.m */,
-				2F9F58D022969BAF00D2AD35 /* GJFMResultSet.h */,
-				2F9F58D122969BAF00D2AD35 /* GJFMDatabase.h */,
-				2F9F58D222969BAF00D2AD35 /* GJFMDatabaseQueue.h */,
-				2F9F58D322969BAF00D2AD35 /* GJFMDatabaseAdditions.m */,
-				2F9F58D422969BAF00D2AD35 /* FMDB.h */,
-				2F9F58D522969BAF00D2AD35 /* GJFMDatabase.m */,
-				2F9F58D622969BAF00D2AD35 /* GJFMResultSet.m */,
-				2F9F58D722969BAF00D2AD35 /* GJFMDatabasePool.h */,
-			);
-			path = FMDB;
-			sourceTree = "<group>";
-		};
 		2F9F591A2296A00100D2AD35 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -2928,15 +2771,6 @@
 				2F9F594E2296A23A00D2AD35 /* NSString+Extension.m */,
 			);
 			path = NSString;
-			sourceTree = "<group>";
-		};
-		2F9F59542296A37400D2AD35 /* 轮播图 */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F59552296A37400D2AD35 /* GJWYScrollView.h */,
-				2F9F59562296A37400D2AD35 /* GJWYScrollView.m */,
-			);
-			path = "轮播图";
 			sourceTree = "<group>";
 		};
 		2FB0862822B4CDF30040A3BC /* Model */ = {
@@ -3213,18 +3047,15 @@
 				2F9F517D22967E8C00D2AD35 /* WechatShortVideo_scan_focus@3x.png in Resources */,
 				2F9F511622967E2600D2AD35 /* kr-video-player-point@2x.png in Resources */,
 				2F17C46622927DEA002C1CE0 /* PPUrgentBottomView.xib in Resources */,
-				2221BB6F22A7998200151AA5 /* PSWOHandlingTextCell.xib in Resources */,
 				2F17C45022927DEA002C1CE0 /* PPMemberHeaderView.xib in Resources */,
 				2F17C40322927DEA002C1CE0 /* PtroMemberDetailCommitVC.xib in Resources */,
 				2F9F511D22967E2600D2AD35 /* zx-video-player-unlock@2x.png in Resources */,
 				2F9F511A22967E2600D2AD35 /* zx-video-player-unlock@3x.png in Resources */,
 				228645F122B4CFFA00F8689B /* PSFeedBackViewController.xib in Resources */,
 				2F9F511122967E2600D2AD35 /* kr-video-player-point@3x.png in Resources */,
-				2221BBC522A799B100151AA5 /* PSWOMemberImageCell.xib in Resources */,
 				2221BBBB22A799B100151AA5 /* PSWODetailsImageCell.xib in Resources */,
 				2F9F510122967E2600D2AD35 /* slider@2x.png in Resources */,
 				2F9F511C22967E2600D2AD35 /* kr-video-player-fullscreen@2x.png in Resources */,
-				2221BBC922A799B100151AA5 /* PSWOMemberTextCell.xib in Resources */,
 				2F9F510E22967E2600D2AD35 /* kr-video-player-close@2x.png in Resources */,
 				2F02D7B1228D3E9B0044D823 /* LaunchScreen.storyboard in Resources */,
 				2F9F511022967E2600D2AD35 /* zx-video-player-rewind@3x.png in Resources */,
@@ -3235,7 +3066,6 @@
 				2F9F517622967E8C00D2AD35 /* WechatShortVideo_37x-Checkmark.png in Resources */,
 				2221BB5D22A7715B00151AA5 /* PSWorkOrderViewController.xib in Resources */,
 				2221BBB522A799B100151AA5 /* PSWODetailsVoiceCell.xib in Resources */,
-				2221BB6E22A7998200151AA5 /* PSWOHandlingVoiceCell.xib in Resources */,
 				2F17C46822927DEA002C1CE0 /* PPNavigationBarView.xib in Resources */,
 				2F17C42C22927DEA002C1CE0 /* PatrolOrderCell.xib in Resources */,
 				2F17C41822927DEA002C1CE0 /* PPCommunityOrderListVC.xib in Resources */,
@@ -3258,7 +3088,6 @@
 				2F17C42522927DEA002C1CE0 /* PatrolOnlinePlayersCell.xib in Resources */,
 				2221BBBE22A799B100151AA5 /* PSWODetailsListCell.xib in Resources */,
 				2F17C42322927DEA002C1CE0 /* PatrolTaskCell.xib in Resources */,
-				2221BB6B22A7998200151AA5 /* PSWOHandlingImageCell.xib in Resources */,
 				2221BBBD22A799B100151AA5 /* PSWODetailsHeaderCell.xib in Resources */,
 				2221BBC322A799B100151AA5 /* PSWODetailsDescriptionCell.xib in Resources */,
 				2221BBB322A799B100151AA5 /* PSWODetailsQrCodeCell.xib in Resources */,
@@ -3280,7 +3109,6 @@
 				2F17C45822927DEA002C1CE0 /* PPUserGuideVC.xib in Resources */,
 				2F9F517C22967E8C00D2AD35 /* WechatShortVideo_scan_focus@2x.png in Resources */,
 				2F17C41722927DEA002C1CE0 /* PatrolOrderDetailVC.xib in Resources */,
-				2221BBC822A799B100151AA5 /* PSWOMemberVoiceCell.xib in Resources */,
 				2F17C3FD22927DEA002C1CE0 /* PatrolUrgentOptionDetailVC.xib in Resources */,
 				2FA329DA22B1E1D1003547A6 /* BottomBarView.xib in Resources */,
 				2221BBAA22A799B100151AA5 /* PSWOHeaderVoiceCell.xib in Resources */,
@@ -3468,7 +3296,6 @@
 				2F9F59232296A00200D2AD35 /* UIImage+Rotate.m in Sources */,
 				2F9F51B92296800100D2AD35 /* GJSTKQueueEntry.m in Sources */,
 				22BB2D5E229B8EBD0033D303 /* WHZLLoginViewController.m in Sources */,
-				2F14C5BA229796E70099E9C5 /* GJCollectionNormalModel.m in Sources */,
 				22B0D76322A8C1B0003261EB /* PSDatePickerVC.m in Sources */,
 				2221BBBF22A799B100151AA5 /* PSWODetailsDescriptionCell.m in Sources */,
 				2F9F590B22969E2100D2AD35 /* GJFZPPullDownMenu.m in Sources */,
@@ -3492,15 +3319,12 @@
 				2F17C40C22927DEA002C1CE0 /* PatrolMemberOrderVC.m in Sources */,
 				228E71DD22AE5EF200E9ECE7 /* WorkOrderBaseCell.m in Sources */,
 				2221BBC022A799B100151AA5 /* PSWODetailsVideoCell.m in Sources */,
-				2F9F58D822969BB000D2AD35 /* GJFMDatabaseQueue.m in Sources */,
 				2F17C46222927DEA002C1CE0 /* PPOrderDetailView.m in Sources */,
 				2F17C44622927DEA002C1CE0 /* PPSubmitOrdersModel.m in Sources */,
 				2F9F591322969E2100D2AD35 /* GJFZPVoicePlay.m in Sources */,
 				2F17C45422927DEA002C1CE0 /* SubmitSucceedVC.m in Sources */,
 				2FFD52C122ADEE7B000960F7 /* NewOrderModel.m in Sources */,
 				2F9F523B2296880700D2AD35 /* GJMHPhotosBrowserView.m in Sources */,
-				2F14C5BC229796E70099E9C5 /* GJShowMoreOperationView.m in Sources */,
-				2F9F58DA22969BB000D2AD35 /* GJFMDatabaseAdditions.m in Sources */,
 				2F9F50CF22967C1500D2AD35 /* GJMASViewAttribute.m in Sources */,
 				2F17C46D22927DEA002C1CE0 /* BaseRequest.m in Sources */,
 				2F9F51D22296831600D2AD35 /* GJSVRadialGradientLayer.m in Sources */,
@@ -3517,7 +3341,6 @@
 				2F9F510622967E2600D2AD35 /* GJVideoPlayViewController.m in Sources */,
 				2F9F579C2296930500D2AD35 /* GJIQToolbar.m in Sources */,
 				22BB2D4A229B8EA60033D303 /* PSAboutUsViewController.m in Sources */,
-				2221BBC422A799B100151AA5 /* PSWOMemberImageCell.m in Sources */,
 				2F9F52182296858000D2AD35 /* GJUIScrollView+MJRefresh.m in Sources */,
 				2F9F510B22967E2600D2AD35 /* GJZXVideoPlayerBrightnessView.m in Sources */,
 				2F9F590A22969E2100D2AD35 /* GJLCLNetWork.m in Sources */,
@@ -3525,13 +3348,11 @@
 				2F17C2D022927BCC002C1CE0 /* XXPageTabItemLable.m in Sources */,
 				2F9F51BA2296800100D2AD35 /* GJSTKCoreFoundationDataSource.m in Sources */,
 				2F9F59472296A17900D2AD35 /* GJAFURLConnectionOperation.m in Sources */,
-				2F9F58BF2296988100D2AD35 /* GJNSTimer+Addition.m in Sources */,
 				2221BB5222A7715B00151AA5 /* PSWODetailsDistributeVC.m in Sources */,
 				2F17C40B22927DEA002C1CE0 /* PatrolMembersDetailVC.m in Sources */,
 				2F9F52242296858000D2AD35 /* GJMJRefreshNormalHeader.m in Sources */,
 				2F9F519C22967E8C00D2AD35 /* GJSCSampleBufferHolder.m in Sources */,
 				2F9F518222967E8C00D2AD35 /* GJSCImageView.m in Sources */,
-				2221BB6D22A7998200151AA5 /* PSWOHandlingTextCell.m in Sources */,
 				2F17C44122927DEA002C1CE0 /* PPInspectDeviceModelPicture_list.m in Sources */,
 				2F9F518122967E8C00D2AD35 /* GJSCFilter+UIImage.m in Sources */,
 				2F9F518E22967E8C00D2AD35 /* GJSCFilter.m in Sources */,
@@ -3564,7 +3385,6 @@
 				2F17C40522927DEA002C1CE0 /* PtrolMemberTaskListVC.m in Sources */,
 				2F9F518622967E8C00D2AD35 /* GJSCRecorderTools.m in Sources */,
 				2F9F517F22967E8C00D2AD35 /* GJWechatShortVideoController.m in Sources */,
-				2221BBC622A799B100151AA5 /* PSWOMemberVoiceCell.m in Sources */,
 				22CF923B22A89B6E0092DC5C /* PSWOMarkFinishedWorkVC.m in Sources */,
 				2F17C3FE22927DEA002C1CE0 /* PatrolUrgentOptionDetailVC.m in Sources */,
 				229113CA22B39C8B00FF3F23 /* PSForgetPasswordVC.m in Sources */,
@@ -3584,7 +3404,6 @@
 				2F17C45A22927DEA002C1CE0 /* PPUserGuideVC.m in Sources */,
 				2F17C41F22927DEA002C1CE0 /* PPComunityOrderCell.m in Sources */,
 				2F9F510522967E2600D2AD35 /* GJZXVideoPlayerBatteryView.m in Sources */,
-				2F9F58DB22969BB000D2AD35 /* GJFMDatabase.m in Sources */,
 				2F17C43822927DEA002C1CE0 /* UrgenttaskDetailModelPicture_list.m in Sources */,
 				2F9F59502296A23B00D2AD35 /* NSString+Extension.m in Sources */,
 				2F9F50C822967C1500D2AD35 /* GJView+MASAdditions.m in Sources */,
@@ -3602,16 +3421,13 @@
 				2221BBAC22A799B100151AA5 /* PSWOHeaderTextCell.m in Sources */,
 				22A129A522AF80AE0043359A /* PSWOHeaderVideoCell.m in Sources */,
 				2F9F57B12296951D00D2AD35 /* UILabel+Extension.m in Sources */,
-				2F14C5BB229796E70099E9C5 /* GJCollectionNomalCell.m in Sources */,
 				2F22847822B242CE0031716D /* OwnerSignatureVC.m in Sources */,
 				2F17C45722927DEA002C1CE0 /* ConfirmationVC.m in Sources */,
 				2F9F59412296A17900D2AD35 /* GJAFURLSessionManager.m in Sources */,
 				2FD3FCB4229F6B2C009FFA98 /* LoginRequest.m in Sources */,
 				2F17C43122927DEA002C1CE0 /* PPInspectDetailsModelPicture_list.m in Sources */,
-				2221BB7022A7998200151AA5 /* PSWOHandlingVoiceCell.m in Sources */,
 				2F9F591522969E2100D2AD35 /* GJQHMainGestureRecognizerViewController.m in Sources */,
 				2F9F59452296A17900D2AD35 /* GJAFHTTPRequestOperation.m in Sources */,
-				2F14C5B9229796E70099E9C5 /* GJWebViewController.m in Sources */,
 				2F9F59492296A17900D2AD35 /* GJAFSecurityPolicy.m in Sources */,
 				2F17C45122927DEA002C1CE0 /* PtrolMemberHeaderView.m in Sources */,
 				2F17C40D22927DEA002C1CE0 /* PPMemberDetailCommitVC.m in Sources */,
@@ -3621,7 +3437,6 @@
 				22BB2D4E229B8EA60033D303 /* PSMyViewController.m in Sources */,
 				2F9F57962296930500D2AD35 /* GJIQKeyboardReturnKeyHandler.m in Sources */,
 				228645E922B4C7A700F8689B /* MyselfRequest.m in Sources */,
-				2F9F58BE2296988100D2AD35 /* GJSDAdScrollView.m in Sources */,
 				2F9F590922969E2100D2AD35 /* GJFZPWorkMenus.m in Sources */,
 				22BB2D39229B8E840033D303 /* HomePageCollectionCell.m in Sources */,
 				2F17C41422927DEA002C1CE0 /* PatrolChangeRepairVC.m in Sources */,
@@ -3646,7 +3461,6 @@
 				2F17C2CE22927BCC002C1CE0 /* QrCodeScanningVC.m in Sources */,
 				2F9F510322967E2600D2AD35 /* GJZXVideoPlayerController.m in Sources */,
 				2221BBB422A799B100151AA5 /* PSWODetailsImageCell.m in Sources */,
-				2221BBC722A799B100151AA5 /* PSWOMemberTextCell.m in Sources */,
 				2F9F51C5229681A200D2AD35 /* GJMBProgressHUD+MJ.m in Sources */,
 				2F17C3EE22927DEA002C1CE0 /* PPMJRefreshHeader.m in Sources */,
 				2FD3FCC1229FB46F009FFA98 /* WKWebViewController.m in Sources */,
@@ -3656,7 +3470,6 @@
 				2F17C3F322927DEA002C1CE0 /* PPDeviceMapVC.m in Sources */,
 				2F9F579F2296930500D2AD35 /* GJIQUIView+Hierarchy.m in Sources */,
 				2F9F519A22967E8C00D2AD35 /* GJSCProcessingQueue.m in Sources */,
-				2F9F58D922969BB000D2AD35 /* GJFMDatabasePool.m in Sources */,
 				2F17C43722927DEA002C1CE0 /* AnimatedAnnotation.m in Sources */,
 				2F9F510222967E2600D2AD35 /* GJXSMediaPlayer.m in Sources */,
 				2F9F518522967E8C00D2AD35 /* GJSCRecordSession.m in Sources */,
@@ -3664,7 +3477,6 @@
 				2F9F51B52296800100D2AD35 /* GJSTKAutoRecoveringHTTPDataSource.m in Sources */,
 				2F9F52292296858000D2AD35 /* GJMJRefreshBackFooter.m in Sources */,
 				2F17C2CF22927BCC002C1CE0 /* CATCurveProgressView.m in Sources */,
-				2F9F58DC22969BB000D2AD35 /* GJFMResultSet.m in Sources */,
 				2F9F50CE22967C1500D2AD35 /* GJMASConstraint.m in Sources */,
 				2221BB5F22A7715B00151AA5 /* PSBasicWorkOrderVC.m in Sources */,
 				2F17C44B22927DEA002C1CE0 /* PPNavigationBarView.m in Sources */,
@@ -3684,8 +3496,6 @@
 				2FD3FCBE229F8061009FFA98 /* AppDelegate.m in Sources */,
 				2F9F590D22969E2100D2AD35 /* GJFZPPulldownMenuView.m in Sources */,
 				2F17C42F22927DEA002C1CE0 /* PPGroupInfoModel.m in Sources */,
-				2221BB6C22A7998200151AA5 /* PSWOHandlingImageCell.m in Sources */,
-				2F9F59572296A37400D2AD35 /* GJWYScrollView.m in Sources */,
 				2F9F518A22967E8C00D2AD35 /* GJSCFilterAnimation.m in Sources */,
 				2F17C3EC22927DEA002C1CE0 /* AILoadingView.m in Sources */,
 				2F17C40A22927DEA002C1CE0 /* PatrolPatrolTaskListVC.m in Sources */,

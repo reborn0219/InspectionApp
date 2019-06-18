@@ -47,7 +47,6 @@
 #import "GJNetworkDetermine.h"
 #import "GJFZPWorkMenus.h"
 #import "GJFZPWorkMenuView.h"
-#import "GJWYScrollView.h"
 #import "SDWebImage.h"
 #import "PPViewTool.h"
 #import "AnimtionUtils.h"
@@ -55,7 +54,7 @@
 #import "WKWebViewController.h"
 #import "WorkOrderBaseCell.h"
 #import "SecurityRequest.h"
-
+#import "AppDelegate.h"
 #define KCurrentProperty_id   @"property_id"    //当前选中的Property_id
 #define KCurrentCommunity_id  @"community_id"   //当前选中的Community_id
 #define KUserDefault          [NSUserDefaults standardUserDefaults]

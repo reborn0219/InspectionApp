@@ -92,6 +92,8 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (IBAction)exitAction:(id)sender {
+    AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+    [appDelegate stopChatTimer];
     [[NSUserDefaults standardUserDefaults]setObject:@(NO) forKey:@"IS_LOGIN"];
     WHZLLoginViewController *loginVC =[[WHZLLoginViewController alloc]init];
     UINavigationController *loginnav = [[UINavigationController alloc]initWithRootViewController:loginVC];

@@ -20,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *onceScanBtn;
 @property (weak, nonatomic) IBOutlet UIButton *confirmBtn;
 @property(assign,nonatomic) NSInteger count;
- @property(strong,nonatomic) NSTimer *timer;
+@property(strong,nonatomic) NSTimer *timer;
 @property (nonatomic, strong)NSMutableDictionary  *dataDict;
 @end
 
@@ -40,9 +40,9 @@
 {
     [self showNaBar:2];
     if (self.isChange) {
-          [self  setBarTitle:@"修改密码"];
+        [self  setBarTitle:@"修改密码"];
     }else{
-          [self  setBarTitle:@"忘记密码"];
+        [self  setBarTitle:@"忘记密码"];
     }
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(keybaordClickToBack)];
     tap.numberOfTapsRequired = 1;
@@ -93,29 +93,29 @@
                 textField.text = @"";
             }
         }
-            break;
-         case 201:
+        break;
+        case 201:
         {
             if ([textField.text isEqualToString:@"请输入您的验证码"]) {
                 textField.text = @"";
             }
         }
-            break;
-            case 202:
+        break;
+        case 202:
         {
             if ([textField.text isEqualToString:@"请输入您的密码"]) {
                 textField.text = @"";
             }
         }
-            break;
-            case 203:
+        break;
+        case 203:
         {
             if ([textField.text isEqualToString:@"请输入您的密码"]) {
                 textField.text = @"";
             }
         }
         default:
-            break;
+        break;
     }
 }
 - (void)clickToBack
@@ -127,24 +127,24 @@
     NSString *md5password;
     NSString *md5passwordcon;
     if (textField.tag == 202) {
-      md5password  = [NSString md5HexDigest:textField.text];
+        md5password  = [NSString md5HexDigest:textField.text];
     }else if (textField.tag == 203){
-       md5passwordcon  = [NSString md5HexDigest:textField.text];
+        md5passwordcon  = [NSString md5HexDigest:textField.text];
     }
     switch (textField.tag) {
         case 200:
-            [self.dataDict setValue:textField.text forKey:@"mobile_phone"];
-            break;
-            case 201:
-           [self.dataDict setValue:textField.text forKey:@"verification_code"];
-            break;
-            case 202:
-            [self.dataDict setValue:md5password forKey:@"password_new"];
-            break;
-            case 203:
-            [self.dataDict setValue:md5passwordcon forKey:@"password_new_confirm"];
+        [self.dataDict setValue:textField.text forKey:@"mobile_phone"];
+        break;
+        case 201:
+        [self.dataDict setValue:textField.text forKey:@"verification_code"];
+        break;
+        case 202:
+        [self.dataDict setValue:md5password forKey:@"password_new"];
+        break;
+        case 203:
+        [self.dataDict setValue:md5passwordcon forKey:@"password_new_confirm"];
         default:
-            break;
+        break;
     }
 }
 #pragma mark - 添加定时器
@@ -153,7 +153,7 @@
     self.count = 60;
     // 加1个定时器
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeDown) userInfo: nil repeats:YES];
-      [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
+    [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
 }
 #pragma mark - 定时器事件
 - (void)timeDown
@@ -169,10 +169,10 @@
         [self.getCodeBtn setBackgroundImage:[UIImage imageNamed:@"获取验证码"] forState:(UIControlStateNormal)];
         [self.getCodeBtn setTitleColor:HexRGB(0x46CCD9) forState:(UIControlStateNormal)];
         [self.getCodeBtn setTitle:@"获取验证码" forState:UIControlStateNormal];
-     
+        
         [self.timer invalidate];
     }
-
+    
 }
 - (IBAction)getVerticationCode:(id)sender {
     [self.view endEditing:YES];
@@ -229,30 +229,16 @@
 }
 -(void)confirmAction
 {
-//    NSString *mobile_phone = [NSString stringWithFormat:@"%@",[self.dataDict objectForKey:@"mobile_phone"]];
-//    NSString *code = [NSString stringWithFormat:@"%@",[self.dataDict objectForKey:@"verification_code"]];
-//    NSString *password_new = [NSString stringWithFormat:@"%@",[self.dataDict objectForKey:@"password_new"]];
-//    NSString *password_new_confirm =[NSString stringWithFormat:@"%@",[self.dataDict objectForKey:@"password_new_confirm"]];
-//    if ([self validateMobile:mobile_phone] == YES &&code.length ==6&&[password_new isEqualToString:password_new_confirm] &&password_new.length >= 8) {
-        [LoginRequest get_userpwd:self.dataDict :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
-            if (resultCode == SucceedCode) {
-                NSString *succeed = data;
-                [GJMBProgressHUD showSuccess:succeed];
-                [self.navigationController popViewControllerAnimated:YES];
-            }
-        }];
-//    }else{
-//        [GJMBProgressHUD showError:@"请输入正确的信息"];
-//    }
+    
+    [LoginRequest get_userpwd:self.dataDict :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
+        if (resultCode == SucceedCode) {
+            NSString *succeed = data;
+            [GJMBProgressHUD showSuccess:succeed];
+            [self.navigationController popViewControllerAnimated:YES];
+        }
+    }];
+ 
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

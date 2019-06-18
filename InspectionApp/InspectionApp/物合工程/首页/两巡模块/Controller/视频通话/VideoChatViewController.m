@@ -7,7 +7,6 @@
 //
 
 #import "VideoChatViewController.h"
-//#import "GJAppDelegate.h"
 @interface VideoChatViewController ()
 
 @property (strong, nonatomic) AgoraRtcEngineKit *agoraKit;
@@ -45,7 +44,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    GJAppDelegate *appDelegate = (GJAppDelegate*)[UIApplication sharedApplication].delegate;
+    AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
     [appDelegate stopChatTimer];
     [self joinChannel];
 }
@@ -104,7 +103,7 @@
 }
 -(void)hangUPAction{
     [self leaveChannel];
-    GJAppDelegate *appDelegate = (GJAppDelegate*)[UIApplication sharedApplication].delegate;
+    AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
 
     [PatrolHttpRequest hangUp:@{@"room":_roomNo} :^(id  _Nullable data, ResultCode resultCode, NSError * _Nullable Error) {
         if (resultCode == SucceedCode) {

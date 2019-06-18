@@ -9,7 +9,6 @@
 #import "PSAboutUsViewController.h"
 #import "PSOfficialWechatVC.h"
 #import "MyViewControllerCell.h"
-#import "GJWebViewController.h"
 #import "MyselfRequest.h"
 
 @interface PSAboutUsViewController ()<UITableViewDataSource,UITableViewDelegate>
