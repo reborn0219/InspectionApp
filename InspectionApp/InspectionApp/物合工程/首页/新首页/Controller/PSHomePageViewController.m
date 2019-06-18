@@ -44,13 +44,13 @@
     [super viewDidLoad];
     [self createUI];
     if ([UserManager iscaptain].integerValue == 1) {
-        _identityLab.text = @"巡逻队长";
-        self.nameArr = @[@"安保工单",@"安保巡逻管理",@"紧急任务",@"警务调度",@"在线报事"];
-        self.imageArr = @[@"安保工单",@"安保巡逻管理",@"紧急任务",@"警务调度",@"在线报事"];
+        _identityLab.text = @"巡查队长";
+        self.nameArr = @[@"维修工单",@"安保巡查管理",@"在线报事"];
+        self.imageArr = @[@"安保工单",@"安保巡逻管理",@"在线报事"];
     }else{
-        _identityLab.text = @"巡逻队员";
-        self.nameArr = @[@"安保工单",@"安保巡逻",@"紧急任务",@"警务调度",@"在线报事"];
-        self.imageArr = @[@"安保工单",@"安保巡逻",@"紧急任务",@"警务调度",@"在线报事"];
+        _identityLab.text = @"巡查队员";
+        self.nameArr = @[@"维修工单",@"安保巡查",@"在线报事"];
+        self.imageArr = @[@"安保工单",@"安保巡逻",@"在线报事"];
     }
     
 }
@@ -87,7 +87,7 @@
     self.navigationController.navigationBar.shadowImage = showImage;
     UIButton *leftButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
     [leftButton setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
-    [leftButton setTitle:@"物合安保" forState:(UIControlStateNormal)];
+    [leftButton setTitle:@"物合工程" forState:(UIControlStateNormal)];
     UIBarButtonItem *leftBarButton = [[UIBarButtonItem alloc]initWithCustomView:leftButton];
     self.navigationItem.leftBarButtonItem = leftBarButton;
     UIButton *rightButton = [UIButton buttonWithType:(UIButtonTypeCustom)];
@@ -143,16 +143,17 @@
         SecurityWorkOrderVC *workOrderVC = [[SecurityWorkOrderVC alloc]init];
            workOrderVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:workOrderVC animated:YES];
+        
     }else if (indexPath.row == 1){
         //安保巡逻/安保巡逻管理
         if ([UserManager iscaptain].integerValue == 1) {
 
-            PatrolTaskListVC * pptlVC = [[PatrolTaskListVC alloc]init];
+            PatrolPatrolTaskListVC * pptlVC = [[PatrolPatrolTaskListVC alloc]init];
                pptlVC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:pptlVC animated:YES];
 
         }else if ([UserManager iscaptain].integerValue == 0){
-            PtrolMemberTaskListVC * pmolVC = [[PtrolMemberTaskListVC alloc]init];
+            PatrolMemberTaskVC * pmolVC = [[PatrolMemberTaskVC alloc]init];
                 pmolVC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:pmolVC animated:YES];
         }
@@ -166,14 +167,7 @@
 //            [self.navigationController pushViewController:pmtVC animated:YES];
 //        }
     }else if (indexPath.row == 2){
-        //紧急任务
-        PatrolUrgentTasksVC * putVC = [[PatrolUrgentTasksVC alloc]init];
-           putVC.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:putVC animated:YES];
-    }else if (indexPath.row == 3){
-        //警务调度
-        
-    }else if (indexPath.row == 4){
+     
         //在线报事
         PatrolMatterSubmitVC * pmsVC = [[PatrolMatterSubmitVC alloc]init];
             pmsVC.hidesBottomBarWhenPushed = YES;

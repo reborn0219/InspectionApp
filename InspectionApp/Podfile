@@ -17,5 +17,6 @@ target 'InspectionApp' do
     pod 'AMapSearch'
     pod 'JPush'
     pod 'SDWebImage'
+    pod 'AgoraRtcEngine_iOS', '~> 2.4.0.1'
 
 end

@@ -28,7 +28,7 @@
     //    @"test/json",@"test/javascript",@"text/plain",
     httpManger.responseSerializer.acceptableContentTypes=[NSSet setWithObjects:@"text/html",nil];
     NSMutableDictionary * mudic = [NSMutableDictionary dictionaryWithDictionary:obj];
-    [mudic setObject:@"security_api" forKey:@"m"];
+    [mudic setObject:@"engineerin_api" forKey:@"m"];
     [mudic setObject:APP_ID forKey:@"app_id"];
     [mudic setObject:APP_SECRET forKey:@"app_secret"];
     NSLog(@"post 入参:%@",mudic);

@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "WHZLLoginViewController.h"
 #import "PSHomePageViewController.h"
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+
 @interface AppDelegate ()
 
 @end
@@ -18,6 +22,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self selectRootController];
+    [self configMapKey];
     return YES;
 }
 
@@ -82,5 +87,9 @@
     
     
     
+}
+-(void)configMapKey{
+    
+    [AMapServices sharedServices].apiKey =Map_Key;
 }
 @end
